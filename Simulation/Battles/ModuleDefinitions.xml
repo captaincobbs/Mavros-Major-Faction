@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/ModuleDefinition.xsd">
+  <SupportModule Name="ModuleSupportCrew1Mavros" Family="CrewBase" Level="1">
+    <Cost ResourceName="SystemProduction">45</Cost>
+    <TechnologyPrerequisite Flags="Edition">TechnologyShip1Mavros</TechnologyPrerequisite>
+    <PathPrerequisite Flags="Edition,Discard" Inverted="true">ClassShip,ShipRoleHero</PathPrerequisite>
+    <PathPrerequisite Flags="Edition,Discard" Inverted="true">ClassShip,ShipRoleJuggernaut</PathPrerequisite>
+    <SimulationDescriptorReference Name="ClassModuleSupport"/>
+    <CategorizedSimulationDescriptors Category="CategoryCrew">
+      <SimulationDescriptorReference Name="ModuleSupportCrew1Mavros"/>
+      <SimulationDescriptorReference Name="ModuleSupportCrew"/>
+    </CategorizedSimulationDescriptors>
+  </SupportModule>
+
+  <SupportModule Name="ModuleSupportObliteratorMavros" Family="ProjectileEnhancerBase" Level="1">
+    <Cost ResourceName="SystemProduction">80</Cost>
+    <InterpreterPrerequisite Flags="Edition">Path(Context, @'ClassShip,ShipRoleObliterator')</InterpreterPrerequisite>
+    <PathPrerequisite Flags="UnlockAvailability,Edition,Faction,AffinityGameplayTechnologyMajorMavros" Inverted="false">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
+    <PathPrerequisite Flags="Edition,Discard" Inverted="true">ClassShip,ShipRoleShipRoleObliterator</PathPrerequisite>
+    <TechnologyPrerequisite Flags="Edition">TechnologyJuggernautFactionModule</TechnologyPrerequisite>
+    <PathPrerequisite Flags="NoMoreThanOneModuleOfThisType,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModule,ModuleSupportObliteratorReloadMavros</PathPrerequisite>
+    <SimulationDescriptorReference Name="ClassModuleSupport"/>
+    <CategorizedSimulationDescriptors Category="CategoryJuggernaut">
+      <SimulationDescriptorReference Name="ModuleSupportObliteratorReloadMavros"/>
+      <SimulationDescriptorReference Name="ModuleSupportObliterator"/>
+    </CategorizedSimulationDescriptors>
+  </SupportModule>
+</Datatable>

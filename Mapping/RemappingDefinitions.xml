@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/RemappingDefinition.xsd">
+  <!-- Screw the remapping system, I've decided to switch the Mavros and Sophon reskins so that the Sophon hull that the Mavros faction uses can be recolored, but the original sophon one isn't lost -->
+  <!-- Dear past me, this screws up the flame trails behind the ship, now they all have the wrong color, great job -->
+  <!-- Bomber -->
+  <!-- Sophons -->
+  <RemappingDefinition Name="SS_Sophons_Bomber_01">
+    <MaterialData Name="SS_Sophons_Bomber_01">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Mavros_Bomber_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Bomber_01_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <!-- Mavros -->
+  <RemappingDefinition Name="SS_SophonsMavros_Bomber_01">
+    <MaterialData Name="SS_SophonsMavros_Bomber_01">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Bomber_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Bomber_01_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+
+  <!-- Fighter -->
+  <!-- Sophons -->
+  <RemappingDefinition Name="SS_Sophons_Fighter_01">
+    <MaterialData Name="SS_Sophons_Fighter_01">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Mavros_Fighter_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Fighter_01_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <!-- Mavros -->
+  <RemappingDefinition Name="SS_SophonsMavros_Fighter_01">
+    <MaterialData Name="SS_SophonsMavros_Fighter_01">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Fighter_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Fighter_01_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+
+  <!-- Large Ship 01 -->
+  <!-- Sophons -->
+  <RemappingDefinition Name="SS_Sophons_Large_01">
+    <MaterialData Name="SS_Sophons_Large_01_ID1">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Large_01_ID1_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Large_01_ID1_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_Sophons_Large_01_ID2">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Large_01_ID2_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Large_01_ID2_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_Sophons_Large_01_ID3">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Large_01_ID3_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Large_01_ID3_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_Sophons_Large_01_ID4">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Large_01_ID4_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Large_01_ID4_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_Sophons_Large_01_ID5">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Large_01_ID5_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Large_01_ID5_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_Sophons_Large_01_ID6">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Large_01_ID6_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Large_01_ID6_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <!-- Mavros -->
+  <RemappingDefinition Name="SS_SophonsMavros_Large_01">
+    <MaterialData Name="SS_SophonsMavros_Large_01_ID1">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Large_01_ID1_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Large_01_ID1_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_SophonsMavros_Large_01_ID2">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Large_01_ID2_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Large_01_ID2_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_SophonsMavros_Large_01_ID3">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Large_01_ID3_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Large_01_ID3_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_SophonsMavros_Large_01_ID4">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Large_01_ID4_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Large_01_ID4_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_SophonsMavros_Large_01_ID5">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Large_01_ID5_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Large_01_ID5_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_SophonsMavros_Large_01_ID6">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Large_01_ID6_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Large_01_ID6_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+
+  <!-- Medium Ship 01 -->
+  <!-- Sophons -->
+  <RemappingDefinition Name="SS_Sophons_Medium_01">
+    <MaterialData Name="SS_Sophons_Medium_02_Part_1">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Medium_02_Part_1_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Medium_02_Part_1_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_Sophons_Medium_02_Part_2">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Medium_02_Part_2_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Medium_02_Part_2_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_Sophons_Medium_02_Part_3">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Medium_02_Part_3_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Medium_02_Part_3_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_Sophons_Medium_02_Part_4">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Medium_02_Part_4_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Medium_02_Part_4_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <!-- Mavros -->
+  <RemappingDefinition Name="SS_SophonsMavros_Medium_01">
+    <MaterialData Name="SS_SophonsMavros_Medium_02_ID1">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Medium_02_Part_1_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Medium_02_Part_1_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_SophonsMavros_Medium_02_ID2">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Medium_02_Part_2_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Medium_02_Part_2_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_SophonsMavros_Medium_02_ID3">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Medium_02_Part_3_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Medium_02_Part_3_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_SophonsMavros_Medium_02_ID4">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Medium_02_Part_4_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Medium_02_Part_4_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+
+  <!-- Medium Ship 02 -->
+  <!-- Sophons -->
+  <RemappingDefinition Name="SS_Sophons_Medium_02">
+    <MaterialData Name="SS_Sophons_Medium_01_Part_1">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Medium_01_Part_1_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Medium_01_Part_1_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_Sophons_Medium_01_Part_2">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Medium_01_Part_2_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Medium_01_Part_2_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_Sophons_Medium_01_Part_3">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Medium_01_Part_3_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Medium_01_Part_3_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_Sophons_Medium_01_Part_4">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Medium_01_Part_4_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Medium_01_Part_4_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <!-- Mavros -->
+  <RemappingDefinition Name="SS_SophonsMavros_Medium_02">
+    <MaterialData Name="SS_SophonsMavros_Medium_01_ID1">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Medium_01_Part_1_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Medium_01_Part_1_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_SophonsMavros_Medium_01_ID2">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Medium_01_Part_2_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Medium_01_Part_2_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_SophonsMavros_Medium_01_ID3">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Medium_01_Part_3_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Medium_01_Part_3_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_SophonsMavros_Medium_01_ID4">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Medium_01_Part_4_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Medium_01_Part_4_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+
+  <!-- Small Ship 01 -->
+  <!-- Sophons -->
+  <RemappingDefinition Name="SS_Sophons_Small_01">
+    <MaterialData Name="SS_Sophons_Small_01_Part_1">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Small_01_Part_1_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Small_01_Part_1_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_Sophons_Small_01_Part_2">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Small_01_Part_2_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Small_01_Part_2_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <!-- Mavros -->
+  <RemappingDefinition Name="SS_SophonsMavros_Small_01">
+    <MaterialData Name="SS_SophonsMavros_Small_01_ID1">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Small_01_Part_1_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Small_01_Part_1_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_SophonsMavros_Small_01_ID2">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Small_01_Part_2_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Small_01_Part_2_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+
+  <!-- Small Ship 02 -->
+  <!-- Sophons -->
+  <RemappingDefinition Name="SS_Sophons_Small_02">
+    <MaterialData Name="SS_Sophons_Small_02_Part_2">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Small_03_Part_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Small_03_Part_02_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_Sophons_Small_02_Part_1">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Small_03_Part_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Small_03_Part_01_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <!-- Mavros -->
+  <RemappingDefinition Name="SS_SophonsMavros_Small_02">
+    <MaterialData Name="SS_SophonsMavros_Small_02_ID2">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Small_02_Part_2_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Small_02_Part_2_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_SophonsMavros_Small_02_ID1">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Small_02_Part_1_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Small_02_Part_1_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+
+  <!-- Small Ship 03 -->
+  <!-- Sophons -->
+  <RemappingDefinition Name="SS_Sophons_Small_03">
+    <MaterialData Name="SS_Sophons_Small_03_Part_2">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Small_02_Part_2_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Small_02_Part_2_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_Sophons_Small_03_Part_1">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_SophonsMavros_Small_02_Part_1_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_SophonsMavros_Small_02_Part_1_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <!-- Mavros -->
+  <RemappingDefinition Name="SS_SophonsMavros_Small_03">
+    <MaterialData Name="SS_SophonsMavros_Small_03_ID2">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Small_03_Part_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Small_03_Part_02_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="SS_SophonsMavros_Small_03_ID1">
+      <MaterialProperty Name="_MainTex">Mapping\Ships\SS_Sophons_Small_03_Part_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Ships\SS_Sophons_Small_03_Part_01_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+</Datatable>

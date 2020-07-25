@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/EntityActionDefinition.xsd">
+  <PrivateerFleetAction Name="MavrosSpeedBoostFleetAction">
+
+    <!-- Prerequisites with Flag 'CheckOnFleetCreation' are checked when ships from a privateers fleet are moved to a new fleet. -->
+    <EntityPrerequisites Location="Self">
+      <!-- Disable when not in owner influence -->
+      <PathPrerequisite Inverted="false" Flags="Prerequisite,FleetNotInFriendlyOrbit">FleetInfluenceStateOwner</PathPrerequisite>
+    </EntityPrerequisites>
+
+    <EntityModifiers Location="Self">
+      <SimulationAlteration DescriptorReference="FleetActionOverdrive"/>
+      <SimulationAlteration DescriptorReference="FleetActionBasicScrap" />
+    </EntityModifiers>
+
+    <PathPrerequisite Flags="Discard" Inverted="true">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
+  </PrivateerFleetAction>
+</Datatable>

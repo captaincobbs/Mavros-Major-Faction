@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/RemappingDefinition.xsd">
+  <!-- Sophons -->
+  <!-- Beam Medium -->
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Beam_Medium_01">
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Beam_Medium_02">
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_Emission.png</MaterialProperty>>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Beam_Medium_03">
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+
+  <!-- Beam Small -->
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Beam_Small_01">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Beam_Small_02">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Beam_Small_03">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+
+  <!-- Beam Small - Side -->
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Beam_SmallSide_01">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Beam_SmallSide_02">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Beam_SmallSide_03">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+
+  <!-- Kinetic Medium -->
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Kinetic_Medium_01">
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Kinetic_Medium_02">
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Kinetic_Medium_03">
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Kinetic Small -->
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Kinetic_Small_01">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Kinetic_Small_02">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Kinetic_Small_03">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Kinetic Small - Side -->
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Kinetic_SmallSide_01">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Kinetic_SmallSide_02">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Kinetic_SmallSide_03">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Laser Medium -->
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Laser_Medium_01">
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Laser_Medium_02">
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Laser_Medium_03">
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Laser Small -->
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Laser_Small_01">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Laser_Small_02">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Laser_Small_03">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Laser Small - Side -->
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Laser_SmallSide_01">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Laser_SmallSide_02">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Laser_SmallSide_03">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Missile Medium -->
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Missile_Medium_01">
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Missile_Medium_02">
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Missile_Medium_03">
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_Sophons_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Missile Small -->
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Missile_Small_01">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Missile_Small_02">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Missile_Small_03">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Missile Small - Side -->
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Missile_SmallSide_01">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Missile_SmallSide_02">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_Sophons_Missile_SmallSide_03">
+    <MaterialData Name="MDL_Wpn_Sophons_Small_01">
+        <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_AlbedoTransparency.png</MaterialProperty>
+        <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_SophonsMavros_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+</RemappingDefinition>
+
+  <!-- Mavros --> 
+  <!-- Beam Medium -->
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Beam_Medium_01">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Beam_Medium_02">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Beam_Medium_03">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Beam Small -->
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Beam_Small_01">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Beam_Small_02">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Beam_Small_03">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Beam Small - Side -->
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Beam_SmallSide_01">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Beam_SmallSide_02">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Beam_SmallSide_03">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Kinetic Medium -->
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Kinetic_Medium_01">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Kinetic_Medium_02">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Kinetic_Medium_03">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Kinetic Small -->
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Kinetic_Small_01">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Kinetic_Small_02">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Kinetic_Small_03">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Kinetic Small - Side -->
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Kinetic_SmallSide_01">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Kinetic_SmallSide_02">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Kinetic_SmallSide_03">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Laser Medium -->
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Laser_Medium_01">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Laser_Medium_02">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Laser_Medium_03">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Laser Small -->
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Laser_Small_01">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Laser_Small_02">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Laser_Small_03">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Laser Small - Side -->
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Laser_SmallSide_01">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Laser_SmallSide_02">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Laser_SmallSide_03">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Missile Medium -->
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Missile_Medium_01">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Missile_Medium_02">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Missile_Medium_03">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_01_Emission.png</MaterialProperty>
+    </MaterialData>
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Medium_01_ID_02">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Medium_01_ID_02_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+
+  <!-- Missile Small -->
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Missile_Small_01">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Missile_Small_02">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Missile_Small_03">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  
+  <!-- Missile Small - Side -->
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Missile_SmallSide_01">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Missile_SmallSide_02">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+  <RemappingDefinition Name="MDL_Wpn_SophonsMavros_Missile_SmallSide_03">
+    <MaterialData Name="MDL_Wpn_SophonsMavros_Small_01">
+      <MaterialProperty Name="_MainTex">Mapping\Modules\MDL_Wpn_Sophons_Small_AlbedoTransparency.png</MaterialProperty>
+      <MaterialProperty Name="_EmissionMap">Mapping\Modules\MDL_Wpn_Sophons_Small_Emission.png</MaterialProperty>
+    </MaterialData>
+  </RemappingDefinition>
+</Datatable>

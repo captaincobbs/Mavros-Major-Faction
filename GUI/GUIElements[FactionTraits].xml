@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+  <ExtendedGuiElement Name="AffinityGameplayMajorMavros">
+    <Title>%AffinityGameplayMajorMavrosTitle</Title>
+    <Description>%AffinityGameplayMajorMavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityMavrosSmall" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%AffinityGameplayMavrosTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Faction Traits -->
+  <!-- Easily Motivated -->
+  <ExtendedGuiElement Name="FactionTraitLuxuryPopulation_Mavros">
+    <Title>%FactionTraitLuxuryPopulation_MavrosTitle</Title>
+    <Description>%FactionTraitLuxuryPopulation_MavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitLuxuryPopulation_MavrosEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Hulking Monstrosities -->
+  <ExtendedGuiElement Name="FactionTraitHulkingShips_Mavros">
+    <Title>%FactionTraitHulkingShips_MavrosTitle</Title>
+    <Description>%FactionTraitHulkingShips_MavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitHulkingShips_MavrosEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Fragile Commandos -->
+  <ExtendedGuiElement Name="FactionTraitEffectiveCombatants_Mavros">
+    <Title>%FactionTraitEffectiveCombatants_MavrosTitle</Title>
+    <Description>%FactionTraitEffectiveCombatants_MavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </ExtendedGuiElement>
+
+  <!-- Robotic Overseers -->
+  <ExtendedGuiElement Name="FactionTraitRoboticPopulation_Mavros">
+    <Title>%FactionTraitRoboticPopulation_MavrosTitle</Title>
+    <Description>%FactionTraitRoboticPopulation_MavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitRoboticPopulation_MavrosTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Population Modifier Traits -->
+  <!-- Industry +2 -->
+  <GuiElement Name="PopulationModifiersTraitPrimaryIndustry2">
+    <Title>%PopulationModifiersTraitMavrosPrimaryIndustry2Title</Title>
+  </GuiElement>
+
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitPrimaryIndustry2">
+    <Title>%PopulationModifiersTraitMavrosPrimaryIndustry2Title</Title>
+  </GuiElement>
+
+  <!-- Strategic to Manpower +10 -->
+  <GuiElement Name="PopulationModifiersTraitSecondaryStrategicToMilitary01">
+    <Title>%PopulationModifiersTraitSecondaryStrategicToMilitary01Title</Title>
+  </GuiElement>
+
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitPrimaryStrategicToMilitary01">
+    <Title>%PopulationModifiersTraitSecondaryStrategicToMilitary01Title</Title>
+  </GuiElement>
+
+  <!-- Technologies -->
+  <!-- Hangar Tech Mavros -->
+  <ExtendedGuiElement Name="FactionTraitTechnologyDefinitionMilitary2Mavros">
+    <Title>%TechnologyDefinitionMilitary2Title</Title>
+    <Description>%TechnologyDefinitionMilitary2Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitStartingTechnologyEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Xenolinguistics -->
+  <ExtendedGuiElement Name="FactionTraitTechnologyDefinitionEconomyAndTrade1Mavros">
+    <Title>%TechnologyDefinitionEconomyAndTrade1Title</Title>
+    <Description>%TechnologyDefinitionEconomyAndTrade1Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitStartingTechnologyEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Off-world Agribusiness -->
+  <ExtendedGuiElement Name="FactionTraitTechnologyDefinitionEmpireDevelopment1Mavros">
+    <Title>%TechnologyDefinitionEmpireDevelopment1Title</Title>
+    <Description>%TechnologyDefinitionEmpireDevelopment1Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitStartingTechnologyEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- N-Way Fusion -->
+  <ExtendedGuiElement Name="FactionTraitTechnologyDefinitionMilitary1Mavros">
+    <Title>%TechnologyDefinitionMilitary1Title</Title>
+    <Description>%TechnologyDefinitionMilitary1Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitStartingTechnologyEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+</Datatable>

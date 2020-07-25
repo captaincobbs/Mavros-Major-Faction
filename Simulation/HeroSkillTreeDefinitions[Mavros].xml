@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroSkillTreeDefinition.xsd">
+  <!-- Mavros Skill Tree -->
+  <HeroSkillTreeDefinition Name="HeroSkillTreeMajorMavros">
+    <Stage Level="0">
+      <Skill>
+        <SkillDefinition Name="HeroSkill01BranchMinorFaction01"/>
+      </Skill>
+      <Skill>
+        <SkillDefinition Name="HeroSkill02BranchVampirilis"/>
+      </Skill>
+    </Stage>
+    <Stage Level="4">
+      <Skill>
+        <SkillDefinition Name="HeroSkill03BranchVampirilis"/>
+      </Skill>
+      <Skill>
+        <SkillDefinition Name="HeroSkill04BranchVampirilis"/>
+      </Skill>
+    </Stage>
+    <Stage Level="8">
+      <Skill>
+        <SkillDefinition Name="HeroSkill05BranchVampirilis"/>
+      </Skill>
+      <Skill>
+        <SkillDefinition Name="HeroSkill06BranchVampirilis"/>
+      </Skill>
+    </Stage>
+    <Stage Level="12">
+      <Skill>
+        <SkillDefinition Name="HeroSkill07BranchVampirilis"/>
+      </Skill>
+    </Stage>
+  </HeroSkillTreeDefinition>
+</Datatable>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+  <!-- Big Data Shipyards -->
+  <GuiElement Name="StarSystemImprovementShip1Mavros">
+    <Title>%StarSystemImprovementShip1MavrosTitle</Title>
+    <Description>%StarSystemImprovementShip1MavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/GUI/HangarSmall.png" />
+      <Icon Size="Large" Path="Textures/GUI/HangarLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Xeno-Industrial Infrastructure -->
+  <GuiElement Name="StarSystemImprovementIndustry1Mavros">
+    <Title>%StarSystemImprovementIndustry1MavrosTitle</Title>
+    <Description>%StarSystemImprovementIndustry1MavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/GUI/VolcanoFactorySmall.png" />
+      <Icon Size="Large" Path="Textures/GUI/VolcanoFactoryLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Infinite Supermarkets -->
+  <GuiElement Name="StarSystemImprovementApproval1Mavros">
+    <Title>%StarSystemImprovementApproval1MavrosTitle</Title>
+    <Description>%StarSystemImprovementApproval1MavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/GUI/MarketSmall.png" />
+      <Icon Size="Large" Path="Textures/GUI/MarketLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Impervious Bunkers -->
+  <GuiElement Name="StarSystemImprovementDefense1Mavros">
+    <Title>%StarSystemImprovementDefense1MavrosTitle</Title>
+    <Description>%StarSystemImprovementDefense1MavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/GUI/RadarSmall.png" />
+      <Icon Size="Large" Path="Textures/GUI/RadarLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Tractable Armaments -->
+  <GuiElement Name="StarSystemImprovementDefense2Mavros">
+    <Title>%StarSystemImprovementDefense2MavrosTitle</Title>
+    <Description>%StarSystemImprovementDefense2MavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/GUI/PlanetaryCannonSmall.png" />
+      <Icon Size="Large" Path="Textures/GUI/PlanetaryCannonLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <!-- AI Labor -->
+  <GuiElement Name="StarSystemImprovementIndustry4Mavros">
+    <Title>%StarSystemImprovementIndustry4MavrosTitle</Title>
+    <Description>%StarSystemImprovementIndustry4MavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/GUI/PrinterSmall.png" />
+      <Icon Size="Large" Path="Textures/GUI/PrinterLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Deep Atmosphere Habitats -->
+  <GuiElement Name="StarSystemImprovementPopulationSlotMavros">
+    <Title>%StarSystemImprovementPopulationSlotMavrosTitle</Title>
+    <Description>%StarSystemImprovementPopulationSlotMavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/GUI/HabitationRingSmall.png" />
+      <Icon Size="Large" Path="Textures/GUI/HabitationRingLarge.png" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Wellbeing Foundation (Unmodified) -->
+  <GuiElement Name="StarSystemImprovementApproval3Mavros">
+    <Title>%StarSystemImprovementApproval3Title</Title>
+    <Description>%StarSystemImprovementApproval3Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementApproval3Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementApproval3Large" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Autonomous Administration -->
+  <GuiElement Name="StarSystemImprovementOverExpansion1Mavros">
+    <Title>%StarSystemImprovementOverExpansion1MavrosTitle</Title>
+    <Description>%StarSystemImprovementOverExpansion1MavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/GUI/OvermindSmall.png" />
+      <Icon Size="Large" Path="Textures/GUI/OvermindLarge.png" />
+    </Icons>
+  </GuiElement>
+  
+  <!-- Luxury Lotteries -->
+  <GuiElement Name="StarSystemImprovementApproval5Mavros">
+    <Title>%StarSystemImprovementApproval5MavrosTitle</Title>
+    <Description>%StarSystemImprovementApproval5MavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementApproval5Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementApproval5Large" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Lunar Suburbs -->
+  <GuiElement Name="StarSystemImprovementPopulationSlot2Mavros">
+    <Title>%StarSystemImprovementPopulationSlot2Title</Title>
+    <Description>%StarSystemImprovementPopulationSlot2Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPopulationSlot2Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPopulationSlot2Large" />
+    </Icons>
+  </GuiElement>
+</Datatable>
