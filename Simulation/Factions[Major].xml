@@ -12,6 +12,9 @@
     <Trait Name="FactionTraitTechnologyDefinitionScienceAndExploration2" />
     <Trait Name="FactionTraitHulkingShips_Mavros"/>
     <Trait Name="FactionTraitEffectiveCombatants_Mavros"/>
+	<Trait Name="PersonalityCanGetIsolationist"/>
+	<Trait Name="PersonalityCanGetGreedy"/>
+	<Trait Name="PersonalityCanGetMilitarist"/>
 
     <TraitStartingSenate Priority="100">
       <Government Name="GovernmentRepublic"/>

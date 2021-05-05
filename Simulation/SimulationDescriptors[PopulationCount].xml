@@ -47,4 +47,35 @@
     <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="ClassPopulationEmpireSuperPopulation/../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityDrudgeTitansCount,ClassPopulationPlanetSuperPopulation" Priority="100" TooltipHidden="true"/>
     <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="!ClassPopulationEmpireSuperPopulation/../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityDrudgeTitansCount,!ClassPopulationPlanetSuperPopulation" Priority="100" TooltipHidden="true"/>
   </SimulationDescriptor>
+  
+  
+  <!-- Major Mavros -->
+    <SimulationDescriptor Name="ClassPopulationEmpireAffinityMajorMavros" Type="ClassPopulationEmpire"/>
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityMajorMavros" Type="ClassPopulationStarSystem"/>
+    <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityMajorMavros" Type="ClassPopulationAssimilated">
+      <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <!-- Drudges -->
+    <SimulationDescriptor Name="ClassPopulationEmpireAffinityDrudges" Type="ClassPopulationEmpire">
+      <Modifier TargetProperty="CanBeBoosted" Operation="Force" Value="0" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityDrudges" Type="ClassPopulationStarSystem">
+      <Modifier 		TargetProperty="CannotMigrate"     		    Operation="Force"       Value="1"   TooltipHidden="true"/>
+      <Modifier 		TargetProperty="ShouldPopulationGrow"       Operation="Force"       Value="-1"  TooltipHidden="true"/>
+      <Modifier       TargetProperty="PopulationWithGrowth"       Operation="Subtraction" Value="$(PopulationCount)" Path="./ClassStarSystem" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityDrudges" Type="ClassPopulationAssimilated"/>
+
+    <!-- Drudge Titans -->
+    <SimulationDescriptor Name="ClassPopulationEmpireAffinityDrudgeTitans" Type="ClassPopulationEmpire">
+      <Modifier TargetProperty="CanBeBoosted" Operation="Force" Value="0" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityDrudgeTitans" Type="ClassPopulationStarSystem">
+      <Modifier 		TargetProperty="CannotMigrate"     		    Operation="Force"       Value="1"   TooltipHidden="true"/>
+      <Modifier 		TargetProperty="ShouldPopulationGrow"       Operation="Force"       Value="-1"  TooltipHidden="true"/>
+      <Modifier     TargetProperty="PopulationWithGrowth"       Operation="Subtraction" Value="$(PopulationCount)" Path="./ClassStarSystem" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityDrudgeTitans" Type="ClassPopulationAssimilated"/>
+
 </Datatable>
