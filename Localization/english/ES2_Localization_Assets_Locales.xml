@@ -308,7 +308,7 @@ They may be upgraded in the future.</LocalizationPair>
 
   <!-- > Minor Faction Mavros -->
   <LocalizationPair Name="%MinorFactionMavrosTitle">Akkavros</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionMavrosDescription">Though some view the Akkavros as mere Sophon renegades, they are a different society with a  different mentality, even if they share much of their genetic code. While both enjoy tinkering, technology, and discovery, the Akkavros have a tendency to use these things to plunder, pirate, and conquer. They are adventurers and scavengers who have almost as good science as their brethren but a lot more attitude. A common epithet of their bounty-hunting society is, "Unbreakable toys can be used to break other toys."</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionMavrosDescription">Though some view the Akkavros as mere Sophon renegades, they are a different society with a  different mentality, even if they share much of their genetic code. While both enjoy tinkering, technology, and discovery, the Akkavros have a tendency to use these things to plunder, pirate, and conquer. They are adventurers and scavengers who, while not being as smart, have double the attitude. A common epithet of their bounty-hunting society is, "Unbreakable toys can be used to break other toys."</LocalizationPair>
   <LocalizationPair Name="%AffinityMavrosTitle">Akkavros</LocalizationPair>
   <LocalizationPair Name="%AffinityMavrosDescription">Often found as mercenaries and enforcers; the Akkavros's small size is compensated with technology and belligerence.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMinorMavrosTitle">Akkavros Citizens</LocalizationPair>
