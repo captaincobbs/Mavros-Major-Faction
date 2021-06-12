@@ -305,11 +305,7 @@ They may be upgraded in the future.</LocalizationPair>
   <LocalizationPair Name="%AffinityDrudgeTitansTitle">Drudge Titans</LocalizationPair>
   <LocalizationPair Name="%AffinityDrudgeTitansAltTitle">[DiploStatePartner]</LocalizationPair>
   <LocalizationPair Name="%AffinityDrudgeTitansDescription">Drudge Titans are sky-scraper tall sentient robots that, when idle, are utilized as commerce and research processing centers, however, when a solar system is being invaded they awaken and deal devastating damage.</LocalizationPair>
-  
-  <!-- Vanilla Localization Fixes -->
-  <LocalizationPair Name="%MavrosCustomSkinOptionDescription">#FF0000#SOPHON AND MAVROS SKINS HAVE BEEN INVERTED, ENABLE THIS TO GET CLASSIC SOPHON SKINS#REVERT#
-Though the Sophons are occasionally jealous of the swaggering, alpha-being image of the Mavros, in fact they believe that the Mavros are too erratic to do anything of value (i.e. serious research). However, every once in a while, the Sophons like to remind other civilizations that they are entirely capable of blowing up other people’s moons as well...</LocalizationPair>
-  <LocalizationPair Name="%MavrosCustomSkinOptionTitle">Disable Sophon "Mavros" skins</LocalizationPair>
+
   <!-- > Minor Faction Mavros -->
   <LocalizationPair Name="%MinorFactionMavrosTitle">Akkavros</LocalizationPair>
   <LocalizationPair Name="%MinorFactionMavrosDescription">Though some view the Akkavros as mere Sophon renegades, they are a different society with a  different mentality, even if they share much of their genetic code. While both enjoy tinkering, technology, and discovery, the Akkavros have a tendency to use these things to plunder, pirate, and conquer. They are adventurers and scavengers who have almost as good science as their brethren but a lot more attitude. A common epithet of their bounty-hunting society is, "Unbreakable toys can be used to break other toys."</LocalizationPair>

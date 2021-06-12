@@ -149,12 +149,6 @@ Sedghammer & Amplitude Artists -->
         </ExtraTypes>
         <FilePath>GUI/GUIElements[*].xml</FilePath>
       </DatabasePlugin>
-      
-      <!-- Mapping -->
-      <DatabasePlugin DataType="RemappingDefinition, Assembly-CSharp">
-        <FilePath>Mapping/RemappingDefinitions.xml</FilePath>
-        <FilePath>Mapping/TurretRemappingDefinitions.xml</FilePath>
-      </DatabasePlugin>
 
       <!--<DatabasePlugin DataType="PlanetRemappingDefinition, Assembly-CSharp">
         <FilePath>Mapping/PlanetRemappingDefinitions.xml</FilePath>
