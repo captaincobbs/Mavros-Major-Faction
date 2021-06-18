@@ -12,8 +12,8 @@
     <Trait Name="PopulationModifiersTraitMajorMavrosCount"/>
     <Trait Name="PopulationModifiersTraitMajorMavros"/>
 
-    <Trait Name="PopulationModifiersTraitPrimaryIndustry2"/>
-    <Trait Name="PopulationModifiersTraitSecondaryStrategicToMilitary01"/>
+    <Trait Name="PopulationModifiersTraitPrimaryCustomIndustry01"/>
+    <Trait Name="PopulationModifiersTraitSecondaryCustomEmpireManpowerOnStrategic00"/>
 
     <Trait Name="PopulationCollectionBonusTraitMajorMavros" />
 

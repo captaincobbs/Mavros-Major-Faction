@@ -1,30 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
-  <!-- +2 Industry -->
-  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryIndustry2" Type="ClassPopulationPlanet">
-    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="2" Path="ClassPopulation"/>
-  </SimulationDescriptor>
-
-  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryIndustry2" Type="WithPopulationPlanet">
-    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="2"               Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryIndustry,ClassPopulation"/>
-  </SimulationDescriptor>
-  
-  <!-- Strategic to Manpower -->
-  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryStrategicToMilitary01" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="BonusPopulationSystemManpower"  Operation="Addition"    Value="10"  Path="FAKEFORGUI/./PlanetHasDepositStrategic" />
-    <BinaryModifier TargetProperty="BonusPopulationSystemManpower"  Operation="Addition"    Left="10"   BinaryOperation="Multiplication" Right="$(PlanetHasStrategicDeposit)" TooltipHidden="true"/>
-  </SimulationDescriptor>
-
-  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryStrategicToMilitary01" Type="WithPopulationPlanet">
-    <Modifier   TargetProperty="BonusPopulationSystemManpower"      Operation="Addition"    Value="10"  Path="FAKEFORGUI/./PlanetHasDepositStrategic" />
-    <Modifier   TargetProperty="BonusPopulationSystemManpower"      Operation="Addition"    Value="10"  Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet,PlanetHasDepositStrategic/ClassPopulationPlanetModifiersTraitPrimaryStrategicToFood01" TooltipHidden="true"/>
-  </SimulationDescriptor>
-
-  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetStrategicToMilitary01" Type="ClassPopulationAssimilated">
-    <Modifier   TargetProperty="BonusPopulationSystemManpower"      Operation="Addition"    Value="5"   Path="ClassPopulation"/>
-    <Modifier   TargetProperty="BonusPopulationScience"             Operation="Addition"    Value="1"   Path="ClassPopulation"/>
-  </SimulationDescriptor>
-  
   <!-- Drudges -->
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgesBonus" Type="ClassPopulationPlanet">
     <BinaryModifier       TargetProperty="BonusPopulationFood"      Operation="Addition"    Left="2" BinaryOperation="Multiplication" Right="$(PopulationSystemLevel)"  Path="ClassPopulation" TooltipHidden="true"/>

@@ -1,45 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd">
-  <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryIndustry2" SubCategory="Primary" ShowInCustom="true" Cost="10">
-    <Modifiers>
-      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
-        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryIndustry2"/>
-      </Modifier>
-      <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryIndustry2"/>
-      </Modifier>
-      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryIndustry2"/>
-      </Modifier>
-    </Modifiers>
-
-    <AssimilatedModifiers>
-      <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetIndustry"/>
-      </Modifier>
-    </AssimilatedModifiers>
-  </PopulationModifiersTrait>
-  
-  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryStrategicToMilitary01" SubCategory="Secondary" ShowInCustom="true" Cost="10">
-    <Modifiers>
-      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
-        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryStrategicToMilitary01"/>
-      </Modifier>
-      <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryStrategicToMilitary01"/>
-      </Modifier>
-      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryStrategicToMilitary01"/>
-      </Modifier>
-    </Modifiers>
-
-    <AssimilatedModifiers>
-      <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetStrategicToMilitary01"/>
-      </Modifier>
-    </AssimilatedModifiers>
-  </PopulationModifiersTrait>
-  
   <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryDrudgesBonus" SubCategory="Primary" ShowInCustom="false" Cost="0">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
