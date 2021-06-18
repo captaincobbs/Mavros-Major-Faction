@@ -9,7 +9,7 @@
       <Icon Size="Large" Path="Textures/GUI/ScrapLarge.png" />
     </Icons>
     <SymbolString>[custom07]</SymbolString>
-    <Color Red="223" Green="130" Blue="104" Alpha="255" />
+    <Color Red="255" Green="140" Blue="0" Alpha="255" />
   </ExtendedGuiElement>
 
   <ExtendedGuiElement Name="SystemScrap">
@@ -20,7 +20,7 @@
       <Icon Size="Large" Path="Textures/GUI/ScrapLarge.png" />
     </Icons>
     <SymbolString>[custom07]</SymbolString>
-    <Color Red="223" Green="130" Blue="104" Alpha="255" />
+    <Color Red="255" Green="140" Blue="0" Alpha="255" />
   </ExtendedGuiElement>
 
   <ExtendedGuiElement Name="NetEmpireScrap">
@@ -31,7 +31,7 @@
       <Icon Size="Large" Path="Textures/GUI/ScrapLarge.png" />
     </Icons>
     <SymbolString>[custom07]</SymbolString>
-    <Color Red="223" Green="130" Blue="104" Alpha="255" />
+    <Color Red="255" Green="140" Blue="0" Alpha="255" />
   </ExtendedGuiElement>
 
   <!-- Test only -->

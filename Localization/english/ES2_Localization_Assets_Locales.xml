@@ -67,9 +67,9 @@ Named for the amount of guns that can be mounted on the ship.</LocalizationPair>
   <LocalizationPair Name="%AffinityMajorMavrosTitle">Mavros</LocalizationPair>
   <LocalizationPair Name="%AffinityMajorMavrosDescription">TO BE WRITTEN</LocalizationPair>
   <LocalizationPair Name="%CategoryTechnologyFactionMavrosTitle">Mavros Technology</LocalizationPair>
-  <LocalizationPair Name="%AffinityGameplayMavrosTooltipEffect">Use Scrap #DF8268#[custom07]#Revert#, a unique resource, to temporarily buff systems.
-Gain 1 #DF8268#[custom07]#Revert# per [commandpoint] destroyed in combat.
-Uses #DF8268#[custom07]#Revert# to build and upgrade Drudges.</LocalizationPair>
+  <LocalizationPair Name="%AffinityGameplayMavrosTooltipEffect">Use Scrap #FF8C00#[custom07]#Revert#, a unique resource, to temporarily buff systems.
+Gain 1 #FF8C00#[custom07]#Revert# per [commandpoint] destroyed in combat.
+Uses #FF8C00#[custom07]#Revert# to build and upgrade Drudges.</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityMajorMavrosTitle">Mavros</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityMajorMavrosTitle">Mavros</LocalizationPair>
   <LocalizationPair Name="%PopulationMajorMavrosTitle">Mavros</LocalizationPair>
@@ -182,9 +182,9 @@ Start with a Drudge and a Drudge Factory on your Home System.</LocalizationPair>
   <LocalizationPair Name="%ScrapProfitTitle">Scrap Gained</LocalizationPair>
   <LocalizationPair Name="%ScrapLossTitle">Scrap Lost</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementScrapTotalTitle">Scrap Total Counter</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementScrapTotalDescription">The total amount of #DF8268#Scrap [custom07]#Revert# you have is listed as the cost of scrap for this improvement.
-Your net #DF8268#Scrap [custom07]#Revert# to be added at the end of the turn is listed as the cost of [dustcolored]
-Your #DF8268#Scrap [custom07]#Revert# upkeep at the end of each turn from fleets is listed as the cost of [prestigecolored]
+  <LocalizationPair Name="%StarSystemImprovementScrapTotalDescription">The total amount of #FF8C00#Scrap [custom07]#Revert# you have is listed as the cost of scrap for this improvement.
+Your net #FF8C00#Scrap [custom07]#Revert# to be added at the end of the turn is listed as the cost of [dustcolored]
+Your #FF8C00#Scrap [custom07]#Revert# upkeep at the end of each turn from fleets is listed as the cost of [prestigecolored]
 
 If any of these do not appear, it is because they are 0.</LocalizationPair>
   <LocalizationPair Name="%CategoryScrapTitle">Scrap</LocalizationPair>
