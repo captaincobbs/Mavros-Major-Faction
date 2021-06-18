@@ -6,12 +6,22 @@
     <Trait Name="IsMajorFaction"/>
 
     <Trait Name="FactionTraitLuxuryPopulation_Mavros"/>
-    <Trait Name="FactionTraitRoboticPopulation_Mavros"/>
-    <Trait Name="FactionTraitTechnologyDefinitionEconomyAndTrade1Mavros"/>
-    <Trait Name="FactionTraitStartWithTitanium"/>
-    <Trait Name="FactionTraitTechnologyDefinitionScienceAndExploration2" />
     <Trait Name="FactionTraitHulkingShips_Mavros"/>
     <Trait Name="FactionTraitEffectiveCombatants_Mavros"/>
+    <Trait Name="FactionTraitColonizationCapStandard1"/>
+
+    <!-- Spawn -->
+    <Trait Name="FactionTraitRoboticPopulation_Mavros"/>
+    <Trait Name="FactionTraitStartWithTitanium"/>
+    
+    <!-- Tech -->
+    <Trait Name="FactionTraitTechnologyDefinitionScienceAndExploration2" />
+    <Trait Name="FactionTraitTechnologyDefinitionEconomyAndTrade1Mavros"/>
+
+    <!-- AI -->
+    <Trait Name="PersonalityCanGetRenegade"/>
+    <Trait Name="PersonalityCanGetRestless"/>
+    <Trait Name="PersonalityCanGetIsolationist"/>
 
     <TraitStartingSenate Priority="100">
       <Government Name="GovernmentRepublic"/>
