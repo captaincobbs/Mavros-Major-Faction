@@ -4,44 +4,34 @@
   <!-- Hull -->
   <LocalizationPair Name="%HullSmall01MavrosTitle">Inch-class</LocalizationPair>
   <LocalizationPair Name="%HullSmall01MavrosDescription">Role: Attack
-Named for the length of the average Mavros finger.
-  </LocalizationPair>
+Named for the length of the average Mavros finger.</LocalizationPair>
   <LocalizationPair Name="%HullSmall02MavrosTitle">Ounce-class</LocalizationPair>
   <LocalizationPair Name="%HullSmall02MavrosDescription">Role: Support
-Named for the standard weight of a standard lightweight titanium ship screw.
-  </LocalizationPair>
+Named for the standard weight of a standard lightweight titanium ship screw.</LocalizationPair>
   <LocalizationPair Name="%HullSmall03MavrosTitle">Pint-class</LocalizationPair>
   <LocalizationPair Name="%HullSmall03MavrosDescription">Role: Colonization
-Named after the volume of dust used to travel between solar systems.
-  </LocalizationPair>
+Named after the volume of dust used to travel between solar systems.</LocalizationPair>
   <LocalizationPair Name="%HullSmall04MavrosTitle">Acre-class</LocalizationPair>
   <LocalizationPair Name="%HullSmall04MavrosDescription">Role: Exploration
-Named in remembrance of a great Mavros hero, Tom "the Boastful" Acre.
-  </LocalizationPair>
+Named in remembrance of a great Mavros "hero", Thod "the Boastful" Acre.</LocalizationPair>
   <LocalizationPair Name="%HullSmall05MavrosTitle">Pint-class</LocalizationPair>
   <LocalizationPair Name="%HullSmall05MavrosDescription">Role: Leecher
-Allows raiding of systems for Essence
-  </LocalizationPair>
+Allows raiding of systems for Essence.</LocalizationPair>
   <LocalizationPair Name="%HullSmall06MavrosTitle">Pint-class</LocalizationPair>
   <LocalizationPair Name="%HullSmall06MavrosDescription">Role: Entwiner
-Enables colonization of other systems via the Vine network.
-  </LocalizationPair>
+Enables colonization of other systems via the Vine network.</LocalizationPair>
   <LocalizationPair Name="%HullMedium01MavrosTitle">Pound-class</LocalizationPair>
   <LocalizationPair Name="%HullMedium01MavrosDescription">Role: Attack
-Named simply to spite the Sophons because the Mavros couldn't think of anything to name the ship after, no other reason.
-  </LocalizationPair>
+Named simply to spite the Sophons because the Mavros couldn't think of anything to name the ship after, no other reason.</LocalizationPair>
   <LocalizationPair Name="%HullMedium02MavrosTitle">Mile-class</LocalizationPair>
   <LocalizationPair Name="%HullMedium02MavrosDescription">Role: Defense
-Named for the distance it took for a Mavros to walk from the junkyard to his workshop.
-  </LocalizationPair>
+Named for the distance it took for a Mavros to walk from the junkyard to his workshop.</LocalizationPair>
   <LocalizationPair Name="%HullLarge00MavrosTitle">Mothership</LocalizationPair>
   <LocalizationPair Name="%HullLarge00MavrosDescription">Role: Ark
-Mothership on which ship-bound populations live
-  </LocalizationPair>
+Mothership on which ship-bound populations live.</LocalizationPair>
   <LocalizationPair Name="%HullLarge01MavrosTitle">Ton-class</LocalizationPair>
   <LocalizationPair Name="%HullLarge01MavrosDescription">Role: Carrier
-Named for the amount of guns that can be mounted on the ship.
-  </LocalizationPair>
+Named for the amount of guns that can be mounted on the ship.</LocalizationPair>
 
   <!-- Ship Design -->
   <LocalizationPair Name="%ShipDesignSmall01AttackerMavrosTitle">Frenzy</LocalizationPair>
