@@ -14,8 +14,8 @@
   <!-- Scrap Boosts -->
   <!-- Industry -->
   <StarSystemImprovementDefinition   Name="StarSystemImprovementScrapBoostIndustry" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
-    <Tags>NoBuyout</Tags>
     <SupervisorGain Name="Industry" />
+    <Tags>NoBuyout</Tags>
     <CustomCost ResourceName="EmpireScrap" Instant="true">Property(Context,@ClassColonizedStarSystem, MajorPopulationCount) * 2</CustomCost>
     <Cost ResourceName="SystemTurnBased">1</Cost>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayMajorMavros">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
@@ -26,8 +26,8 @@
 
   <!-- Dust - Remove? -->
   <StarSystemImprovementDefinition   Name="StarSystemImprovementScrapBoostDust" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
-    <Tags>NoBuyout</Tags>
     <SupervisorGain Name="Dust" />
+    <Tags>NoBuyout</Tags>
     <CustomCost ResourceName="EmpireScrap" Instant="true">Property(Context,@ClassColonizedStarSystem, MajorPopulationCount) * 2</CustomCost>
     <Cost ResourceName="SystemTurnBased">1</Cost>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayMajorMavros">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
@@ -38,8 +38,8 @@
 
   <!-- Science -->
   <StarSystemImprovementDefinition   Name="StarSystemImprovementScrapBoostScience" SubCategory="SubCategoryScience" ScoreProvider="StarSystemImprovementBuilt">
-    <Tags>NoBuyout</Tags>
     <SupervisorGain Name="Science" />
+    <Tags>NoBuyout</Tags>
     <CustomCost ResourceName="EmpireScrap" Instant="true">Property(Context,@ClassColonizedStarSystem, MajorPopulationCount) * 2</CustomCost>
     <Cost ResourceName="SystemTurnBased">1</Cost>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayMajorMavros">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
@@ -50,8 +50,8 @@
   
   <!-- +2 Scrap -->
   <StarSystemImprovementDefinition   Name="StarSystemImprovementIndustryToScrap1" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
-    <Tags>NoBuyout</Tags>
     <SupervisorGain Name="Industry" />
+    <Tags>NoBuyout</Tags>
     <InProgressSimulationDescriptorReference Name="StarSystemImprovementScrapBoost1Effect" />
     <InProgressSimulationDescriptorReference Name="StarSystemImprovementInfinite"/>
     <InfiniteCost ResourceName="SystemTurnBased"/>
@@ -65,8 +65,8 @@
   
   <!-- +5 Scrap -->
   <StarSystemImprovementDefinition   Name="StarSystemImprovementIndustryToScrap2" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
-    <Tags>NoBuyout</Tags>
     <SupervisorGain Name="Industry" />
+    <Tags>NoBuyout</Tags>
     <InProgressSimulationDescriptorReference Name="StarSystemImprovementScrapBoost2Effect" />
     <InProgressSimulationDescriptorReference Name="StarSystemImprovementInfinite"/>
     <InfiniteCost ResourceName="SystemTurnBased"/>
@@ -102,7 +102,7 @@
     <SupervisorGain Name="Population" />
     <Tags>NoBuyout</Tags>
     <QueuedSimulationDescriptorReference Name="QueuedDescriptorIncreaseVirtualPopulation"/>
-    <CustomCost ResourceName="EmpireScrap" Instant="true">3 + (Property(StockLocation, @'ClassColonizedStarSystem/ClassPopulationStarSystemAffinityDrudges', PopulationCount) * 2)</CustomCost>
+    <CustomCost ResourceName="EmpireScrap" Instant="true">3 + (Property(Context, @'ClassColonizedStarSystem/ClassPopulationStarSystemAffinityDrudgesCount', PopulationCount) * 2)</CustomCost>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem</PathPrerequisite>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementDrudgeFactory,!FastForwardedImprovement</PathPrerequisite>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayMajorMavros">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
@@ -122,7 +122,7 @@
     <SupervisorGain Name="Population" />
     <Tags>NoBuyout</Tags>
     <QueuedSimulationDescriptorReference Name="QueuedDescriptorIncreaseVirtualPopulation"/>
-    <CustomCost ResourceName="EmpireScrap" Instant="true">((10 * Property(StockLocation, @../ClassEmpire, GameSpeedMultiplier, true)) * (Property(StockLocation, @'../ClassEmpire/ClassPopulationEmpireAffinityDrudgeTitans', PopulationCount) + 1)) * 1.5</CustomCost>
+    <CustomCost ResourceName="EmpireScrap" Instant="true">((10 * Property(Context, @../ClassEmpire, GameSpeedMultiplier, true)) * (Property(Context, @'../ClassEmpire//ClassPopulationEmpireAffinityDrudgeTitans', PopulationCount) + 1)) * 1.5</CustomCost>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem</PathPrerequisite>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementDrudgeFactory,!FastForwardedImprovement</PathPrerequisite>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem/ClassPopulationStarSystemAffinityDrudges</PathPrerequisite>
