@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="./Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
   <RuntimeModule Name="FactionMajorMavros" Type="Extension" Version="0.6.1">
-    <Tags>MajorFactions</Tags>
-    <Author>Captain Cobbs</Author>
-    <Homepage></Homepage>
     <Title>Major Faction - The Mavros</Title>
     <Description>Adds a new major faction, the Mavros. Complete with new mechanics, ships, quests, and faction traits.</Description>
-
+    <Author>Captain Cobbs</Author>
+    <Homepage></Homepage>
     <ReleaseNotes>0.6.1 - More Scrap Abilities, lots of rebalances</ReleaseNotes>
-
     <PreviewImageFile>ModIcon.png</PreviewImageFile>
+    <Tags>MajorFactions</Tags>
 
     <!-- Art Credits
 Ringworld Dystopian Space Extended - https://www.deviantart.com/n-a-i-m-a/art/Ringworld-Dystopian-Space-Extended-812100207
 Hangar - https://www.artstation.com/artwork/8lLR2w 
 Underground Marketplace - https://www.deviantart.com/fmacmanus/art/Underground-Marketplace-517825825 
-REPLACE THIS WITH StarSystemImprovementShip2 https://www.alamy.com/abstract-technology-background-with-the-hi-tech-futuristic-concept-cyber-technology-innovation-background-vector-illustration-image226455986.html
 Planetary Defenses - https://www.artstation.com/artwork/L9mAR 
 REPLACE PRINTER WITH THIS https://www.artstation.com/artwork/8KXzx
 Satellite Infiltration - https://www.artstation.com/artwork/qvWZN 
@@ -204,7 +201,22 @@ Sedghammer & Amplitude Artists -->
         </ExtraTypes>
         <FilePath>Simulation/Battles/BattleEffectDefinitions.xml</FilePath>
       </DatabasePlugin>
-      
+
+      <DatabasePlugin DataType="SquadronFormationDefinition, Assembly-CSharp">
+        <FilePath>Simulation/Battles/SquadronFormationDefinitions.xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="SquadronMetaFormationDefinition, Assembly-CSharp">
+        <FilePath>Simulation/Battles/SquadronMetaFormationDefinitions.xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="CameraShotDefinition, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="CameraShotDefinition_EncounterEvent, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Simulation/Battles/RealizationShotsDefinitions.xml</FilePath>
+      </DatabasePlugin>
+
       <!-- Heroes -->
       <!--<DatabasePlugin DataType="HeroAffinityDefinition, Assembly-CSharp">
         <FilePath>Simulation/HeroAffinityDefinitions[Mavros].xml</FilePath>

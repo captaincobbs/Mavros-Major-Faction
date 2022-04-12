@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/SquadronMetaFormationDefinition.xsd">
+  <SquadronMetaFormationDefinition Name="MetaFormationAroundMediumShip">
+    <PathPrerequisite>ShipSizeMedium</PathPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionSophons')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull02') and Path(Context, @'ShipFactionSophons')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionSophonsMavros')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull02') and Path(Context, @'ShipFactionSophonsMavros')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionUmbralChoir')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull02') and Path(Context, @'ShipFactionUmbralChoir')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionTerrans')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull02') and Path(Context, @'ShipFactionTerrans')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionCravers')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull02') and Path(Context, @'ShipFactionCravers')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionVampirilis')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull02') and Path(Context, @'ShipFactionVampirilis')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionVenetians')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull02') and Path(Context, @'ShipFactionVenetians')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionTimeLords')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull02') and Path(Context, @'ShipFactionTimeLords')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionUnfallen')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull02') and Path(Context, @'ShipFactionUnfallen')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionHoratio')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull02') and Path(Context, @'ShipFactionHoratio')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionVaulters')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionMinorFactionInsectoid')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionMinorFactionPrimitive')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionMinorFactionAdvanced')</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="true">Path(Context, @'ShipHull01') and Path(Context, @'ShipFactionMinorFactionPirates')</InterpreterPrerequisite>
+    <SubFormationPattern>
+      <SubFormation Role="Escort">
+        <Offset X="0.25" Y="0" Z="0.5" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="-0.25" Y="0" Z="0.5" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="0.25" Y="0" Z="0.25" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="-0.25" Y="0" Z="0.25" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="0.25" Y="0" Z="0" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="-0.25" Y="0" Z="0" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="0" Y="0.2" Z="0.5" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="0" Y="0.2" Z="0.25" />
+      </SubFormation>
+    </SubFormationPattern>
+  </SquadronMetaFormationDefinition>
+
+  <SquadronMetaFormationDefinition Name="MetaFormationAroundMedium02Sophon">
+    <PathPrerequisite>ShipSizeMedium</PathPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="false">Path(Context, @'ShipHull02') and (Path(Context, @'ShipFactionSophons') or Path(Context, @'ShipFactionSophonsMavros'))</InterpreterPrerequisite>
+    <SubFormationPattern>
+      <SubFormation Role="Escort">
+        <Offset X="0.7" Y="0" Z="0.5" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="-0.7" Y="0" Z="0.5" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="0.8" Y="0" Z="0.25" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="-0.8" Y="0" Z="0.25" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="0.8" Y="0" Z="0" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="-0.8" Y="0" Z="0" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="0" Y="0.2" Z="0.5" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="0" Y="0.2" Z="0.25" />
+      </SubFormation>
+    </SubFormationPattern>
+  </SquadronMetaFormationDefinition>
+
+  <SquadronMetaFormationDefinition Name="MetaFormationAroundMedium01Sophon">
+    <PathPrerequisite>ShipSizeMedium</PathPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite" Inverted="false">Path(Context, @'ShipHull01') and (Path(Context, @'ShipFactionSophons') or Path(Context, @'ShipFactionSophonsMavros'))</InterpreterPrerequisite>
+    <SubFormationPattern>
+      <SubFormation Role="Escort">
+        <Offset X="0.7" Y="0" Z="0.5" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="-0.7" Y="0" Z="0.5" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="0.8" Y="0" Z="0.25" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="-0.8" Y="0" Z="0.25" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="0.8" Y="0" Z="0" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="-0.8" Y="0" Z="0" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="0" Y="0.2" Z="0.5" />
+      </SubFormation>
+      <SubFormation Role="Escort">
+        <Offset X="0" Y="0.2" Z="0.25" />
+      </SubFormation>
+    </SubFormationPattern>
+  </SquadronMetaFormationDefinition>
+</Datatable>

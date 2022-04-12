@@ -345,4 +345,6 @@
     <Modifier TargetProperty="TradingRouteBlockadePower" Operation="Addition" Value="$(ShipTradingRouteBlockadePower)" Path="./ClassGarrisonFleet" />
     <Modifier TargetProperty="TradeValue" Operation="Addition" Value="$(RelativeMilitaryPower)"/>
   </SimulationDescriptor>
+
+  <SimulationDescriptor Name="ShipFactionSophonsMavros"      Type="ShipFaction"/>
 </Datatable>
