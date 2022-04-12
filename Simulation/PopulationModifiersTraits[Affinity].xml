@@ -24,6 +24,7 @@
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
         <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDrudges"/>
+        <SimulationDescriptorReference Name="PopulationIsDrudge"/>
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
         <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeIndustry"/>
@@ -37,6 +38,7 @@
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
         <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDrudgeTitans"/>
+        <SimulationDescriptorReference Name="PopulationIsDrudge"/>
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
         <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeIndustry"/>

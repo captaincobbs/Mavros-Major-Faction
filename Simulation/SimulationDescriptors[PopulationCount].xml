@@ -47,4 +47,6 @@
     <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="ClassPopulationEmpireSuperPopulation/../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityDrudgeTitansCount,ClassPopulationPlanetSuperPopulation" Priority="100" TooltipHidden="true"/>
     <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="!ClassPopulationEmpireSuperPopulation/../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityDrudgeTitansCount,!ClassPopulationPlanetSuperPopulation" Priority="100" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <SimulationDescriptor Name="PopulationIsDrudge" Type="ClassPopulationEmpire"/>
 </Datatable>
