@@ -165,8 +165,8 @@ Uses #FF8C00#[custom07]#Revert# to build and upgrade Drudges.</LocalizationPair>
   
   <!-- Drudge Apolitical Trait -->
   <LocalizationPair Name="%PopulationPoliticalTraitAntiPoliticalTitle">Apolitical</LocalizationPair>
-  <LocalizationPair Name="%PopulationPoliticalTraitAntiPoliticalDescription">A being without willpower is unable to act for itself, and therefore unable vote for itself.</LocalizationPair>
-  <LocalizationPair Name="%PopulationPoliticalTraitAntiPoliticalTooltipEffect">Political opinion for all political parties is 0</LocalizationPair>
+  <LocalizationPair Name="%PopulationPoliticalTraitAntiPoliticalDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%PopulationPoliticalTraitAntiPoliticalTooltipEffect">Population can not Vote</LocalizationPair>
   
   <!-- Robotic Overseers(Build and Upgrade Drudges) -->
   <LocalizationPair Name="%FactionTraitRoboticPopulation_MavrosTitle">Robotic Overseers</LocalizationPair>
@@ -297,11 +297,11 @@ They may be upgraded in the future.</LocalizationPair>
   <LocalizationPair Name="%AffinityDrudgeTitansDescription">Drudge Titans are sky-scraper tall sentient robots that, when idle, are utilized as commerce and research processing centers, however, when a solar system is being invaded they awaken and deal devastating damage.</LocalizationPair>
 
   <!-- > Minor Faction Mavros -->
-  <LocalizationPair Name="%MinorFactionMavrosTitle">Akkavros</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionMavrosDescription">Though some view the Akkavros as mere Sophon renegades, they are a different society with a  different mentality, even if they share much of their genetic code. While both enjoy tinkering, technology, and discovery, the Akkavros have a tendency to use these things to plunder, pirate, and conquer. They are adventurers and scavengers who, while not being as smart, have double the attitude. A common epithet of their bounty-hunting society is, "Unbreakable toys can be used to break other toys."</LocalizationPair>
-  <LocalizationPair Name="%AffinityMavrosTitle">Akkavros</LocalizationPair>
-  <LocalizationPair Name="%AffinityMavrosDescription">Often found as mercenaries and enforcers; the Akkavros's small size is compensated with technology and belligerence.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitMinorMavrosTitle">Akkavros Citizens</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionMavrosTitle">Savrons</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionMavrosDescription">Though some view the Savrons as mere Sophon renegades, they are a different society with a  different mentality, even if they share much of their genetic code. While both enjoy tinkering, technology, and discovery, the Savrons have a tendency to use these things to plunder, pirate, and conquer. They are adventurers and scavengers who, while not being as smart, have double the attitude. A common epithet of their bounty-hunting society is, "Unbreakable toys can be used to break other toys."</LocalizationPair>
+  <LocalizationPair Name="%AffinityMavrosTitle">Savrons</LocalizationPair>
+  <LocalizationPair Name="%AffinityMavrosDescription">Often found as mercenaries and enforcers; the Savron's small size is compensated with technology and belligerence.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMavrosTitle">Savron Citizens</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMavros1">#DF8269#[mavros]#REVERT# Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMavros2">#DF8269#[mavros]#REVERT# Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMavros3">#DF8269#[mavros]#REVERT# Collection Bonus III</LocalizationPair>
