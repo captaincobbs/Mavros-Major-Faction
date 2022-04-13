@@ -113,7 +113,7 @@
       <Icon Size="Large" Path="Textures/GUI/MavrosGameplayAffinity_Scrap3Large.png" />
     </Icons>
   </GuiElement>
-  
+
   <!-- Drudge Control Station -->
   <ExtendedGuiElement Name="StarSystemImprovementDrudgeFactory">
     <Title>%StarSystemImprovementDrudgeFactoryTitle</Title>
@@ -126,7 +126,7 @@
       <EffectOverride>%StarSystemImprovementDrudgeFactoryEffect</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
-  
+
   <!-- Drudges Build Action -->
   <ExtendedGuiElement Name="StarSystemImprovementCreateDrudge">
     <Title>%StarSystemImprovementCreateDrudgeTitle</Title>
@@ -139,7 +139,7 @@
       <EffectOverride>%StarSystemImprovementDrudgeBuildEffect</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
-  
+
   <!-- Drudges Upgrade Action -->
   <ExtendedGuiElement Name="StarSystemImprovementUpgradeDrudge">
     <Title>%StarSystemImprovementUpgradeDrudgeTitle</Title>

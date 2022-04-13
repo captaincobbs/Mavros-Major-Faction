@@ -7,7 +7,7 @@
       <Icon Size="Small" Path="FIDSIIndustry" />
     </Icons>
   </GuiElement>
-    
+
   <!-- Dust Boost -->
   <GuiElement Name="TemporaryEffectMavrosDustBoost">
     <Title>%StarSystemImprovementScrapBoostDustTitle</Title>
@@ -15,7 +15,7 @@
       <Icon Size="Small" Path="FIDSIDust" />
     </Icons>
   </GuiElement>
-  
+
   <!-- Science Boost -->
   <GuiElement Name="TemporaryEffectMavrosScienceBoost">
     <Title>%StarSystemImprovementScrapBoostScienceTitle</Title>

@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
-  <GuiElement Name="UniquePlanetMajorMavros">
+  <ExtendedGuiElement Name="UniquePlanetMajorMavros">
     <Title>%UniquePlanetMavrosTitle</Title>
     <Description>%UniquePlanetMavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="PlanetType"/>
+      <Icon Size="Small" Path="PlanetType" />
       <Icon Size="Medium" Path="Bitmaps/Dynamic/Notifications/UniquePlanetVampirilisMedium" />
       <Icon Size="Large" Path="Bitmaps/Dynamic/Planets/PlanetTypeUniqueSykagojaLarge" />
       <Icon Size="Mood" Path="Bitmaps/Dynamic/Notifications/NotificationUniquePlanetSykagojaLarge" />
-      <Icon Size="Planetoid" Path="Bitmaps/Dynamic/Planets/PlanetTypeHomeWorldHoratioPlanetoid"/>
+      <Icon Size="Planetoid" Path="Bitmaps/Dynamic/Planets/PlanetTypeHomeWorldHoratioPlanetoid" />
     </Icons>
-    <Movies>
-      <Movie Path="Movies/Colonization/Ash.mp4" Type="Default"/>
-    </Movies>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <GuiPlanetTypeBaseStats Name="PlanetTypeMajorMavros">
     <Stat Name="MeanRadius" Min="6000" Max="7000" />
@@ -42,7 +39,7 @@
       <StatDetail Name="Ni" Min="1" Max="3" />
       <StatDetail Name="Ca" Min="1" Max="2" />
       <StatDetail Name="Al" Min="1" Max="2" />
-    </Stat >
+    </Stat>
     <Stat Name="CoreType" Value="%PlanetCoreTypeMetallicTitle" />
   </GuiPlanetTypeBaseStats>
 </Datatable>

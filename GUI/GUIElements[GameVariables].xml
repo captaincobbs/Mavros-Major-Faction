@@ -57,7 +57,7 @@
     <SymbolString>[mavros]</SymbolString>
     <Color Red="255" Green="141" Blue="102" Alpha="255" />
   </ExtendedGuiElement>
-  
+
   <!-- Drudges -->
   <ExtendedGuiElement Name="AffinityDrudges">
     <Title>%AffinityDrudgesTitle</Title>
@@ -79,7 +79,7 @@
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
     <AltTitle>%AffinityDrudgesAltTitle</AltTitle>
   </ExtendedGuiElement>
-  
+
   <!-- Drudge Titans -->
   <ExtendedGuiElement Name="AffinityDrudgeTitans">
     <Title>%AffinityDrudgeTitansTitle</Title>
@@ -101,7 +101,7 @@
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
     <AltTitle>%AffinityDrudgeTitansAltTitle</AltTitle>
   </ExtendedGuiElement>
-  
+
   <!-- Drudges Population Bonus -->
   <ExtendedGuiElement Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgesBonus">
     <Title>%PopulationModifiersTraitPrimaryDrudgesTitle</Title>
@@ -109,7 +109,7 @@
       <EffectOverride>%PopulationModifiersTraitDrudgesBonusOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
-  
+
   <ExtendedGuiElement Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgeTitansBonus">
     <Title>%PopulationModifiersTraitPrimaryDrudgesTitle</Title>
     <TooltipElement>

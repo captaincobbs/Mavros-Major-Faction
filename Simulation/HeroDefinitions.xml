@@ -3,93 +3,92 @@
   <!-- Mavros Heroes -->
   <!-- Seekers -->
   <HeroDefinition Name="HeroMajorMavrosSeeker01">
-    <Skill Name="HeroSkill01MajorMavrosStarterExperience"/>
-    <Skill Name="HeroSkill02MajorMavrosStarterMovement"/>
+    <Skill Name="HeroSkill01MajorMavrosStarterExperience" />
+    <Skill Name="HeroSkill02MajorMavrosStarterMovement" />
 
-    <Affinity Name="HeroAffinityMajorMavros"/>
-    <Class Name="HeroClassAdventurer"/>
-    <Politics Name="HeroPolitics02"/>
+    <Affinity Name="HeroAffinityMajorMavros" />
+    <Class Name="HeroClassAdventurer" />
+    <Politics Name="HeroPolitics02" />
 
-    <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+    <ShipDesign Name="ShipDesignHeroSmall02Explorer" />
 
-    <SkillTree Name="HeroSkillTreeGeneric"/>
-    <SkillTree Name="HeroSkillTreeMajorMavros"/>
-    <SkillTree Name="HeroSkillTreeAdventurer"/>
+    <SkillTree Name="HeroSkillTreeGeneric" />
+    <SkillTree Name="HeroSkillTreeMajorMavros" />
+    <SkillTree Name="HeroSkillTreeAdventurer" />
 
-    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule" />
   </HeroDefinition>
 
   <!-- Guardians -->
   <HeroDefinition Name="HeroMajorMavrosGuardian01">
-    <Skill Name="HeroSkill01MajorMavrosStarterExperience"/>
-    <Skill Name="HeroSkill02Vampirilis02"/>
+    <Skill Name="HeroSkill01MajorMavrosStarterExperience" />
+    <Skill Name="HeroSkill02Vampirilis02" />
 
-    <Affinity Name="HeroAffinityMajorMavros"/>
-    <Class Name="HeroClassAdmiral"/>
-    <Politics Name="HeroPolitics06"/>
+    <Affinity Name="HeroAffinityMajorMavros" />
+    <Class Name="HeroClassAdmiral" />
+    <Politics Name="HeroPolitics06" />
 
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="ShipDesignHeroSmall01Attacker" />
 
-    <SkillTree Name="HeroSkillTreeGeneric"/>
-    <SkillTree Name="HeroSkillTreeMajorMavros"/>
-    <SkillTree Name="HeroSkillTreeAdmiral"/>
+    <SkillTree Name="HeroSkillTreeGeneric" />
+    <SkillTree Name="HeroSkillTreeMajorMavros" />
+    <SkillTree Name="HeroSkillTreeAdmiral" />
 
-    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule" />
   </HeroDefinition>
 
   <!-- Kur "Phasma" Siks -->
   <!-- Transportation "protection" specialist, got shot in the head by pirates, offers to help you in exchange for getting his package, hates pirates  -->
   <HeroDefinition Name="HeroMajorMavrosGuardian02">
-    <Skill Name="HeroSkill01MajorMavrosStarterExperience"/>
-    <Skill Name="HeroSkill02Vampirilis02"/>
+    <Skill Name="HeroSkill01MajorMavrosStarterExperience" />
+    <Skill Name="HeroSkill02Vampirilis02" />
 
-    <Affinity Name="HeroAffinityMajorMavros"/>
-    <Class Name="HeroClassAdmiral"/>
-    <Politics Name="HeroPolitics01"/>
+    <Affinity Name="HeroAffinityMajorMavros" />
+    <Class Name="HeroClassAdmiral" />
+    <Politics Name="HeroPolitics01" />
 
-    <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+    <ShipDesign Name="ShipDesignHeroSmall01Attacker" />
 
-    <SkillTree Name="HeroSkillTreeGeneric"/>
-    <SkillTree Name="HeroSkillTreeMajorMavros"/>
-    <SkillTree Name="HeroSkillTreeAdmiral"/>
+    <SkillTree Name="HeroSkillTreeGeneric" />
+    <SkillTree Name="HeroSkillTreeMajorMavros" />
+    <SkillTree Name="HeroSkillTreeAdmiral" />
 
-    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule" />
   </HeroDefinition>
-  
+
   <!-- Overseers -->
   <HeroDefinition Name="HeroMajorMavrosOverseer01">
-    <Skill Name="HeroSkill02MajorMavrosStarterIndustry"/>
-    <Skill Name="HeroSkill02MajorMavrosStarterHappiness"/>
+    <Skill Name="HeroSkill02MajorMavrosStarterIndustry" />
+    <Skill Name="HeroSkill02MajorMavrosStarterHappiness" />
 
-    <Affinity Name="HeroAffinityMajorMavros"/>
-    <Class Name="HeroClassAdministrator"/>
-    <Politics Name="HeroPolitics06"/>
+    <Affinity Name="HeroAffinityMajorMavros" />
+    <Class Name="HeroClassAdministrator" />
+    <Politics Name="HeroPolitics06" />
 
-    <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
+    <ShipDesign Name="ShipDesignHeroSmall04Defender" />
 
-    <SkillTree Name="HeroSkillTreeGeneric"/>
-    <SkillTree Name="HeroSkillTreeMajorMavros"/>
-    <SkillTree Name="HeroSkillTreeAdministrator"/>
+    <SkillTree Name="HeroSkillTreeGeneric" />
+    <SkillTree Name="HeroSkillTreeMajorMavros" />
+    <SkillTree Name="HeroSkillTreeAdministrator" />
 
-    <LevelUpRuleReference Name="HeroLevelUpRule"/>
-
+    <LevelUpRuleReference Name="HeroLevelUpRule" />
   </HeroDefinition>
-  
+
   <!-- Counselors -->
   <HeroDefinition Name="HeroMajorMavrosCounselor01">
-    <Skill Name="HeroSkill02MajorMavrosStarterIndustry"/>
-    <Skill Name="HeroSkill02MajorMavrosStarterStrategic"/>
+    <Skill Name="HeroSkill02MajorMavrosStarterIndustry" />
+    <Skill Name="HeroSkill02MajorMavrosStarterStrategic" />
 
-    <Affinity Name="HeroAffinityMajorMavros"/>
-    <Class Name="HeroClassCorporate"/>
-    <Politics Name="HeroPolitics01"/>
+    <Affinity Name="HeroAffinityMajorMavros" />
+    <Class Name="HeroClassCorporate" />
+    <Politics Name="HeroPolitics01" />
 
-    <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+    <ShipDesign Name="ShipDesignHeroSmall03Supporter" />
 
-    <SkillTree Name="HeroSkillTreeGeneric"/>
-    <SkillTree Name="HeroSkillTreeMajorMavros"/>
-    <SkillTree Name="HeroClassCorporate"/>
+    <SkillTree Name="HeroSkillTreeGeneric" />
+    <SkillTree Name="HeroSkillTreeMajorMavros" />
+    <SkillTree Name="HeroClassCorporate" />
 
-    <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    <LevelUpRuleReference Name="HeroLevelUpRule" />
   </HeroDefinition>
 </Datatable>
