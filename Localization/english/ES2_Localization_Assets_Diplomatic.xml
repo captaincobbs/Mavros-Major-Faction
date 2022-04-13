@@ -18,7 +18,7 @@
   <!-- Diplomatic -->
   <LocalizationPair Name="%DiplomaticInteractionForcedPeaceRelationSenderSignedMajorMavros">Listen up bud, we're friends now. Ok? This is happening, deal with it.</LocalizationPair>
   <LocalizationPair Name="%DiplomaticInteractionForcedPeaceRelationReceiverSignedMajorMavros">Well, uh... alright then. Totally normal to make friends through force. Not suspicious at all.</LocalizationPair>
-  <LocalizationPair Name="%DiplomaticInteractionGreetingsMajorMavros">Oh HEY, is thing on? Why am I so big? Oh, whatever. Well look, hello we're the Marvos. Stay out of our way or follow along, Your choice. Either way, get moving.</LocalizationPair>
+  <LocalizationPair Name="%DiplomaticInteractionGreetingsMajorMavros">Oh HEY, is thing on? Why am I so big? Oh, whatever. Well hello, we're the Marvos. Stay out of our way or follow along, Your choice. Either way, get moving.</LocalizationPair>
   <LocalizationPair Name="%DiplomaticInteractionTruceFromWarSenderSignedMavrosWinning">Look bud, this is kinda sad. Does it hurt to suck so bad? Let's just stop. There's no point fighting when we could be living, eh? Call it off, we feel bad.</LocalizationPair>
   <LocalizationPair Name="%DiplomaticInteractionTruceFromWarReceiverSignedMavrosWinning">Sure, we can call us even. Let's move on and get back to what matters, eh?</LocalizationPair>
   <LocalizationPair Name="%DiplomaticInteractionTruceFromWarSenderSignedMavrosLosing">Ok, ok, look. Lay off, alright? This war ain't worth it, you got us. Let's just move past this, ok?</LocalizationPair>
