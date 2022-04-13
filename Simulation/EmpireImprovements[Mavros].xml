@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/EmpireImprovementDefinition.xsd">
   <!-- Ship Hulls -->
-  <EmpireImprovementDefinition Name="EmpireImprovementSlotsSmall01Mavros" Category="CategoryHullUpgrade" SubCategory="SubCategoryHullMilitary" >
+  <EmpireImprovementDefinition Name="EmpireImprovementSlotsSmall01Mavros" Category="CategoryHullUpgrade" SubCategory="SubCategoryHullMilitary">
     <TechnologyPrerequisite>TechnologyImproveHull1Mavros</TechnologyPrerequisite>
     <SimulationDescriptorReference Name="EmpireImprovementSlotsSmall01Mavros" />
   </EmpireImprovementDefinition>
@@ -11,11 +11,11 @@
     <SimulationDescriptorReference Name="EmpireImprovementSlotsSmall02Mavros" />
   </EmpireImprovementDefinition>
 
-  <EmpireImprovementDefinition Name="EmpireImprovementSlotsMedium01Mavros" Category="CategoryHullUpgrade" SubCategory="SubCategoryHullMilitary" >
+  <EmpireImprovementDefinition Name="EmpireImprovementSlotsMedium01Mavros" Category="CategoryHullUpgrade" SubCategory="SubCategoryHullMilitary">
     <TechnologyPrerequisite>TechnologyImproveHull3Mavros</TechnologyPrerequisite>
     <SimulationDescriptorReference Name="EmpireImprovementSlotsMedium01Mavros" />
   </EmpireImprovementDefinition>
-  <EmpireImprovementDefinition Name="EmpireImprovementSlotsMedium02Mavros" Category="CategoryHullUpgrade" SubCategory="SubCategoryHullMilitary" >
+  <EmpireImprovementDefinition Name="EmpireImprovementSlotsMedium02Mavros" Category="CategoryHullUpgrade" SubCategory="SubCategoryHullMilitary">
     <TechnologyPrerequisite>TechnologyImproveHull4Mavros</TechnologyPrerequisite>
     <SimulationDescriptorReference Name="EmpireImprovementSlotsMedium02Mavros" />
   </EmpireImprovementDefinition>
@@ -30,17 +30,11 @@
     <PathPrerequisite Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityMajorMavros">ClassEmpire,AffinityMappingMajorMavros</PathPrerequisite>
     <SimulationDescriptorReference Name="EmpireImprovementSlotsSmall04Mavros" />
   </EmpireImprovementDefinition>
-  
+
   <!-- Gameplay Affinity -->
   <EmpireImprovementDefinition Name="EmpireImprovementExpansionDisapproval2Mavros" Category="CategoryOverColonization" SubCategory="SubCategoryApproval">
     <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyMajorMavros">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
     <TechnologyPrerequisite>TechnologyApproval3Mavros</TechnologyPrerequisite>
     <SimulationDescriptorReference Name="EmpireImprovementExpansionDisapproval2" />
   </EmpireImprovementDefinition>
-
-  <!--<EmpireImprovementDefinition Name="EmpireImprovementMavrosUniqueMissiles" Category="CategoryTechnologyMilitary" SubCategory="SubCategoryShip">
-    <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayTechnologyMajorMavros">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
-    <TechnologyPrerequisite>TechnologyJuggernautFactionModule</TechnologyPrerequisite>
-    <SimulationDescriptorReference Name="EmpireImprovementMavrosUnique" />
-  </EmpireImprovementDefinition>-->
 </Datatable>

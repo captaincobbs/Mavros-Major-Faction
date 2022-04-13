@@ -89,7 +89,7 @@
       <Icon Size="Large" Path="Textures/GUI/OvermindLarge.png" />
     </Icons>
   </GuiElement>
-  
+
   <!-- Luxury Lotteries -->
   <GuiElement Name="StarSystemImprovementApproval5Mavros">
     <Title>%StarSystemImprovementApproval5MavrosTitle</Title>

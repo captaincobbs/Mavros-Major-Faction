@@ -5,7 +5,7 @@
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Categories/CategoryTechnologySmall" />
     </Icons>
-    <Color Red="255" Green="255" Blue="255" Alpha="255"/>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
   <!-- Efficient Shielding -->
@@ -114,7 +114,7 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEmpireDevelopment11Small" />
     </Icons>
   </TechnologyGuiElement2>
-  
+
   <!-- Ubiquitous Surveillance -->
   <TechnologyGuiElement2 Name="TechnologyDefinitionMilitary2Mavros" X="1.5" Y="0">
     <Title>%TechnologyDefinitionMilitary2Title</Title>
@@ -132,7 +132,7 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade1Small" />
     </Icons>
   </TechnologyGuiElement2>
-  
+
   <!-- Off-world Agribusiness -->
   <TechnologyGuiElement2 Name="TechnologyDefinitionEmpireDevelopment1Mavros" X="-1.5" Y="0">
     <Title>%TechnologyDefinitionEmpireDevelopment1Title</Title>
@@ -141,7 +141,7 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEmpireDevelopment1Small" />
     </Icons>
   </TechnologyGuiElement2>
-  
+
   <!-- N-Way Fusion -->
   <TechnologyGuiElement2 Name="TechnologyDefinitionMilitary1Mavros" X="-1.5" Y="0">
     <Title>%TechnologyDefinitionMilitary1Title</Title>
@@ -150,7 +150,7 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionMilitary1Small" />
     </Icons>
   </TechnologyGuiElement2>
-  
+
   <!-- High-Energy Magnetics -->
   <TechnologyGuiElement2 Name="TechnologyDefinitionMilitary6Mavros" X="3" Y="0">
     <Title>%TechnologyDefinitionMilitary6Title</Title>
@@ -168,7 +168,7 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade8Small" />
     </Icons>
   </TechnologyGuiElement2>
-  
+
   <!-- Atmospheric Filtration -->
   <TechnologyGuiElement2 Name="TechnologyDefinitionEconomyAndTrade25Mavros" X="3" Y="0">
     <Title>%TechnologyDefinitionEconomyAndTrade25Title</Title>
