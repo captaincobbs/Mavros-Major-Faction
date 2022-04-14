@@ -14,14 +14,6 @@
     <SimulationDescriptorReference Name="FactionTraitEffectiveCombatants_Mavros"/>
   </FactionTrait>
   
-  <FactionTrait Name="FactionTraitRoboticPopulation_Mavros"   SubCategory="FactionTrait" TraitCategory="TraitCategoryEconomy" TraitSubCategory="FactionTraitFamilyEconomyDevelopment" Hidden="false" Custom="true" Cost="15">
-    <Command Name="AddMinorPopulation" Arguments="AffinityDrudges,1" Priority="100"/>
-    <Command Name="AddMinorPopulation" Arguments="AffinityDrudgeTitans,0" Priority="100"/>
-    <Command Name="CreateHomeSystemImprovement" Arguments="StarSystemImprovementDrudgeFactory"/>
-    <SimulationDescriptorReference Name="FactionTraitRoboticPopulation_Mavros"/>
-    <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
-  </FactionTrait>
-  
   <!-- Technologies -->
   <FactionTrait Name="FactionTraitTechnologyDefinitionMilitary2" SubCategory="FactionTrait" TraitCategory="TraitCategoryStartingTechnology" TraitSubCategory="FactionTraitTechnologyDefinitionMilitary2" Family="FactionTraitFamilyStartingTechnologies" Hidden="false" Custom="true" Cost="10" HiddenOnFailPrerequisites="true">
     <Command Name="UnlockTechnology"                Arguments="TechnologyDefinitionMilitary2"/>

@@ -45,18 +45,6 @@
     </Icons>
   </ExtendedGuiElement>
 
-  <!-- Robotic Overseers -->
-  <ExtendedGuiElement Name="FactionTraitRoboticPopulation_Mavros">
-    <Title>%FactionTraitRoboticPopulation_MavrosTitle</Title>
-    <Description>%FactionTraitRoboticPopulation_MavrosDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-    </Icons>
-    <TooltipElement>
-      <EffectOverride>%FactionTraitRoboticPopulation_MavrosTooltipEffect</EffectOverride>
-    </TooltipElement>
-  </ExtendedGuiElement>
-
   <!-- Population Modifier Traits -->
   <!-- Industry +2 -->
   <GuiElement Name="PopulationModifiersTraitPrimaryIndustry2">

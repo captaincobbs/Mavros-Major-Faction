@@ -69,7 +69,7 @@ Named for the amount of guns that can be mounted on the ship.</LocalizationPair>
   <LocalizationPair Name="%CategoryTechnologyFactionMavrosTitle">Mavros Technology</LocalizationPair>
   <LocalizationPair Name="%AffinityGameplayMavrosTooltipEffect">Use Scrap #FF8C00#[custom07]#Revert#, a unique resource, to temporarily buff systems.
 Gain 1 #FF8C00#[custom07]#Revert# per [commandpoint] destroyed in combat.
-Uses #FF8C00#[custom07]#Revert# to build and upgrade Drudges.</LocalizationPair>
+Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic population with powerful bonuses.</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityMajorMavrosTitle">Mavros</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityMajorMavrosTitle">Mavros</LocalizationPair>
   <LocalizationPair Name="%PopulationMajorMavrosTitle">Mavros</LocalizationPair>
@@ -167,14 +167,6 @@ Uses #FF8C00#[custom07]#Revert# to build and upgrade Drudges.</LocalizationPair>
   <LocalizationPair Name="%PopulationPoliticalTraitAntiPoliticalTitle">Apolitical</LocalizationPair>
   <LocalizationPair Name="%PopulationPoliticalTraitAntiPoliticalDescription">TO BE WRITTEN</LocalizationPair>
   <LocalizationPair Name="%PopulationPoliticalTraitAntiPoliticalTooltipEffect">Population can not Vote</LocalizationPair>
-  
-  <!-- Robotic Overseers(Build and Upgrade Drudges) -->
-  <LocalizationPair Name="%FactionTraitRoboticPopulation_MavrosTitle">Robotic Overseers</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitRoboticPopulation_MavrosDescription">TO BE WRITTEN</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitRoboticPopulation_MavrosTooltipEffect">Can build Drudges, a robotic population with powerful bonuses.
-Can convert Drudges into Drudge Titans.
-Start with a Drudge and a Drudge Factory on your Home System.</LocalizationPair>  
-  <!--  -->
   
   <!-- Scrap -->
   <LocalizationPair Name="%ScrapTitle">Scrap</LocalizationPair>
