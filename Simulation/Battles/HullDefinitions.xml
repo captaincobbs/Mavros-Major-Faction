@@ -5,21 +5,21 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">false</PathPrerequisite>
 
-    <SimulationDescriptorReference Name="ShipSizeSmall"/>
-    <SimulationDescriptorReference Name="ShipFactionAutomated"/>
-    <SimulationDescriptorReference Name="ShipHull03"/>
+    <SimulationDescriptorReference Name="ShipSizeSmall" />
+    <SimulationDescriptorReference Name="ShipFactionAutomated" />
+    <SimulationDescriptorReference Name="ShipHull03" />
 
     <ShipDesignLayout>
-      <ShipRoleReference Name="ShipRoleAutomated"/>
+      <ShipRoleReference Name="ShipRoleAutomated" />
       <SectionPattern_Eight>
         <!-- Core Section -->
         <CoreSection Name="CoreSection">
           <VisualSectionName>Core</VisualSectionName>
-          <SimulationDescriptorReference Name="ClassSectionCore"/>
-          <SimulationDescriptorReference Name="ClassSectionCoreSmallCivilian"/>
+          <SimulationDescriptorReference Name="ClassSectionCore" />
+          <SimulationDescriptorReference Name="ClassSectionCoreSmallCivilian" />
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UICore03</UISlotName>
           </Slot>
         </CoreSection>
@@ -29,7 +29,7 @@
           <VisualSectionName>Front</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UIFront01</UISlotName>
           </Slot>
         </Section>
@@ -54,7 +54,7 @@
           <VisualSectionName>Back</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="-1"/>
+            <Direction X="0" Z="-1" />
             <UISlotName>UIBack02</UISlotName>
           </Slot>
         </Section>
@@ -76,8 +76,8 @@
       </SectionPattern_Eight>
     </ShipDesignLayout>
 
-    <BattleActionReference Name="Ship_OnDestruction"/>
-    <LevelUpRuleReference Name="ShipLevelUpRule"/>
+    <BattleActionReference Name="Ship_OnDestruction" />
+    <LevelUpRuleReference Name="ShipLevelUpRule" />
   </HullDefinition>
 
   <!-- Attacker -->
@@ -88,27 +88,28 @@
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityMappingMajorMavros</PathPrerequisite>
     <TechnologyPrerequisite Flags="Prerequisite,Edition,Technology,Discard">TechnologyHull2Mavros</TechnologyPrerequisite>
 
-    <SimulationDescriptorReference Name="ClassHullSmallAttack"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityKinetic"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityBeam"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityLaser"/>
-    <SimulationDescriptorReference Name="ShipSizeSmall"/>
-    <SimulationDescriptorReference Name="ShipFactionSophonsMavros"/>
-    <SimulationDescriptorReference Name="ShipHull01"/>
+    <SimulationDescriptorReference Name="ClassHullSmallAttack" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityKinetic" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityBeam" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityLaser" />
+    <SimulationDescriptorReference Name="ShipSizeSmall" />
+    <SimulationDescriptorReference Name="ShipFactionSophons" />
+    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipHull01" />
 
     <ShipDesignLayout>
-      <ShipRoleReference Name="ShipRoleSmallAttacker"/>
+      <ShipRoleReference Name="ShipRoleSmallAttacker" />
       <SectionPattern_Eight>
         <!-- Core Section -->
         <CoreSection Name="CoreSection">
           <VisualSectionName>Core</VisualSectionName>
-          <SimulationDescriptorReference Name="ClassSectionCore"/>
-          <SimulationDescriptorReference Name="ClassSectionCoreSmallOffense"/>
+          <SimulationDescriptorReference Name="ClassSectionCore" />
+          <SimulationDescriptorReference Name="ClassSectionCoreSmallOffense" />
           <Slot Name="Defense01">
             <Cost ResourceName="Strategic1" Instant="true">1</Cost>
             <TechnologyPrerequisite Flags="Prerequisite,Discard">TechnologyImproveHull1</TechnologyPrerequisite>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UICore07</UISlotName>
           </Slot>
           <!--  <WeaponSlot Name="Weapon01" ShowPositionMarker="true"> -->
@@ -121,12 +122,12 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="0" Z="1"/>
+              <Direction X="0" Z="1" />
               <Angle>270</Angle>
               <VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="TopWeapon"/>
+              <SimulationDescriptorReference Name="TopWeapon" />
             </ModuleModifier>
             <UISlotName>UICoreWeapon08</UISlotName>
           </Slot>
@@ -134,7 +135,7 @@
             <Cost ResourceName="Strategic1" Instant="true">1</Cost>
             <TechnologyPrerequisite Flags="Prerequisite,Discard">TechnologyImproveHull1</TechnologyPrerequisite>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UICore09</UISlotName>
           </Slot>
         </CoreSection>
@@ -144,7 +145,7 @@
           <VisualSectionName>Front</VisualSectionName>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UIFront01</UISlotName>
           </Slot>
         </Section>
@@ -154,7 +155,7 @@
           <VisualSectionName>FrontRight</VisualSectionName>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <UISlotName>UIFrontRight02</UISlotName>
           </Slot>
         </Section>
@@ -171,12 +172,12 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
             </LineOfSight>
@@ -184,7 +185,7 @@
           </Slot>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <UISlotName>UIRight04</UISlotName>
           </Slot>
         </Section>
@@ -205,12 +206,12 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_01"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_01"></VisualSlot>
             </LineOfSight>
@@ -224,7 +225,7 @@
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="-1"/>
+            <Direction X="0" Z="-1" />
             <UISlotName>UIBack06</UISlotName>
           </Slot>
         </Section>
@@ -246,12 +247,12 @@
       </SectionPattern_Eight>
     </ShipDesignLayout>
 
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack"/>
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage"/>
-    <BattleActionReference Name="Ship_Healing"/>
-    <BattleActionReference Name="Ship_OnDestruction"/>
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack" />
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage" />
+    <BattleActionReference Name="Ship_Healing" />
+    <BattleActionReference Name="Ship_OnDestruction" />
 
-    <LevelUpRuleReference Name="ShipLevelUpRule"/>
+    <LevelUpRuleReference Name="ShipLevelUpRule" />
   </HullDefinition>
 
   <!-- Defender -->
@@ -262,23 +263,24 @@
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityMappingMajorMavros</PathPrerequisite>
     <TechnologyPrerequisite Flags="Prerequisite,Edition,Technology,Discard">TechnologyHull3Mavros</TechnologyPrerequisite>
 
-    <SimulationDescriptorReference Name="ClassHullSmallSupport"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityKinetic"/>
-    <SimulationDescriptorReference Name="ShipSizeSmall"/>
-    <SimulationDescriptorReference Name="ShipFactionSophonsMavros"/>
-    <SimulationDescriptorReference Name="ShipHull02"/>
+    <SimulationDescriptorReference Name="ClassHullSmallSupport" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityKinetic" />
+    <SimulationDescriptorReference Name="ShipSizeSmall" />
+    <SimulationDescriptorReference Name="ShipFactionSophons" />
+    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipHull02" />
 
     <ShipDesignLayout>
-      <ShipRoleReference Name="ShipRoleSmallSupport"/>
+      <ShipRoleReference Name="ShipRoleSmallSupport" />
       <SectionPattern_Eight>
         <!-- Core Section -->
         <CoreSection Name="CoreSection">
           <VisualSectionName>Core</VisualSectionName>
-          <SimulationDescriptorReference Name="ClassSectionCore"/>
-          <SimulationDescriptorReference Name="ClassSectionCoreSmallSupport"/>
+          <SimulationDescriptorReference Name="ClassSectionCore" />
+          <SimulationDescriptorReference Name="ClassSectionCoreSmallSupport" />
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UICore09</UISlotName>
           </Slot>
         </CoreSection>
@@ -288,7 +290,7 @@
           <VisualSectionName>Front</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UIFront01</UISlotName>
           </Slot>
         </Section>
@@ -300,7 +302,7 @@
             <Cost ResourceName="Strategic2" Instant="true">1</Cost>
             <TechnologyPrerequisite Flags="Prerequisite,Discard">TechnologyImproveHull2</TechnologyPrerequisite>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <UISlotName>UIFrontRight02</UISlotName>
           </Slot>
         </Section>
@@ -312,13 +314,13 @@
             <Cost ResourceName="Strategic2" Instant="true">1</Cost>
             <TechnologyPrerequisite Flags="Prerequisite,Discard">TechnologyImproveHull2</TechnologyPrerequisite>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <UISlotName>UIRight03</UISlotName>
           </Slot>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <UISlotName>UIRight04</UISlotName>
           </Slot>
         </Section>
@@ -335,12 +337,12 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
             </LineOfSight>
@@ -359,12 +361,12 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_01"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_01"></VisualSlot>
             </LineOfSight>
@@ -377,13 +379,13 @@
           <VisualSectionName>Back</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="-1"/>
+            <Direction X="0" Z="-1" />
             <UISlotName>UIBack07</UISlotName>
           </Slot>
           <Slot Name="Defense01">
             <TechnologyPrerequisite Flags="Prerequisite,Discard">TechnologyImproveHull2</TechnologyPrerequisite>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="-1"/>
+            <Direction X="0" Z="-1" />
             <UISlotName>UIBack08</UISlotName>
           </Slot>
         </Section>
@@ -405,18 +407,17 @@
       </SectionPattern_Eight>
     </ShipDesignLayout>
 
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack"/>
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage"/>
-    <BattleActionReference Name="Ship_Healing"/>
-    <BattleActionReference Name="Ship_OnDestruction"/>
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack" />
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage" />
+    <BattleActionReference Name="Ship_Healing" />
+    <BattleActionReference Name="Ship_OnDestruction" />
 
-
-    <LevelUpRuleReference Name="ShipLevelUpRule"/>
+    <LevelUpRuleReference Name="ShipLevelUpRule" />
   </HullDefinition>
 
   <!-- Colonizer -->
   <HullDefinition Name="HullSmall03Mavros" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
-    <CostReductionReference Name="ColonyShipConstructible"/>
+    <CostReductionReference Name="ColonyShipConstructible" />
     <CustomCost ResourceName="SystemProduction">50</CustomCost>
     <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityMappingMajorMavros</PathPrerequisite>
@@ -426,23 +427,24 @@
     <PathPrerequisite Flags="Prerequisite,Discard,Edition" Inverted="true">../ClassEmpire,FactionTraitManualHomeSystem</PathPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,Edition" Inverted="true">../ClassEmpire,AffinityGameplayUmbralChoir</PathPrerequisite>
 
-    <SimulationDescriptorReference Name="ClassHullSmallCivilian"/>
-    <SimulationDescriptorReference Name="ShipSizeSmall"/>
-    <SimulationDescriptorReference Name="ShipFactionSophonsMavros"/>
-    <SimulationDescriptorReference Name="ShipHull03"/>
-    <SimulationDescriptorReference Name="CannotHaveWeapon"/>
+    <SimulationDescriptorReference Name="ClassHullSmallCivilian" />
+    <SimulationDescriptorReference Name="ShipSizeSmall" />
+    <SimulationDescriptorReference Name="ShipFactionSophons" />
+    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipHull03" />
+    <SimulationDescriptorReference Name="CannotHaveWeapon" />
 
     <ShipDesignLayout>
-      <ShipRoleReference Name="ShipRoleColonizer"/>
+      <ShipRoleReference Name="ShipRoleColonizer" />
       <SectionPattern_Eight>
         <!-- Core Section -->
         <CoreSection Name="CoreSection">
           <VisualSectionName>Core</VisualSectionName>
-          <SimulationDescriptorReference Name="ClassSectionCore"/>
-          <SimulationDescriptorReference Name="ClassSectionCoreSmallCivilian"/>
+          <SimulationDescriptorReference Name="ClassSectionCore" />
+          <SimulationDescriptorReference Name="ClassSectionCoreSmallCivilian" />
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UICore03</UISlotName>
           </Slot>
         </CoreSection>
@@ -452,7 +454,7 @@
           <VisualSectionName>Front</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UIFront01</UISlotName>
           </Slot>
         </Section>
@@ -477,7 +479,7 @@
           <VisualSectionName>Back</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="-1"/>
+            <Direction X="0" Z="-1" />
             <UISlotName>UIBack02</UISlotName>
           </Slot>
         </Section>
@@ -500,18 +502,18 @@
     </ShipDesignLayout>
     <ShipDesignLayout>
       <TechnologyPrerequisite  Flags="Prerequisite,Discard,Edition,Technology">TechnologyOlderConcept</TechnologyPrerequisite>
-      <ShipRoleReference Name="ShipRoleExploration"/>
+      <ShipRoleReference Name="ShipRoleExploration" />
 
       <SectionPattern_Eight>
         <!-- Core Section -->
         <CoreSection Name="CoreSection">
           <VisualSectionName>Core</VisualSectionName>
-          <SimulationDescriptorReference Name="ClassSectionCore"/>
-          <SimulationDescriptorReference Name="ClassSectionCoreSmallCivilian"/>
+          <SimulationDescriptorReference Name="ClassSectionCore" />
+          <SimulationDescriptorReference Name="ClassSectionCoreSmallCivilian" />
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UICore03</UISlotName>
           </Slot>
           <Slot Name="Weapon01">
@@ -523,12 +525,12 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="0" Z="1"/>
+              <Direction X="0" Z="1" />
               <Angle>270</Angle>
               <VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="TopWeapon"/>
+              <SimulationDescriptorReference Name="TopWeapon" />
             </ModuleModifier>
             <UISlotName>UICoreWeapon04</UISlotName>
           </Slot>
@@ -537,9 +539,9 @@
         <!-- Forward Section -->
         <Section Name="SectionN">
           <VisualSectionName>Front</VisualSectionName>
-          <Slot Name="Support01" >
+          <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UIFront01</UISlotName>
           </Slot>
         </Section>
@@ -564,7 +566,7 @@
           <VisualSectionName>Back</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="-1"/>
+            <Direction X="0" Z="-1" />
             <UISlotName>UIBack02</UISlotName>
           </Slot>
         </Section>
@@ -586,12 +588,12 @@
       </SectionPattern_Eight>
     </ShipDesignLayout>
 
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack"/>
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage"/>
-    <BattleActionReference Name="Ship_Healing"/>
-    <BattleActionReference Name="Ship_OnDestruction"/>
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack" />
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage" />
+    <BattleActionReference Name="Ship_Healing" />
+    <BattleActionReference Name="Ship_OnDestruction" />
 
-    <LevelUpRuleReference Name="ShipLevelUpRule"/>
+    <LevelUpRuleReference Name="ShipLevelUpRule" />
   </HullDefinition>
 
   <!-- Explorer -->
@@ -602,20 +604,21 @@
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityMappingMajorMavros</PathPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,!AffinityGameplayVampirilis</PathPrerequisite>
 
-    <SimulationDescriptorReference Name="ClassHullSmallCivilian"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityKinetic"/>
-    <SimulationDescriptorReference Name="ShipSizeSmall"/>
-    <SimulationDescriptorReference Name="ShipFactionSophonsMavros"/>
-    <SimulationDescriptorReference Name="ShipHull01"/>
+    <SimulationDescriptorReference Name="ClassHullSmallCivilian" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityKinetic" />
+    <SimulationDescriptorReference Name="ShipSizeSmall" />
+    <SimulationDescriptorReference Name="ShipFactionSophons" />
+    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipHull01" />
 
     <ShipDesignLayout>
-      <ShipRoleReference Name="ShipRoleExploration"/>
+      <ShipRoleReference Name="ShipRoleExploration" />
       <SectionPattern_Eight>
         <!-- Core Section -->
         <CoreSection Name="CoreSection">
           <VisualSectionName>Core</VisualSectionName>
-          <SimulationDescriptorReference Name="ClassSectionCore"/>
-          <SimulationDescriptorReference Name="ClassSectionCoreSmallCivilian"/>
+          <SimulationDescriptorReference Name="ClassSectionCore" />
+          <SimulationDescriptorReference Name="ClassSectionCoreSmallCivilian" />
           <Slot Name="Weapon01" ShowPositionMarker="true" PositionMarkerAngle="0">
             <RestrictedModuleCategory>Weapon</RestrictedModuleCategory>
             <RestrictedWeaponType>Kinetic</RestrictedWeaponType>
@@ -625,19 +628,19 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="0" Z="1"/>
+              <Direction X="0" Z="1" />
               <Angle>270</Angle>
               <VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="TopWeapon"/>
+              <SimulationDescriptorReference Name="TopWeapon" />
             </ModuleModifier>
             <UISlotName>UICoreWeapon08</UISlotName>
           </Slot>
           <Slot Name="Support02">
             <TechnologyPrerequisite Flags="Prerequisite,Discard">TechnologyImproveExplorerHullMavros</TechnologyPrerequisite>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <UISlotName>UICore09</UISlotName>
           </Slot>
         </CoreSection>
@@ -650,7 +653,7 @@
           <VisualSectionName>FrontRight</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <UISlotName>UIFrontRight02</UISlotName>
           </Slot>
         </Section>
@@ -666,12 +669,12 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
             </LineOfSight>
@@ -687,7 +690,7 @@
           <VisualSectionName>Back</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="-1"/>
+            <Direction X="0" Z="-1" />
             <UISlotName>UIBack06</UISlotName>
           </Slot>
         </Section>
@@ -706,12 +709,12 @@
       </SectionPattern_Eight>
     </ShipDesignLayout>
 
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack"/>
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage"/>
-    <BattleActionReference Name="Ship_Healing"/>
-    <BattleActionReference Name="Ship_OnDestruction"/>
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack" />
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage" />
+    <BattleActionReference Name="Ship_Healing" />
+    <BattleActionReference Name="Ship_OnDestruction" />
 
-    <LevelUpRuleReference Name="ShipLevelUpRule"/>
+    <LevelUpRuleReference Name="ShipLevelUpRule" />
   </HullDefinition>
 
   <!-- Explorer ShipBound -->
@@ -723,20 +726,21 @@
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityMappingMajorMavros</PathPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayVampirilis</PathPrerequisite>
 
-    <SimulationDescriptorReference Name="ClassHullSmallCivilian"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityKinetic"/>
-    <SimulationDescriptorReference Name="ShipSizeSmall"/>
-    <SimulationDescriptorReference Name="ShipFactionSophonsMavros"/>
-    <SimulationDescriptorReference Name="ShipHull01"/>
+    <SimulationDescriptorReference Name="ClassHullSmallCivilian" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityKinetic" />
+    <SimulationDescriptorReference Name="ShipSizeSmall" />
+    <SimulationDescriptorReference Name="ShipFactionSophons" />
+    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipHull01" />
 
     <ShipDesignLayout>
-      <ShipRoleReference Name="ShipRoleExploration"/>
+      <ShipRoleReference Name="ShipRoleExploration" />
       <SectionPattern_Eight>
         <!-- Core Section -->
         <CoreSection Name="CoreSection">
           <VisualSectionName>Core</VisualSectionName>
-          <SimulationDescriptorReference Name="ClassSectionCore"/>
-          <SimulationDescriptorReference Name="ClassSectionCoreSmallCivilian"/>
+          <SimulationDescriptorReference Name="ClassSectionCore" />
+          <SimulationDescriptorReference Name="ClassSectionCoreSmallCivilian" />
           <Slot Name="Weapon01" ShowPositionMarker="true" PositionMarkerAngle="0">
             <RestrictedModuleCategory>Weapon</RestrictedModuleCategory>
             <RestrictedWeaponType>Kinetic</RestrictedWeaponType>
@@ -746,19 +750,19 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="0" Z="1"/>
+              <Direction X="0" Z="1" />
               <Angle>270</Angle>
               <VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="TopWeapon"/>
+              <SimulationDescriptorReference Name="TopWeapon" />
             </ModuleModifier>
             <UISlotName>UICoreWeapon08</UISlotName>
           </Slot>
           <Slot Name="Support02">
             <TechnologyPrerequisite Flags="Prerequisite,Discard">TechnologyImproveExplorerHullMavros</TechnologyPrerequisite>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <UISlotName>UICore09</UISlotName>
           </Slot>
         </CoreSection>
@@ -771,7 +775,7 @@
           <VisualSectionName>FrontRight</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <UISlotName>UIFrontRight02</UISlotName>
           </Slot>
         </Section>
@@ -787,12 +791,12 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
             </LineOfSight>
@@ -808,7 +812,7 @@
           <VisualSectionName>Back</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="-1"/>
+            <Direction X="0" Z="-1" />
             <UISlotName>UIBack06</UISlotName>
           </Slot>
         </Section>
@@ -827,38 +831,39 @@
       </SectionPattern_Eight>
     </ShipDesignLayout>
 
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack"/>
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage"/>
-    <BattleActionReference Name="Ship_Healing"/>
-    <BattleActionReference Name="Ship_OnDestruction"/>
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack" />
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage" />
+    <BattleActionReference Name="Ship_Healing" />
+    <BattleActionReference Name="Ship_OnDestruction" />
 
-    <LevelUpRuleReference Name="ShipLevelUpRule"/>
+    <LevelUpRuleReference Name="ShipLevelUpRule" />
   </HullDefinition>
 
   <!-- Leecher -->
   <HullDefinition Name="HullSmall05Mavros" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
-    <CostReductionReference Name="ColonyShipConstructible"/>
+    <CostReductionReference Name="ColonyShipConstructible" />
     <CustomCost ResourceName="SystemProduction">50</CustomCost>
     <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayVampirilis/ClassPopulationEmpireAffinityMajorMavros,PopulationMajor</PathPrerequisite>
 
-    <SimulationDescriptorReference Name="ClassHullSmallCivilian"/>
-    <SimulationDescriptorReference Name="ShipSizeSmall"/>
-    <SimulationDescriptorReference Name="ShipFactionSophonsMavros"/>
-    <SimulationDescriptorReference Name="ShipHull03"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityKinetic"/>
+    <SimulationDescriptorReference Name="ClassHullSmallCivilian" />
+    <SimulationDescriptorReference Name="ShipSizeSmall" />
+    <SimulationDescriptorReference Name="ShipFactionSophons" />
+    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipHull03" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityKinetic" />
 
     <ShipDesignLayout>
-      <ShipRoleReference Name="ShipRoleLeecher"/>
+      <ShipRoleReference Name="ShipRoleLeecher" />
       <SectionPattern_Eight>
         <!-- Core Section -->
         <CoreSection Name="CoreSection">
           <VisualSectionName>Core</VisualSectionName>
-          <SimulationDescriptorReference Name="ClassSectionCore"/>
-          <SimulationDescriptorReference Name="ClassSectionCoreSmallCivilian"/>
+          <SimulationDescriptorReference Name="ClassSectionCore" />
+          <SimulationDescriptorReference Name="ClassSectionCoreSmallCivilian" />
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UICore03</UISlotName>
           </Slot>
           <Slot Name="Weapon01" ShowPositionMarker="true" PositionMarkerAngle="0">
@@ -871,12 +876,12 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="0" Z="1"/>
+              <Direction X="0" Z="1" />
               <Angle>270</Angle>
               <VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="TopWeapon"/>
+              <SimulationDescriptorReference Name="TopWeapon" />
             </ModuleModifier>
             <UISlotName>UICoreWeapon04</UISlotName>
           </Slot>
@@ -887,7 +892,7 @@
           <VisualSectionName>Front</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UIFront01</UISlotName>
           </Slot>
         </Section>
@@ -913,7 +918,7 @@
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="-1"/>
+            <Direction X="0" Z="-1" />
             <UISlotName>UIBack02</UISlotName>
           </Slot>
         </Section>
@@ -935,37 +940,38 @@
       </SectionPattern_Eight>
     </ShipDesignLayout>
 
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack"/>
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage"/>
-    <BattleActionReference Name="Ship_Healing"/>
-    <BattleActionReference Name="Ship_OnDestruction"/>
-    <LevelUpRuleReference Name="ShipLevelUpRule"/>
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack" />
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage" />
+    <BattleActionReference Name="Ship_Healing" />
+    <BattleActionReference Name="Ship_OnDestruction" />
+    <LevelUpRuleReference Name="ShipLevelUpRule" />
   </HullDefinition>
 
   <!-- Vineship -->
   <HullDefinition Name="HullSmall06Mavros" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
-    <CostReductionReference Name="ColonyShipConstructible"/>
+    <CostReductionReference Name="ColonyShipConstructible" />
     <CustomCost ResourceName="SystemProduction">300</CustomCost>
     <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinityMajorMavros,PopulationMajor</PathPrerequisite>
 
-    <SimulationDescriptorReference Name="ClassHullSmallCivilian"/>
-    <SimulationDescriptorReference Name="ShipSizeSmall"/>
-    <SimulationDescriptorReference Name="ShipFactionSophonsMavros"/>
-    <SimulationDescriptorReference Name="ShipHull03"/>
-    <SimulationDescriptorReference Name="CannotHaveWeapon"/>
+    <SimulationDescriptorReference Name="ClassHullSmallCivilian" />
+    <SimulationDescriptorReference Name="ShipSizeSmall" />
+    <SimulationDescriptorReference Name="ShipFactionSophons" />
+    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipHull03" />
+    <SimulationDescriptorReference Name="CannotHaveWeapon" />
 
     <ShipDesignLayout>
-      <ShipRoleReference Name="ShipRoleRootCreator"/>
+      <ShipRoleReference Name="ShipRoleRootCreator" />
       <SectionPattern_Eight>
         <!-- Core Section -->
         <CoreSection Name="CoreSection">
           <VisualSectionName>Core</VisualSectionName>
-          <SimulationDescriptorReference Name="ClassSectionCore"/>
-          <SimulationDescriptorReference Name="ClassSectionCoreSmallCivilian"/>
+          <SimulationDescriptorReference Name="ClassSectionCore" />
+          <SimulationDescriptorReference Name="ClassSectionCoreSmallCivilian" />
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UICore03</UISlotName>
           </Slot>
         </CoreSection>
@@ -975,7 +981,7 @@
           <VisualSectionName>Front</VisualSectionName>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UIFront01</UISlotName>
           </Slot>
         </Section>
@@ -985,7 +991,7 @@
           <VisualSectionName>FrontRight</VisualSectionName>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <UISlotName>UICoreWeapon04</UISlotName>
           </Slot>
         </Section>
@@ -1005,7 +1011,7 @@
           <VisualSectionName>Back</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <UISlotName>UIBack02</UISlotName>
           </Slot>
         </Section>
@@ -1027,11 +1033,11 @@
       </SectionPattern_Eight>
     </ShipDesignLayout>
 
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack"/>
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage"/>
-    <BattleActionReference Name="Ship_Healing"/>
-    <BattleActionReference Name="Ship_OnDestruction"/>
-    <LevelUpRuleReference Name="ShipLevelUpRule"/>
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack" />
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage" />
+    <BattleActionReference Name="Ship_Healing" />
+    <BattleActionReference Name="Ship_OnDestruction" />
+    <LevelUpRuleReference Name="ShipLevelUpRule" />
   </HullDefinition>
 
   <!-- Hunter -->
@@ -1043,21 +1049,22 @@
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityMappingMajorMavros</PathPrerequisite>
     <TechnologyPrerequisite Flags="Prerequisite,Edition,Technology,Discard">TechnologyHull4Mavros</TechnologyPrerequisite>
 
-    <SimulationDescriptorReference Name="ClassHullMediumAttack"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityMissile"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityLaser"/>
-    <SimulationDescriptorReference Name="ShipSizeMedium"/>
-    <SimulationDescriptorReference Name="ShipFactionSophonsMavros"/>
-    <SimulationDescriptorReference Name="ShipHull01"/>
+    <SimulationDescriptorReference Name="ClassHullMediumAttack" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityMissile" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityLaser" />
+    <SimulationDescriptorReference Name="ShipSizeMedium" />
+    <SimulationDescriptorReference Name="ShipFactionSophons" />
+    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipHull01" />
 
     <ShipDesignLayout>
-      <ShipRoleReference Name="ShipRoleMediumAttacker"/>
+      <ShipRoleReference Name="ShipRoleMediumAttacker" />
       <SectionPattern_Eight>
         <!-- Core Section -->
         <CoreSection Name="CoreSection">
           <VisualSectionName>Core</VisualSectionName>
-          <SimulationDescriptorReference Name="ClassSectionCore"/>
-          <SimulationDescriptorReference Name="ClassSectionCoreMediumOffense"/>
+          <SimulationDescriptorReference Name="ClassSectionCore" />
+          <SimulationDescriptorReference Name="ClassSectionCoreMediumOffense" />
           <Slot Name="Weapon01" ShowPositionMarker="true" PositionMarkerAngle="180">
             <RestrictedModuleCategory>Weapon</RestrictedModuleCategory>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
@@ -1068,14 +1075,14 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="0" Z="1"/>
+              <Direction X="0" Z="1" />
               <Angle>270</Angle>
               <VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
               <VisualSlot Name="MDL_Wp_Small_Up_01"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="TopWeapon"/>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="TopWeapon" />
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UICoreWeapon09</UISlotName>
           </Slot>
@@ -1083,17 +1090,17 @@
             <Cost ResourceName="Strategic3" Instant="true">1</Cost>
             <TechnologyPrerequisite Flags="Prerequisite,Discard">TechnologyImproveHull3</TechnologyPrerequisite>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UICore10</UISlotName>
           </Slot>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UICore11</UISlotName>
           </Slot>
@@ -1104,17 +1111,17 @@
           <VisualSectionName>Front</VisualSectionName>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIFront01</UISlotName>
           </Slot>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIFront02</UISlotName>
           </Slot>
@@ -1125,9 +1132,9 @@
           <VisualSectionName>FrontRight</VisualSectionName>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIFrontRight03</UISlotName>
           </Slot>
@@ -1144,19 +1151,19 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_01"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_01"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIFrontRightWeapon04</UISlotName>
           </Slot>
@@ -1174,19 +1181,19 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_02"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_03"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_02"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_03"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIRightWeapon05</UISlotName>
           </Slot>
@@ -1204,19 +1211,19 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_04"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_05"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_04"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_05"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIBackRightWeapon06</UISlotName>
           </Slot>
@@ -1235,23 +1242,23 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>AOE</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="0" Z="1"/>
+              <Direction X="0" Z="1" />
               <Angle>270</Angle>
               <VisualSlot Name="MDL_Wp_Medium_Up_00"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="TopWeapon"/>
-              <SimulationDescriptorReference Name="LargeWeapon"/>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="TopWeapon" />
+              <SimulationDescriptorReference Name="LargeWeapon" />
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIBackWeapon07</UISlotName>
           </WeaponSlot>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIBack08</UISlotName>
           </Slot>
@@ -1274,13 +1281,12 @@
       </SectionPattern_Eight>
     </ShipDesignLayout>
 
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack"/>
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage"/>
-    <BattleActionReference Name="Ship_Healing"/>
-    <BattleActionReference Name="Ship_OnDestruction"/>
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack" />
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage" />
+    <BattleActionReference Name="Ship_Healing" />
+    <BattleActionReference Name="Ship_OnDestruction" />
 
-
-    <LevelUpRuleReference Name="ShipLevelUpRule"/>
+    <LevelUpRuleReference Name="ShipLevelUpRule" />
   </HullDefinition>
 
   <!-- Coordinator -->
@@ -1292,34 +1298,35 @@
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityMappingMajorMavros</PathPrerequisite>
     <TechnologyPrerequisite Flags="Prerequisite,Edition,Technology,Discard">TechnologyHull5Mavros</TechnologyPrerequisite>
 
-    <SimulationDescriptorReference Name="ClassHullMediumDefense"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityLaser"/>
-    <SimulationDescriptorReference Name="ShipSizeMedium"/>
-    <SimulationDescriptorReference Name="ShipFactionSophonsMavros"/>
-    <SimulationDescriptorReference Name="ShipHull02"/>
+    <SimulationDescriptorReference Name="ClassHullMediumDefense" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityLaser" />
+    <SimulationDescriptorReference Name="ShipSizeMedium" />
+    <SimulationDescriptorReference Name="ShipFactionSophons" />
+    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipHull02" />
 
     <ShipDesignLayout>
-      <ShipRoleReference Name="ShipRoleMediumSupport"/>
+      <ShipRoleReference Name="ShipRoleMediumSupport" />
       <SectionPattern_Eight>
         <!-- Core Section -->
         <CoreSection Name="CoreSection">
           <VisualSectionName>Core</VisualSectionName>
-          <SimulationDescriptorReference Name="ClassSectionCore"/>
-          <SimulationDescriptorReference Name="ClassSectionCoreMediumSupport"/>
+          <SimulationDescriptorReference Name="ClassSectionCore" />
+          <SimulationDescriptorReference Name="ClassSectionCoreMediumSupport" />
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UICore09</UISlotName>
           </Slot>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UICore10</UISlotName>
           </Slot>
@@ -1327,9 +1334,9 @@
             <Cost ResourceName="Strategic4" Instant="true">1</Cost>
             <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire/ClassResearch,TechnologyImproveHull4</PathPrerequisite>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UICore11</UISlotName>
           </Slot>
@@ -1340,17 +1347,17 @@
           <VisualSectionName>Front</VisualSectionName>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIFront01</UISlotName>
           </Slot>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIFront02</UISlotName>
           </Slot>
@@ -1361,9 +1368,9 @@
           <VisualSectionName>FrontRight</VisualSectionName>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIFrontRight03</UISlotName>
           </Slot>
@@ -1372,9 +1379,9 @@
             <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire/ClassResearch,TechnologyImproveHull4</PathPrerequisite>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIFrontRight04</UISlotName>
           </Slot>
@@ -1385,9 +1392,9 @@
           <VisualSectionName>Right</VisualSectionName>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIRight05</UISlotName>
           </Slot>
@@ -1401,23 +1408,22 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_01"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_01"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIRightWeapon06</UISlotName>
           </Slot>
-
         </Section>
 
         <!-- Back/Right Section -->
@@ -1434,19 +1440,19 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_02"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_03"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_02"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_03"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIBackRightWeapon07</UISlotName>
           </Slot>
@@ -1465,14 +1471,14 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>AOE</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="0" Z="1"/>
+              <Direction X="0" Z="1" />
               <Angle>270</Angle>
               <VisualSlot Name="MDL_Wp_Medium_Up_00"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="TopWeapon"/>
-              <SimulationDescriptorReference Name="LargeWeapon"/>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="TopWeapon" />
+              <SimulationDescriptorReference Name="LargeWeapon" />
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIBackWeapon08</UISlotName>
           </WeaponSlot>
@@ -1495,33 +1501,33 @@
       </SectionPattern_Eight>
     </ShipDesignLayout>
 
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack"/>
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage"/>
-    <BattleActionReference Name="Ship_Healing"/>
-    <BattleActionReference Name="Ship_OnDestruction"/>
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack" />
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage" />
+    <BattleActionReference Name="Ship_Healing" />
+    <BattleActionReference Name="Ship_OnDestruction" />
 
-    <LevelUpRuleReference Name="ShipLevelUpRule"/>
+    <LevelUpRuleReference Name="ShipLevelUpRule" />
   </HullDefinition>
 
   <!-- Argosy -->
   <HullDefinition Name="HullMedium03Mavros" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" RepresentativeMappingOverride="HullMedium03Vaulters">
-    <CostReductionReference Name="ColonyShipConstructible"/>
+    <CostReductionReference Name="ColonyShipConstructible" />
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">false</PathPrerequisite>
 
-    <SimulationDescriptorReference Name="ClassHullMediumSuperColonizer"/>
-    <SimulationDescriptorReference Name="ShipSizeMedium"/>
-    <SimulationDescriptorReference Name="ShipFactionVaulters"/>
-    <SimulationDescriptorReference Name="ShipHull03"/>
-    <SimulationDescriptorReference Name="CannotHaveWeapon"/>
+    <SimulationDescriptorReference Name="ClassHullMediumSuperColonizer" />
+    <SimulationDescriptorReference Name="ShipSizeMedium" />
+    <SimulationDescriptorReference Name="ShipFactionVaulters" />
+    <SimulationDescriptorReference Name="ShipHull03" />
+    <SimulationDescriptorReference Name="CannotHaveWeapon" />
 
     <ShipDesignLayout>
-      <ShipRoleReference Name="ShipRoleSuperColonizer"/>
+      <ShipRoleReference Name="ShipRoleSuperColonizer" />
       <SectionPattern_Eight>
         <!-- Core Section -->
         <CoreSection Name="CoreSection">
           <VisualSectionName>Core</VisualSectionName>
-          <SimulationDescriptorReference Name="ClassSectionCore"/>
-          <SimulationDescriptorReference Name="ClassSectionCoreMediumSuperColonizer"/>
+          <SimulationDescriptorReference Name="ClassSectionCore" />
+          <SimulationDescriptorReference Name="ClassSectionCoreMediumSuperColonizer" />
         </CoreSection>
 
         <!-- Forward Section -->
@@ -1530,9 +1536,9 @@
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIFront01</UISlotName>
           </Slot>
@@ -1553,9 +1559,9 @@
           <VisualSectionName>BackRight</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIBackRight02</UISlotName>
           </Slot>
@@ -1566,9 +1572,9 @@
           <VisualSectionName>Back</VisualSectionName>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="-1"/>
+            <Direction X="0" Z="-1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX2"/>
+              <SimulationDescriptorReference Name="MultiplierX2" />
             </ModuleModifier>
             <UISlotName>UIBack03</UISlotName>
           </Slot>
@@ -1591,13 +1597,13 @@
       </SectionPattern_Eight>
     </ShipDesignLayout>
 
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack"/>
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage"/>
-    <BattleActionReference Name="Ship_Healing"/>
-    <BattleActionReference Name="Ship_OnDestruction"/>
-    <!--<BattleActionReference Name="SuperColonizer_Revive"/>-->
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack" />
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage" />
+    <BattleActionReference Name="Ship_Healing" />
+    <BattleActionReference Name="Ship_OnDestruction" />
+    <!--<BattleActionReference Name="SuperColonizer_Revive" />-->
 
-    <LevelUpRuleReference Name="ShipLevelUpRule"/>
+    <LevelUpRuleReference Name="ShipLevelUpRule" />
   </HullDefinition>
 
   <!-- Carrier -->
@@ -1610,24 +1616,25 @@
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityMappingMajorMavros</PathPrerequisite>
     <TechnologyPrerequisite Flags="Prerequisite,Edition,Technology,Discard">TechnologyHull6Mavros</TechnologyPrerequisite>
 
-    <SimulationDescriptorReference Name="ClassHullLargeCarrier"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityKinetic"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityBeam"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityLaser"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityMissile"/>
-    <SimulationDescriptorReference Name="ShipSizeLarge"/>
-    
-    <SimulationDescriptorReference Name="ShipFactionSophonsMavros"/>
-    <SimulationDescriptorReference Name="ShipHull01"/>
+    <SimulationDescriptorReference Name="ClassHullLargeCarrier" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityKinetic" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityBeam" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityLaser" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityMissile" />
+    <SimulationDescriptorReference Name="ShipSizeLarge" />
+
+    <SimulationDescriptorReference Name="ShipFactionSophons" />
+    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipHull01" />
 
     <ShipDesignLayout>
-      <ShipRoleReference Name="ShipRoleCarrier"/>
+      <ShipRoleReference Name="ShipRoleCarrier" />
       <SectionPattern_Eight>
         <!-- Core Section -->
         <CoreSection Name="CoreSection">
           <VisualSectionName>Core</VisualSectionName>
-          <SimulationDescriptorReference Name="ClassSectionCore"/>
-          <SimulationDescriptorReference Name="ClassSectionCoreLargeCarrier"/>
+          <SimulationDescriptorReference Name="ClassSectionCore" />
+          <SimulationDescriptorReference Name="ClassSectionCoreLargeCarrier" />
           <Slot Name="LargeWeapon01" IsLargeSlot="true" ShowPositionMarker="true" PositionMarkerAngle="135" ModuleCostMultiplier="2">
             <RestrictedModuleCategory>Weapon</RestrictedModuleCategory>
             <RestrictedModuleCategory>Destruction</RestrictedModuleCategory>
@@ -1639,14 +1646,14 @@
             <RestrictedWeaponType>AOE</RestrictedWeaponType>
             <RestrictedWeaponType>Destruction</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="0" Z="1"/>
+              <Direction X="0" Z="1" />
               <Angle>270</Angle>
               <VisualSlot Name="MDL_Wp_Medium_Up_00"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="TopWeapon"/>
-              <SimulationDescriptorReference Name="LargeWeapon"/>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="TopWeapon" />
+              <SimulationDescriptorReference Name="LargeWeapon" />
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UICoreWeapon12</UISlotName>
           </Slot>
@@ -1654,18 +1661,18 @@
             <Cost ResourceName="Strategic6" Instant="true">1</Cost>
             <TechnologyPrerequisite Flags="Prerequisite,Discard">TechnologyImproveHull5</TechnologyPrerequisite>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UICore13</UISlotName>
           </Slot>
           <Slot Name="Support02">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UICore14</UISlotName>
           </Slot>
@@ -1673,9 +1680,9 @@
             <Cost ResourceName="Strategic6" Instant="true">1</Cost>
             <TechnologyPrerequisite Flags="Prerequisite,Discard">TechnologyImproveHull5</TechnologyPrerequisite>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UICore15</UISlotName>
           </Slot>
@@ -1686,9 +1693,9 @@
           <VisualSectionName>Front</VisualSectionName>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIFront01</UISlotName>
           </Slot>
@@ -1703,7 +1710,7 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="0" Z="1"/>
+              <Direction X="0" Z="1" />
               <Angle>270</Angle>
               <VisualSlot Name="MDL_Wp_Small_Up_00"></VisualSlot>
               <VisualSlot Name="MDL_Wp_Small_Up_01"></VisualSlot>
@@ -1711,8 +1718,8 @@
               <VisualSlot Name="MDL_Wp_Small_Up_03"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="TopWeapon"/>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="TopWeapon" />
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIFrontWeapon02</UISlotName>
           </Slot>
@@ -1731,7 +1738,7 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_01"></VisualSlot>
@@ -1739,7 +1746,7 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Right_03"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_01"></VisualSlot>
@@ -1747,15 +1754,15 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Left_03"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIFrontRightWeapon03</UISlotName>
           </Slot>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIFrontRight04</UISlotName>
           </Slot>
@@ -1774,7 +1781,7 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_04"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_05"></VisualSlot>
@@ -1782,7 +1789,7 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Right_07"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_04"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_05"></VisualSlot>
@@ -1790,7 +1797,7 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Left_07"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIRightWeapon05</UISlotName>
           </Slot>
@@ -1808,7 +1815,7 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_08"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_09"></VisualSlot>
@@ -1816,7 +1823,7 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Right_11"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_08"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_09"></VisualSlot>
@@ -1824,7 +1831,7 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Left_11"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIRightWeapon06</UISlotName>
           </Slot>
@@ -1840,7 +1847,7 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_12"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_13"></VisualSlot>
@@ -1848,7 +1855,7 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Right_15"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_12"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_13"></VisualSlot>
@@ -1856,7 +1863,7 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Left_15"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIRightWeapon07</UISlotName>
           </Slot>
@@ -1868,9 +1875,9 @@
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIBackRight08</UISlotName>
           </Slot>
@@ -1884,7 +1891,7 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_16"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_17"></VisualSlot>
@@ -1892,7 +1899,7 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Right_19"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_16"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_17"></VisualSlot>
@@ -1900,7 +1907,7 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Left_19"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIBackRightWeapon09</UISlotName>
           </Slot>
@@ -1922,22 +1929,22 @@
             <RestrictedWeaponType>AOE</RestrictedWeaponType>
             <RestrictedWeaponType>Destruction</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="0" Z="1"/>
+              <Direction X="0" Z="1" />
               <Angle>270</Angle>
               <VisualSlot Name="MDL_Wp_Medium_Up_01"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="TopWeapon"/>
-              <SimulationDescriptorReference Name="LargeWeapon"/>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="TopWeapon" />
+              <SimulationDescriptorReference Name="LargeWeapon" />
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIBackWeapon10</UISlotName>
           </Slot>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIBack11</UISlotName>
           </Slot>
@@ -1960,16 +1967,12 @@
       </SectionPattern_Eight>
     </ShipDesignLayout>
 
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack" />
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage" />
+    <BattleActionReference Name="Ship_Healing" />
+    <BattleActionReference Name="Ship_OnDestruction" />
 
-
-
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack"/>
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage"/>
-    <BattleActionReference Name="Ship_Healing"/>
-    <BattleActionReference Name="Ship_OnDestruction"/>
-
-
-    <LevelUpRuleReference Name="ShipLevelUpRule"/>
+    <LevelUpRuleReference Name="ShipLevelUpRule" />
   </HullDefinition>
 
   <!-- Ark -->
@@ -1980,45 +1983,45 @@
     <PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayVampirilis/ClassPopulationEmpireAffinityMajorMavros,PopulationMajor</PathPrerequisite>
     <PathPrerequisite Flags="Edition">false</PathPrerequisite>
 
-    <SimulationDescriptorReference Name="ClassHullMothership"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityKinetic"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityBeam"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityLaser"/>
-    <SimulationDescriptorReference Name="WeaponAvailabilityMissile"/>
-    <SimulationDescriptorReference Name="ShipSizeMothership"/>
-    <SimulationDescriptorReference Name="ShipFactionVampirilis"/>
+    <SimulationDescriptorReference Name="ClassHullMothership" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityKinetic" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityBeam" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityLaser" />
+    <SimulationDescriptorReference Name="WeaponAvailabilityMissile" />
+    <SimulationDescriptorReference Name="ShipSizeMothership" />
+    <SimulationDescriptorReference Name="ShipFactionVampirilis" />
 
     <ShipDesignLayout>
-      <ShipRoleReference Name="ShipRoleMothership"/>
+      <ShipRoleReference Name="ShipRoleMothership" />
       <SectionPattern_Eight>
         <!-- Core Section -->
         <CoreSection Name="CoreSection">
           <VisualSectionName>Core</VisualSectionName>
-          <SimulationDescriptorReference Name="ClassSectionCore"/>
-          <SimulationDescriptorReference Name="ClassSectionCoreMothership"/>
+          <SimulationDescriptorReference Name="ClassSectionCore" />
+          <SimulationDescriptorReference Name="ClassSectionCoreMothership" />
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UICore11</UISlotName>
           </Slot>
           <Slot Name="SupportDefense01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UICore12</UISlotName>
           </Slot>
           <LevelRestrictedSlot Name="Support02" Level="2">
             <PathPrerequisite Flags="Prerequisite,Discard">ClassEmpire,EmpireImprovementImprovedArk2</PathPrerequisite>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UICore13</UISlotName>
           </LevelRestrictedSlot>
@@ -2026,9 +2029,9 @@
             <Cost ResourceName="Strategic1" Instant="true">1</Cost>
             <PathPrerequisite Flags="Prerequisite,Discard">ClassEmpire,EmpireImprovementImprovedArk3</PathPrerequisite>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UICore14</UISlotName>
           </LevelRestrictedSlot>
@@ -2036,17 +2039,17 @@
             <Cost ResourceName="Strategic2" Instant="true">1</Cost>
             <PathPrerequisite Flags="Prerequisite,Discard">ClassEmpire,EmpireImprovementImprovedArk4</PathPrerequisite>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UICore15</UISlotName>
           </LevelRestrictedSlot>
           <Slot Name="Support05">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UICore16</UISlotName>
           </Slot>
@@ -2065,31 +2068,31 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>AOE</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="0" Z="1"/>
+              <Direction X="0" Z="1" />
               <Angle>270</Angle>
               <VisualSlot Name="MDL_Wp_Medium_Up_00"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="TopWeapon"/>
-              <SimulationDescriptorReference Name="LargeWeapon"/>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="TopWeapon" />
+              <SimulationDescriptorReference Name="LargeWeapon" />
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIFrontWeapon01</UISlotName>
           </LevelRestrictedSlot>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIFront02</UISlotName>
           </Slot>
           <LevelRestrictedSlot Name="Defense01" Level="4">
             <PathPrerequisite Flags="Prerequisite,Discard">ClassEmpire,EmpireImprovementImprovedArk4</PathPrerequisite>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIFront03</UISlotName>
           </LevelRestrictedSlot>
@@ -2110,7 +2113,7 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_04"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_05"></VisualSlot>
@@ -2118,7 +2121,7 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Right_07"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_04"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_05"></VisualSlot>
@@ -2126,7 +2129,7 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Left_07"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIFrontRightWeapon17</UISlotName>
           </LevelRestrictedSlot>
@@ -2134,9 +2137,9 @@
             <Cost ResourceName="Strategic2" Instant="true">1</Cost>
             <PathPrerequisite Flags="Prerequisite,Discard">ClassEmpire,EmpireImprovementImprovedArk2</PathPrerequisite>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIFrontRight04</UISlotName>
           </LevelRestrictedSlot>
@@ -2156,7 +2159,7 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_00"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_01"></VisualSlot>
@@ -2164,7 +2167,7 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Right_03"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_00"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_01"></VisualSlot>
@@ -2172,7 +2175,7 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Left_03"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIRightWeapon05</UISlotName>
           </Slot>
@@ -2180,9 +2183,9 @@
             <PathPrerequisite Flags="Prerequisite,Discard">ClassEmpire,EmpireImprovementImprovedArk1</PathPrerequisite>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIRight06</UISlotName>
           </Slot>
@@ -2200,7 +2203,7 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>BoardingPod</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="1" Z="0"/>
+              <Direction X="1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_08"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Right_09"></VisualSlot>
@@ -2208,7 +2211,7 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Right_11"></VisualSlot>
             </LineOfSight>
             <LineOfSight>
-              <Direction X="-1" Z="0"/>
+              <Direction X="-1" Z="0" />
               <Angle>120</Angle>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_08"></VisualSlot>
               <VisualSlot Name="MDL_Wp_SmallSide_Left_09"></VisualSlot>
@@ -2216,15 +2219,15 @@
               <VisualSlot Name="MDL_Wp_SmallSide_Left_11"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIBackRightWeapon18</UISlotName>
           </Slot>
           <Slot Name="Defense01">
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
-            <Direction X="1" Z="0"/>
+            <Direction X="1" Z="0" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIBackRight07</UISlotName>
           </Slot>
@@ -2244,22 +2247,22 @@
             <RestrictedWeaponType>KineticRailgun</RestrictedWeaponType>
             <RestrictedWeaponType>AOE</RestrictedWeaponType>
             <LineOfSight>
-              <Direction X="0" Z="1"/>
+              <Direction X="0" Z="1" />
               <Angle>270</Angle>
               <VisualSlot Name="MDL_Wp_Medium_Up_01"></VisualSlot>
             </LineOfSight>
             <ModuleModifier>
-              <SimulationDescriptorReference Name="TopWeapon"/>
-              <SimulationDescriptorReference Name="LargeWeapon"/>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="TopWeapon" />
+              <SimulationDescriptorReference Name="LargeWeapon" />
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIBackWeapon08</UISlotName>
           </LevelRestrictedSlot>
           <Slot Name="Support01">
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIBack09</UISlotName>
           </Slot>
@@ -2268,9 +2271,9 @@
             <PathPrerequisite Flags="Prerequisite,Discard">ClassEmpire,EmpireImprovementImprovedArk3</PathPrerequisite>
             <RestrictedModuleCategory>Defense</RestrictedModuleCategory>
             <RestrictedModuleCategory>Support</RestrictedModuleCategory>
-            <Direction X="0" Z="1"/>
+            <Direction X="0" Z="1" />
             <ModuleModifier>
-              <SimulationDescriptorReference Name="MultiplierX4"/>
+              <SimulationDescriptorReference Name="MultiplierX4" />
             </ModuleModifier>
             <UISlotName>UIBack10</UISlotName>
           </LevelRestrictedSlot>
@@ -2293,12 +2296,11 @@
       </SectionPattern_Eight>
     </ShipDesignLayout>
 
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack"/>
-    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage"/>
-    <BattleActionReference Name="Ship_Healing"/>
-    <BattleActionReference Name="Ship_OnDestruction"/>
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterAttack" />
+    <BattleActionReference Name="Ship_UpdateMedalScoreAfterDamage" />
+    <BattleActionReference Name="Ship_Healing" />
+    <BattleActionReference Name="Ship_OnDestruction" />
 
-
-    <LevelUpRuleReference Name="ShipLevelUpRule"/>
+    <LevelUpRuleReference Name="ShipLevelUpRule" />
   </HullDefinition>
 </Datatable>
