@@ -5,43 +5,6 @@
     <Modifier TargetProperty="CanUseScrap"      Operation="Force"        Value="1"   Path="ClassEmpire,EmpireTypeMajor"                       TooltipHidden="true" />
     <Modifier TargetProperty="ScrapPerCP"       Operation="Addition"     Value="1"   Path="../ClassEmpire"                                    TooltipHidden="true" />
     <Modifier TargetProperty="ScrapPerCP"       Operation="Addition"     Value="1"   Path="../ClassEmpire/ClassGarrisonFleet/ClassShip"       TooltipHidden="true" />
-
-    <Modifier TargetProperty="Politics01ToPolitics01"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics01ToPolitics02"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics01ToPolitics03"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics01ToPolitics04"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics01ToPolitics05"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics01ToPolitics06"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics02ToPolitics01"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics02ToPolitics02"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics02ToPolitics03"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics02ToPolitics04"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics02ToPolitics05"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics02ToPolitics06"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics03ToPolitics01"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics03ToPolitics02"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics03ToPolitics03"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics03ToPolitics04"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics03ToPolitics05"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics03ToPolitics06"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics04ToPolitics01"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics04ToPolitics02"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics04ToPolitics03"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics04ToPolitics04"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics04ToPolitics05"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics04ToPolitics06"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics05ToPolitics01"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics05ToPolitics02"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics05ToPolitics03"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics05ToPolitics04"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics05ToPolitics05"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics05ToPolitics06"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics06ToPolitics01"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics06ToPolitics02"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics06ToPolitics03"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics06ToPolitics04"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics06ToPolitics05"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
-    <Modifier TargetProperty="Politics06ToPolitics06"   Operation="Force"  Value="0"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire,PopulationIsDrudge" />
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitLuxuryPopulation_Mavros" Type="FactionTrait">
