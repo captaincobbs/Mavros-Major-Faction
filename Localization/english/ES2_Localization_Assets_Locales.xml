@@ -80,6 +80,7 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%PopulationCollectionBonusMajorMavros2">[mavros] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMajorMavros3">[mavros] Collection Bonus III</LocalizationPair>
   <LocalizationPair Name="%ShipCostReductionPerStrategicEffect">-5% Military ship [industrycolored] cost per Strategic Deposit on Systems</LocalizationPair>
+  <LocalizationPair Name="%PopulationPoliticalFlatAffinityMajorMavrosTitle">Mavros Population</LocalizationPair>
 
   <!-- Research -->
   <LocalizationPair Name="%EmpireImprovementSlotsSmall01MavrosEra2Title">Enhanced Ounce-Class Hull</LocalizationPair>
