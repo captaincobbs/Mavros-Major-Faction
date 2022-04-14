@@ -203,21 +203,6 @@ Sedghammer & Amplitude Artists -->
         <FilePath>Simulation/Battles/BattleEffectDefinitions.xml</FilePath>
       </DatabasePlugin>
 
-      <DatabasePlugin DataType="SquadronFormationDefinition, Assembly-CSharp">
-        <FilePath>Simulation/Battles/SquadronFormationDefinitions.xml</FilePath>
-      </DatabasePlugin>
-
-      <DatabasePlugin DataType="SquadronMetaFormationDefinition, Assembly-CSharp">
-        <FilePath>Simulation/Battles/SquadronMetaFormationDefinitions.xml</FilePath>
-      </DatabasePlugin>
-
-      <DatabasePlugin DataType="CameraShotDefinition, Assembly-CSharp">
-        <ExtraTypes>
-          <ExtraType DataType="CameraShotDefinition_EncounterEvent, Assembly-CSharp" />
-        </ExtraTypes>
-        <FilePath>Simulation/Battles/RealizationShotsDefinitions.xml</FilePath>
-      </DatabasePlugin>
-
       <!-- Fleet Names -->
       <DatabasePlugin DataType="FleetNameMappingDefinition, Assembly-CSharp">
         <FilePath>Mapping/FleetNameMappingDefinitions.xml</FilePath>
