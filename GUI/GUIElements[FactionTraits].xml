@@ -17,7 +17,7 @@
     <Title>%FactionTraitLuxuryPopulation_MavrosTitle</Title>
     <Description>%FactionTraitLuxuryPopulation_MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+      <Icon Size="Small" Path="Textures/Traits/Economy.png" />
     </Icons>
     <TooltipElement>
       <EffectOverride>%FactionTraitLuxuryPopulation_MavrosEffect</EffectOverride>
@@ -29,7 +29,7 @@
     <Title>%FactionTraitHulkingShips_MavrosTitle</Title>
     <Description>%FactionTraitHulkingShips_MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+      <Icon Size="Small" Path="Textures/Traits/Military.png" />
     </Icons>
     <TooltipElement>
       <EffectOverride>%FactionTraitHulkingShips_MavrosEffect</EffectOverride>
@@ -41,28 +41,9 @@
     <Title>%FactionTraitEffectiveCombatants_MavrosTitle</Title>
     <Description>%FactionTraitEffectiveCombatants_MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+      <Icon Size="Small" Path="Textures/Traits/Ground.png" />
     </Icons>
   </ExtendedGuiElement>
-
-  <!-- Population Modifier Traits -->
-  <!-- Industry +2 -->
-  <GuiElement Name="PopulationModifiersTraitPrimaryIndustry2">
-    <Title>%PopulationModifiersTraitMavrosPrimaryIndustry2Title</Title>
-  </GuiElement>
-
-  <GuiElement Name="ClassPopulationPlanetModifiersTraitPrimaryIndustry2">
-    <Title>%PopulationModifiersTraitMavrosPrimaryIndustry2Title</Title>
-  </GuiElement>
-
-  <!-- Strategic to Manpower +10 -->
-  <GuiElement Name="PopulationModifiersTraitSecondaryStrategicToMilitary01">
-    <Title>%PopulationModifiersTraitSecondaryStrategicToMilitary01Title</Title>
-  </GuiElement>
-
-  <GuiElement Name="ClassPopulationPlanetModifiersTraitPrimaryStrategicToMilitary01">
-    <Title>%PopulationModifiersTraitSecondaryStrategicToMilitary01Title</Title>
-  </GuiElement>
 
   <!-- Technologies -->
   <!-- Hangar Tech Mavros -->
@@ -70,7 +51,7 @@
     <Title>%TechnologyDefinitionMilitary2Title</Title>
     <Description>%TechnologyDefinitionMilitary2Description</Description>
     <Icons>
-      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+      <Icon Size="Small" Path="Textures/Traits/Technology.png"/>
     </Icons>
     <TooltipElement>
       <EffectOverride>%FactionTraitStartingTechnologyEffectOverride</EffectOverride>
@@ -82,7 +63,7 @@
     <Title>%TechnologyDefinitionEconomyAndTrade1Title</Title>
     <Description>%TechnologyDefinitionEconomyAndTrade1Description</Description>
     <Icons>
-      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+      <Icon Size="Small" Path="Textures/Traits/Technology.png"/>
     </Icons>
     <TooltipElement>
       <EffectOverride>%FactionTraitStartingTechnologyEffectOverride</EffectOverride>
@@ -94,7 +75,7 @@
     <Title>%TechnologyDefinitionEmpireDevelopment1Title</Title>
     <Description>%TechnologyDefinitionEmpireDevelopment1Description</Description>
     <Icons>
-      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+      <Icon Size="Small" Path="Textures/Traits/Technology.png"/>
     </Icons>
     <TooltipElement>
       <EffectOverride>%FactionTraitStartingTechnologyEffectOverride</EffectOverride>
@@ -106,7 +87,7 @@
     <Title>%TechnologyDefinitionMilitary1Title</Title>
     <Description>%TechnologyDefinitionMilitary1Description</Description>
     <Icons>
-      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+      <Icon Size="Small" Path="Textures/Traits/Technology.png"/>
     </Icons>
     <TooltipElement>
       <EffectOverride>%FactionTraitStartingTechnologyEffectOverride</EffectOverride>
