@@ -8,7 +8,7 @@
       <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall01SophonsMavrosLarge" />
     </Icons>
     <TooltipElement>
-      <EffectOverride>%EmpireImprovementSlotsSmall01SophonsEra2TooltipEffect</EffectOverride>
+      <EffectOverride>%EmpireImprovementSlotsSmall01MavrosEra2TooltipEffect</EffectOverride>
     </TooltipElement>
   </SkinnedGuiElement>
 
@@ -19,7 +19,7 @@
       <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall02SophonsMavrosLarge" />
     </Icons>
     <TooltipElement>
-      <EffectOverride>%EmpireImprovementSlotsSmall02SophonsEra2TooltipEffect</EffectOverride>
+      <EffectOverride>%EmpireImprovementSlotsSmall02MavrosEra2TooltipEffect</EffectOverride>
     </TooltipElement>
   </SkinnedGuiElement>
 
@@ -30,7 +30,7 @@
       <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullMedium01SophonsMavrosLarge" />
     </Icons>
     <TooltipElement>
-      <EffectOverride>%EmpireImprovementSlotsMedium01SophonsEra3TooltipEffect</EffectOverride>
+      <EffectOverride>%EmpireImprovementSlotsMedium01MavrosEra3TooltipEffect</EffectOverride>
     </TooltipElement>
   </SkinnedGuiElement>
 
@@ -41,7 +41,7 @@
       <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullMedium02SophonsMavrosLarge" />
     </Icons>
     <TooltipElement>
-      <EffectOverride>%EmpireImprovementSlotsMedium02SophonsEra3TooltipEffect</EffectOverride>
+      <EffectOverride>%EmpireImprovementSlotsMedium02MavrosEra3TooltipEffect</EffectOverride>
     </TooltipElement>
   </SkinnedGuiElement>
 
@@ -52,7 +52,7 @@
       <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullLarge01SophonsMavrosLarge" />
     </Icons>
     <TooltipElement>
-      <EffectOverride>%EmpireImprovementSlotsLarge01SophonsEra4TooltipEffect</EffectOverride>
+      <EffectOverride>%EmpireImprovementSlotsLarge01MavrosEra4TooltipEffect</EffectOverride>
     </TooltipElement>
   </SkinnedGuiElement>
 
@@ -87,16 +87,4 @@
       <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/FakeImprovements/EmpireImprovementOverColonizationLarge" />
     </Icons>
   </GuiElement>
-
-  <ExtendedGuiElement Name="EmpireImprovementMavrosUniqueMissiles">
-    <Title>%EmpireImprovementMavrosUniqueMissilesTitle</Title>
-    <Description>%EmpireImprovementMavrosUniqueMissilesDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/FakeImprovements/EmpireImprovementOverColonizationSmall" />
-      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/FakeImprovements/EmpireImprovementOverColonizationLarge" />
-    </Icons>
-    <TooltipElement>
-      <EffectOverride>%EmpireImprovementMavrosUniqueMissilesEffect</EffectOverride>
-    </TooltipElement>
-  </ExtendedGuiElement>
 </Datatable>

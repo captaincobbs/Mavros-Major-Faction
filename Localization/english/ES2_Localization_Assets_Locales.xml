@@ -11,7 +11,7 @@ TO BE WRITTEN</LocalizationPair>
   <LocalizationPair Name="%HullSmall03MavrosTitle">[colonizer] Pint-class</LocalizationPair>
   <LocalizationPair Name="%HullSmall03MavrosDescription">Role: Colonization
 TO BE WRITTEN</LocalizationPair>
-  <LocalizationPair Name="%HullSmall04MavrosTitle">[explorer] Acre-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04MavrosTitle">[explorer] Perch-class</LocalizationPair>
   <LocalizationPair Name="%HullSmall04MavrosDescription">Role: Exploration
 TO BE WRITTEN</LocalizationPair>
   <LocalizationPair Name="%HullSmall05MavrosTitle">[lifeforce] Pint-class</LocalizationPair>
@@ -82,13 +82,23 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%ShipCostReductionPerStrategicEffect">-5% Military ship [industrycolored] cost per Strategic Deposit on Systems</LocalizationPair>
 
   <!-- Research -->
-  <LocalizationPair Name="%EmpireImprovementSlotsSmall01MavrosEra2Title">Enhanced Inch-Class Hull</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsSmall02MavrosEra2Title">Enhanced Ounce-Class Hull</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsSmall04MavrosTitle">Enhanced Acre-Class Hull</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsSmall04MavrosTooltipEffect">Unlocks an additional support module slot for Acre-class hulls</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsSmall01MavrosEra2Title">Enhanced Ounce-Class Hull</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsSmall01MavrosEra2TooltipEffect">Unlocks additional [Strat01titaniumColored] module slots for Ounce-class hulls
++50% [shipCrewColored] Crew Capacity</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsSmall02MavrosEra2Title">Enhanced Inch-Class Hull</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsSmall02MavrosEra2TooltipEffect">Unlocks additional [Strat02hyperiumColored] module slots for Inch-class hulls
++50% [shipCrewColored] Crew Capacity</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsSmall04MavrosTitle">Enhanced Perch-Class Hull</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsSmall04MavrosTooltipEffect">Unlocks an additional support module slot for Perch-class hulls</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementSlotsMedium01MavrosEra3Title">Enhanced Pound-Class Hull</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsMedium01MavrosEra3TooltipEffect">Unlocks additional [Strat03adamantianColored] module slots for Pound-class hulls
++50% [shipCrewColored] Crew Capacity</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementSlotsMedium02MavrosEra3Title">Enhanced Mile-Class Hull</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsLarge01MavrosEra4Title">Enhanced Ton-Class Hull</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsMedium02MavrosEra3TooltipEffect">Unlocks additional [Strat04anti-matterColored] module slots for Mile-class hulls
++50% [shipCrewColored] Crew Capacity</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsLarge01MavrosEra4Title">Enhanced Gallon-Class Hull</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsLarge01SophonsEra4TooltipEffect">Unlocks additional [Strat05orichalcixColored] / [Strat06quadrinixColored] module slots for Gallon-class hulls
++50% [shipCrewColored] Crew Capacity</LocalizationPair>
   <LocalizationPair Name="%TechnologyDefinitionScienceAndExploration29MavrosTitle">TO BE WRITTEN</LocalizationPair>
   <LocalizationPair Name="%TechnologyDefinitionScienceAndExploration29MavrosDescription">TO BE WRITTEN</LocalizationPair>
 
@@ -140,11 +150,6 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <!-- Fragile but Powerful Militia -->
   <LocalizationPair Name="%FactionTraitEffectiveCombatants_MavrosTitle">Fragile Commandos</LocalizationPair>
   <LocalizationPair Name="%FactionTraitEffectiveCombatants_MavrosDescription">TO BE WRITTEN</LocalizationPair>
-  <!-- Loot Defender -->
-  <LocalizationPair Name="%PopulationModifiersTraitSecondaryStrategicToMilitary01Title">Resource Defenders</LocalizationPair>
-  <!-- Devoted Mechanics -->
-  <LocalizationPair Name="%PopulationModifiersTraitMavrosPrimaryIndustry2Title">Devoted Mechanics</LocalizationPair>
-  <!-- Drudge Effect -->
   <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusTitle">Unnamed</LocalizationPair>
   <!-- Drudge Effect Override -->
   <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusOverride">+2 [foodcolored] per System Level
