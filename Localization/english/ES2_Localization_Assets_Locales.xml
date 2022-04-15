@@ -252,9 +252,6 @@ No Unhappiness Generated from Planet
   <!-- Modules -->
   <LocalizationPair Name="%ModuleSupportCrew1MavrosTitle">N3C Invasion Extension</LocalizationPair>
   <LocalizationPair Name="%ModuleSupportCrew1MavrosDescription">TO BE WRITTEN</LocalizationPair>
-  <LocalizationPair Name="%ModuleSupportObliteratorMavrosTitle">Destructive Recycling Extension</LocalizationPair>
-  <LocalizationPair Name="%ModuleSupportObliteratorMavrosDescription">TO BE WRITTEN</LocalizationPair>
-  <LocalizationPair Name="%ModuleSupportObliteratorMavrosTooltipEffect">-34% Cost on Obliterator Shots</LocalizationPair>
 
   <!-- Scrap Boosts -->
   <LocalizationPair Name="%StarSystemImprovementScrapBoostIndustryTitle">Wreckage Reprocessing</LocalizationPair>

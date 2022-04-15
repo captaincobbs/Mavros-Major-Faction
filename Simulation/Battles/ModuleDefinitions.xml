@@ -11,18 +11,4 @@
       <SimulationDescriptorReference Name="ModuleSupportCrew"/>
     </CategorizedSimulationDescriptors>
   </SupportModule>
-
-  <SupportModule Name="ModuleSupportObliteratorMavros" Family="ProjectileEnhancerBase" Level="1">
-    <Cost ResourceName="SystemProduction">80</Cost>
-    <InterpreterPrerequisite Flags="Edition">Path(Context, @'ClassShip,ShipRoleObliterator')</InterpreterPrerequisite>
-    <PathPrerequisite Flags="UnlockAvailability,Edition,Faction,AffinityGameplayTechnologyMajorMavros" Inverted="false">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
-    <PathPrerequisite Flags="Edition,Discard" Inverted="true">ClassShip,ShipRoleShipRoleObliterator</PathPrerequisite>
-    <TechnologyPrerequisite Flags="Edition">TechnologyJuggernautFactionModule</TechnologyPrerequisite>
-    <PathPrerequisite Flags="NoMoreThanOneModuleOfThisType,Edition,Disable" Inverted="true">ClassShip/ClassSection/ClassModule,ModuleSupportObliteratorReloadMavros</PathPrerequisite>
-    <SimulationDescriptorReference Name="ClassModuleSupport"/>
-    <CategorizedSimulationDescriptors Category="CategoryJuggernaut">
-      <SimulationDescriptorReference Name="ModuleSupportObliteratorReloadMavros"/>
-      <SimulationDescriptorReference Name="ModuleSupportObliterator"/>
-    </CategorizedSimulationDescriptors>
-  </SupportModule>
 </Datatable>

@@ -5,13 +5,4 @@
     <Modifier TargetProperty="LocalManpower"                        Operation="Addition" Value="50"    Path="ModuleSupportCrew"/>
     <Modifier TargetProperty="AdditionalGroundBattleManpowerLimit"  Operation="Addition" Value="50"    Path="ModuleSupportCrew"/>
   </SimulationDescriptor>
-  
-  <SimulationDescriptor Name="ModuleSupportObliteratorCostMavros"    Type="ModuleSupportObliteratorCost">
-    <Modifier TargetProperty="ObliteratorShotCostDiscount"                  Operation="Percent"  Value="-0.34"  Path="ModuleSupportObliterator"/>
-  </SimulationDescriptor>
-
-  <SimulationDescriptor Name="ModuleSupportObliteratorCost"    Type="ModuleSupportObliteratorCost">
-    <Property Name="ObliteratorShotCostDiscount" BaseValue="0"/>
-    <Modifier TargetProperty="ObliteratorShotCost"                  Operation="Percent"  Value="$(ObliteratorShotCostDiscount)"  Path="../ClassShip" Priority="1"/>
-  </SimulationDescriptor>
 </Datatable>
