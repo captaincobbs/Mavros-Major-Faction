@@ -15,8 +15,8 @@
     <Title>%StarSystemImprovementIndustry1MavrosTitle</Title>
     <Description>%StarSystemImprovementIndustry1MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/VolcanoFactorySmall.png" />
-      <Icon Size="Large" Path="Textures/GUI/VolcanoFactoryLarge.png" />
+      <Icon Size="Small" Path="Textures/Constructibles/StarSystemImprovementIndustry1MavrosSmall.png" />
+      <Icon Size="Large" Path="Textures/Constructibles/StarSystemImprovementIndustry1MavrosLarge.png" />
     </Icons>
   </GuiElement>
 
