@@ -81,7 +81,7 @@
   </HullDefinition>
 
   <!-- Attacker -->
-  <HullDefinition Name="HullSmall01Mavros" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
+  <HullDefinition Name="HullSmall01Mavros" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" RepresentativeMappingOverride="HullSmall01Sophons">
     <CustomCost ResourceName="SystemProduction">75</CustomCost>
 
     <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
@@ -256,7 +256,7 @@
   </HullDefinition>
 
   <!-- Defender -->
-  <HullDefinition Name="HullSmall02Mavros" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
+  <HullDefinition Name="HullSmall02Mavros" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" RepresentativeMappingOverride="HullSmall02Sophons">
     <CustomCost ResourceName="SystemProduction">75</CustomCost>
 
     <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
@@ -416,7 +416,7 @@
   </HullDefinition>
 
   <!-- Colonizer -->
-  <HullDefinition Name="HullSmall03Mavros" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
+  <HullDefinition Name="HullSmall03Mavros" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" RepresentativeMappingOverride="HullSmall03Sophons">
     <CostReductionReference Name="ColonyShipConstructible" />
     <CustomCost ResourceName="SystemProduction">50</CustomCost>
     <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
@@ -597,7 +597,7 @@
   </HullDefinition>
 
   <!-- Explorer -->
-  <HullDefinition Name="HullSmall04Mavros" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
+  <HullDefinition Name="HullSmall04Mavros" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" RepresentativeMappingOverride="HullSmall04Sophons">
     <CustomCost ResourceName="SystemProduction">50</CustomCost>
 
     <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
@@ -718,7 +718,7 @@
   </HullDefinition>
 
   <!-- Explorer ShipBound -->
-  <HullDefinition Name="HullSmall04MavrosShipBound" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
+  <HullDefinition Name="HullSmall04MavrosShipBound" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" RepresentativeMappingOverride="HullSmall04SophonsShipBound">
     <Tags>HiddenInFactionPreview</Tags>
     <CustomCost ResourceName="SystemProduction">50</CustomCost>
 
@@ -1041,7 +1041,7 @@
   </HullDefinition>
 
   <!-- Hunter -->
-  <HullDefinition Name="HullMedium01Mavros" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" ModuleCostMultiplier="2">
+  <HullDefinition Name="HullMedium01Mavros" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" ModuleCostMultiplier="2" RepresentativeMappingOverride="HullMedium01Sophons">
     <CustomCost ResourceName="SystemProduction">300</CustomCost>
     <Cost Instant="true" ResourceName="Strategic1">5</Cost>
 
@@ -1290,7 +1290,7 @@
   </HullDefinition>
 
   <!-- Coordinator -->
-  <HullDefinition Name="HullMedium02Mavros" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" ModuleCostMultiplier="2">
+  <HullDefinition Name="HullMedium02Mavros" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" ModuleCostMultiplier="2" RepresentativeMappingOverride="HullMedium02Sophons">
     <CustomCost ResourceName="SystemProduction">300</CustomCost>
     <Cost Instant="true" ResourceName="Strategic2">5</Cost>
 
@@ -1607,7 +1607,7 @@
   </HullDefinition>
 
   <!-- Carrier -->
-  <HullDefinition Name="HullLarge01Mavros" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" ModuleCostMultiplier="4">
+  <HullDefinition Name="HullLarge01Mavros" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" ModuleCostMultiplier="4" RepresentativeMappingOverride="HullLarge01Sophons">
     <CustomCost ResourceName="SystemProduction">1200</CustomCost>
     <Cost Instant="true" ResourceName="Strategic3">5</Cost>
     <Cost Instant="true" ResourceName="Strategic4">5</Cost>
