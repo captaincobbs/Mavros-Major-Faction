@@ -92,8 +92,7 @@
   </StarSystemImprovementDefinition>
   
   <!-- Drudge Construction -->
-  <StarSystemPopulationTransformImprovementDefinition   Name="StarSystemImprovementCreateDrudge" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt"
-                                              PopulationDestination="AffinityDrudges"  PopulationToTransformCount="1" CreateIfNotAvailable="true" ConsumeResourceSurplus="true">
+  <StarSystemPopulationTransformImprovementDefinition   Name="StarSystemImprovementCreateDrudge" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt" PopulationDestination="AffinityDrudges"  PopulationToTransformCount="1" CreateIfNotAvailable="true" ConsumeResourceSurplus="true">
     <AIGain RessourceName="PopulationGain" Inverted="false"></AIGain>
     <SupervisorGain Name="Science" />
     <SupervisorGain Name="Dust" />
@@ -102,7 +101,7 @@
     <SupervisorGain Name="Population" />
     <Tags>NoBuyout</Tags>
     <QueuedSimulationDescriptorReference Name="QueuedDescriptorIncreaseVirtualPopulation"/>
-    <CustomCost ResourceName="EmpireScrap" Instant="true">3 + (Property(Context, @'ClassColonizedStarSystem/ClassPopulationStarSystemAffinityDrudgesCount', PopulationCount) * 2)</CustomCost>
+    <CustomCost ResourceName="EmpireScrap" Instant="true">3 + (Property(Context, @'ClassColonizedStarSystem', DrudgeCount) * 2)</CustomCost>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem</PathPrerequisite>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementDrudgeFactory,!FastForwardedImprovement</PathPrerequisite>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayMajorMavros">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
@@ -113,8 +112,7 @@
 
 
   <!-- Drudge Upgrade -->
-  <StarSystemPopulationTransformImprovementDefinition   Name="StarSystemImprovementUpgradeDrudge" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt"
-                                                                 PopulationSource="AffinityDrudges" PopulationDestination="AffinityDrudgeTitans"  PopulationToTransformCount="1">
+  <StarSystemPopulationTransformImprovementDefinition   Name="StarSystemImprovementUpgradeDrudge" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt" PopulationSource="AffinityDrudges" PopulationDestination="AffinityDrudgeTitans"  PopulationToTransformCount="1">
     <AIGain RessourceName="PopulationGain" Inverted="false"></AIGain>
     <SupervisorGain Name="Science" />
     <SupervisorGain Name="Dust" />
@@ -122,7 +120,7 @@
     <SupervisorGain Name="Population" />
     <Tags>NoBuyout</Tags>
     <QueuedSimulationDescriptorReference Name="QueuedDescriptorIncreaseVirtualPopulation"/>
-    <CustomCost ResourceName="EmpireScrap" Instant="true">((10 * Property(Context, @../ClassEmpire, GameSpeedMultiplier, true)) * (Property(Context, @'../ClassEmpire//ClassPopulationEmpireAffinityDrudgeTitans', PopulationCount) + 1)) * 1.5</CustomCost>
+    <CustomCost ResourceName="EmpireScrap" Instant="true">((10 * Property(Context, @../ClassEmpire, GameSpeedMultiplier, true)) * (Property(Context, @'ClassColonizedStarSystem', DrudgeTitanCount) + 1)) * 1.5</CustomCost>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem</PathPrerequisite>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementDrudgeFactory,!FastForwardedImprovement</PathPrerequisite>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem/ClassPopulationStarSystemAffinityDrudges</PathPrerequisite>
