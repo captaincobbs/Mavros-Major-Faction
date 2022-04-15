@@ -16,8 +16,8 @@
     <Title>%HullSmall01MavrosTitle</Title>
     <Description>%HullSmall01MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/ShipHullSmall01MavrosSmall" />
-      <Icon Size="Large" Path="Textures/GUI/ShipHullSmall01MavrosLarge" />
+      <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall01SophonsMavrosSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall01SophonsMavrosLarge" />
     </Icons>
   </GuiElement>
 
@@ -25,8 +25,8 @@
     <Title>%HullSmall02MavrosTitle</Title>
     <Description>%HullSmall02MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/ShipHullSmall02MavrosSmall" />
-      <Icon Size="Large" Path="Textures/GUI/ShipHullSmall02MavrosLarge" />
+      <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall02SophonsMavrosSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall02SophonsMavrosLarge" />
     </Icons>
   </GuiElement>
 
@@ -34,8 +34,8 @@
     <Title>%HullSmall03MavrosTitle</Title>
     <Description>%HullSmall03MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/ShipHullSmall03MavrosSmall" />
-      <Icon Size="Large" Path="Textures/GUI/ShipHullSmall03MavrosLarge" />
+      <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03SophonsMavrosSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03SophonsMavrosLarge" />
     </Icons>
   </GuiElement>
 
@@ -43,8 +43,8 @@
     <Title>%HullSmall04MavrosTitle</Title>
     <Description>%HullSmall04MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/ShipHullSmall01MavrosSmall" />
-      <Icon Size="Large" Path="Textures/GUI/ShipHullSmall01MavrosLarge" />
+      <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall01SophonsMavrosSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall01SophonsMavrosLarge" />
     </Icons>
   </GuiElement>
 
@@ -52,8 +52,8 @@
     <Title>%HullSmall04SophonsTitle</Title>
     <Description>%HullSmall04SophonsDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/ShipHullSmall01MavrosSmall" />
-      <Icon Size="Large" Path="Textures/GUI/ShipHullSmall01MavrosLarge" />
+      <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall01SophonsMavrosSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall01SophonsMavrosLarge" />
     </Icons>
   </GuiElement>
 
@@ -61,8 +61,8 @@
     <Title>%HullSmall05MavrosTitle</Title>
     <Description>%HullSmall05MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/ShipHullSmall03MavrosSmall" />
-      <Icon Size="Large" Path="Textures/GUI/ShipHullSmall03MavrosLarge" />
+      <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03SophonsMavrosSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03SophonsMavrosLarge" />
     </Icons>
   </GuiElement>
 
@@ -70,8 +70,8 @@
     <Title>%HullSmall06MavrosTitle</Title>
     <Description>%HullSmall06MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/ShipHullSmall03MavrosSmall" />
-      <Icon Size="Large" Path="Textures/GUI/ShipHullSmall03MavrosLarge" />
+      <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03SophonsMavrosSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03SophonsMavrosLarge" />
     </Icons>
   </GuiElement>
 
@@ -79,8 +79,8 @@
     <Title>%HullMedium01MavrosTitle</Title>
     <Description>%HullMedium01MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/ShipHullMedium01MavrosSmall" />
-      <Icon Size="Large" Path="Textures/GUI/ShipHullMedium01MavrosLarge" />
+      <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullMedium01SophonsMavrosSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullMedium01SophonsMavrosLarge" />
     </Icons>
   </GuiElement>
 
@@ -88,8 +88,8 @@
     <Title>%HullMedium02MavrosTitle</Title>
     <Description>%HullMedium02MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/ShipHullMedium02MavrosSmall" />
-      <Icon Size="Large" Path="Textures/GUI/ShipHullMedium02MavrosLarge" />
+      <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullMedium02SophonsMavrosSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullMedium02SophonsMavrosLarge" />
     </Icons>
   </GuiElement>
 
@@ -106,8 +106,8 @@
     <Title>%HullLarge01MavrosTitle</Title>
     <Description>%HullLarge01MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/ShipHullLarge01MavrosSmall" />
-      <Icon Size="Large" Path="Textures/GUI/ShipHullLarge01MavrosLarge" />
+      <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullLarge01SophonsMavrosSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullLarge01SophonsMavrosLarge" />
     </Icons>
   </GuiElement>
 
@@ -115,8 +115,8 @@
     <Title>%HullLarge00MavrosTitle</Title>
     <Description>%HullLarge00MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/NewShipHullVampirilisMothershipSmall" />
-      <Icon Size="Large" Path="Textures/GUI/NewShipHullVampirilisMothershipLarge" />
+      <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Vampirilis/ShipHullVampirilisMothershipSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Vampirilis/ShipHullVampirilisMothershipLarge" />
     </Icons>
   </GuiElement>
 </Datatable>
