@@ -13,7 +13,7 @@
     <Trait Name="PopulationModifiersTraitMajorMavros"/>
 
     <Trait Name="PopulationModifiersTraitPrimaryCustomIndustry01"/>
-    <Trait Name="PopulationModifiersTraitSecondaryCustomEmpireManpowerOnStrategic00"/>
+    <Trait Name="PopulationModifiersTraitSecondaryCustomDefenseOnStrategic00" />
 
     <Trait Name="PopulationCollectionBonusTraitMajorMavros" />
 
