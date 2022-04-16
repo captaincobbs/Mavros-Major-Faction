@@ -34,27 +34,28 @@ Mothership on which ship-bound populations live.</LocalizationPair>
 TO BE WRITTEN</LocalizationPair>
 
   <!-- Ship Design -->
-  <LocalizationPair Name="%ShipDesignSmall01AttackerMavrosTitle">Frenzy</LocalizationPair>
+  <!-- Names are all double- or triple-meanings, and I'm going for short, one syllable words where possible. -->
+  <LocalizationPair Name="%ShipDesignSmall01AttackerMavrosTitle">Mob</LocalizationPair> <!--A term for organized crime, an unruly group, a hostile creature in a videogame, AND a verb meaning to swarm someone. -->
   <LocalizationPair Name="%ShipDesignSmall01AttackerMavrosDescription">Role: Attacker</LocalizationPair>
-  <LocalizationPair Name="%ShipDesignSmall02SupporterMavrosTitle">Peril</LocalizationPair>
+  <LocalizationPair Name="%ShipDesignSmall02SupporterMavrosTitle">Switch</LocalizationPair> <!--A control or toggle, but also a whip-->
   <LocalizationPair Name="%ShipDesignSmall02SupporterMavrosDescription">Role: Support</LocalizationPair>
-  <LocalizationPair Name="%ShipDesignSmall03ColonizerMavrosTitle">Reaver</LocalizationPair>
+  <LocalizationPair Name="%ShipDesignSmall03ColonizerMavrosTitle">Stake</LocalizationPair> <!-- A wooden spike, also an investment and a verb meaning to mark something out - "stake a claim" -->
   <LocalizationPair Name="%ShipDesignSmall03ColonizerMavrosDescription">Role: Colonization</LocalizationPair>
-  <LocalizationPair Name="%ShipDesignSmall03ExplorerMavrosTitle">Grimace</LocalizationPair>
+  <LocalizationPair Name="%ShipDesignSmall03ExplorerMavrosTitle">Spook</LocalizationPair> <!-- A ghost, a verb meaning "to startle", and slang for a spy -->
   <LocalizationPair Name="%ShipDesignSmall03ExplorerMavrosDescription">Role: Exploration</LocalizationPair>
   <LocalizationPair Name="%ShipDesignSmall05LeecherMavrosTitle">Leecher</LocalizationPair>
   <LocalizationPair Name="%ShipDesignSmall05LeecherMavrosDescription">Role: Leecher</LocalizationPair>
   <LocalizationPair Name="%ShipDesignSmall06RootCreatorMavrosTitle">Vineship</LocalizationPair>
   <LocalizationPair Name="%ShipDesignSmall06RootCreatorMavrosDescription">Role: Entwiner</LocalizationPair>
-  <LocalizationPair Name="%ShipDesignMedium01AttackerMavrosTitle">Torment</LocalizationPair>
+  <LocalizationPair Name="%ShipDesignMedium01AttackerMavrosTitle">Wake</LocalizationPair> <!-- To awaken, but also the waves made by a large boat, and a sort of funeral -->
   <LocalizationPair Name="%ShipDesignMedium01AttackerMavrosDescription">Role: Attacker</LocalizationPair>
-  <LocalizationPair Name="%ShipDesignMedium02DefenderMavrosTitle">Nemesis</LocalizationPair>
+  <LocalizationPair Name="%ShipDesignMedium02DefenderMavrosTitle">Junk</LocalizationPair> <!-- A type of ship, also a type of rubbish. I'd have used "scrap" but that was taken. -->
   <LocalizationPair Name="%ShipDesignMedium02DefenderMavrosDescription">Role: Defender</LocalizationPair>
-  <LocalizationPair Name="%ShipDesignMedium02InvaderMavrosTitle">Oblivion</LocalizationPair>
+  <LocalizationPair Name="%ShipDesignMedium02InvaderMavrosTitle">Rack</LocalizationPair> <!-- A framework and a torture device. Not sure of this one. -->
   <LocalizationPair Name="%ShipDesignMedium02InvaderMavrosDescription">Role: Invader</LocalizationPair>
   <LocalizationPair Name="%ShipDesignLarge00MothershipMavrosTitle">Ark</LocalizationPair>
   <LocalizationPair Name="%ShipDesignLarge00MothershipMavrosDescription">Role: Ark</LocalizationPair>
-  <LocalizationPair Name="%ShipDesignLarge01CarrierMavrosTitle">Calamity</LocalizationPair>
+  <LocalizationPair Name="%ShipDesignLarge01CarrierMavrosTitle">Boss</LocalizationPair> <!-- The person in charge, the final foe in a videogame, and also the metal part at the centre of a shield -->
   <LocalizationPair Name="%ShipDesignLarge01CarrierMavrosDescription">Role: Carrier</LocalizationPair>
 
   <!-- Affinity -->
@@ -105,7 +106,7 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
 
   <!-- Empire Improvements -->
   <LocalizationPair Name="%EmpireImprovementMavrosUniqueMissilesTitle">Glorious Missiles</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementMavrosUniqueMissilesDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementMavrosUniqueMissilesDescription">Although they love all weapons technologies, the Mavros have a particular fondness for missiles. The size and sleek, shark-like form of the projectile, the rumble of firing that resonates through the ship, the graceful arc of death tracked across the blackness of space... and, of course, the extremely large boom.</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementMavrosUniqueMissilesEffect">+200 Salvo Health on Missile Weapon Modules
 -3 Seconds of cooldown on Missile Weapon Modules
 -10% chance to miss at short range on Missile Weapon Modules
@@ -129,28 +130,29 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%FleetNameAdjectiveApparatus01">Derelict</LocalizationPair>
   <LocalizationPair Name="%FleetNameAdjectiveApparatus02">Hydraulic</LocalizationPair>
   <LocalizationPair Name="%FleetNameAdjectiveApparatus03">Clockwork</LocalizationPair>
-  <LocalizationPair Name="%FleetNameAdjectiveApparatus04">Machinized</LocalizationPair>
+  <LocalizationPair Name="%FleetNameAdjectiveApparatus04">Complicated</LocalizationPair>
   <LocalizationPair Name="%FleetNameAdjectiveApparatus05">Motorized</LocalizationPair>
   <LocalizationPair Name="%FleetNameAdjectiveApparatus06">Contracticle</LocalizationPair>
-  <LocalizationPair Name="%FleetNameAdjectiveApparatus07">Desolate</LocalizationPair>
+  <LocalizationPair Name="%FleetNameAdjectiveApparatus07">Rusting</LocalizationPair>
   <LocalizationPair Name="%FleetNameAdjectiveApparatus08">Wrecked</LocalizationPair>
-  <LocalizationPair Name="%FleetNameAdjectiveApparatus09">Despoiled</LocalizationPair>
+  <LocalizationPair Name="%FleetNameAdjectiveApparatus09">Shambolic</LocalizationPair>
   
   <!-- Faction Trait -->
   <!-- -50% Luxury Boost Cost -->
   <LocalizationPair Name="%FactionTraitLuxuryPopulation_MavrosTitle">Volatile Populace</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitLuxuryPopulation_MavrosDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLuxuryPopulation_MavrosDescription">Best known for their enthusiasm to fight everyone, the Mavros are nowhere near as united in their pugnaciousness as the Cravers or the Hissho. They're far more prone than others to falling into disagreement, strife, and open rebellion. On the other hand, when things go well their celebrations are spectacular.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLuxuryPopulation_MavrosEffect">Rebellion progresses 50% faster
 +10 [happinessColored] required to reach Unhappy Status
 -15 [happinessColored] required to reach Happy Status</LocalizationPair>
   <!-- Slow but Powerful Ships -->
+  <!-- WARNING as implemented, they're currently not "slow", just more powerful. -->
   <LocalizationPair Name="%FactionTraitHulkingShips_MavrosTitle">Hulking Monstrosities</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitHulkingShips_MavrosDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitHulkingShips_MavrosDescription">It requires physical force to stop Mavros engineers attaching more, bigger guns to their latest ship design. These extra weapons tend to be the first thing to get shot off in a fight, but until then, they contribute extra firepower while also acting as a sort of ablative armour.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitHulkingShips_MavrosEffect">+0.3% Damage per 1000 Health on Ships
-+5% Maximum Health on Ships</LocalizationPair>
++5% Maximum Health on Ships</LocalizationPair> <!-- WARNING the trait in SimulationDescriptors[FactionTrait].xml also adds a production cost reduction, not mentioned here -->
   <!-- Fragile but Powerful Militia -->
   <LocalizationPair Name="%FactionTraitEffectiveCombatants_MavrosTitle">Fragile Commandos</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitEffectiveCombatants_MavrosDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitEffectiveCombatants_MavrosDescription">Those who underestimate the Mavros soldiers for their diminutive stature and apparent fraility will soon discover that size isn't everything - especially not when you're a master of weapons miniaturization. True, they are more fragile than most, but the Mavros pack more firepower and more ferocity into a pint-sized package than one would have thought possible.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusTitle">Unnamed</LocalizationPair>
   <!-- Drudge Effect Override -->
   <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusOverride">+2 [foodcolored] per System Level
@@ -171,7 +173,7 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   
   <!-- Drudge Apolitical Trait -->
   <LocalizationPair Name="%PopulationPoliticalTraitAntiPoliticalTitle">Apolitical</LocalizationPair>
-  <LocalizationPair Name="%PopulationPoliticalTraitAntiPoliticalDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%PopulationPoliticalTraitAntiPoliticalDescription">Drudges, as artificial beings created by the Mavros to do the work they hate, aren't allowed to vote. The Drudges don't mind, because "work the Mavros hate" includes pretty much every aspect of management and local government; so the non-voting Drudges basically run the whole place anyway.</LocalizationPair>
   <LocalizationPair Name="%PopulationPoliticalTraitAntiPoliticalTooltipEffect">Population can not Vote</LocalizationPair>
   
   <!-- Scrap -->
@@ -193,19 +195,19 @@ If any of these do not appear, it is because they are 0.</LocalizationPair>
   <!-- System Improvements -->
   <!-- Big Data Shipyards Replacement, -20% Ship Cost, +40 additional starting XP -->
   <LocalizationPair Name="%StarSystemImprovementShip1MavrosTitle">OQ-3 Shipyards</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementShip1MavrosDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementShip1MavrosDescription">Military shipyards are usually top-secret affairs, with even the lowest-level workers thoroughly vetted and cleared. The Mavros eschew this approach, preferring to throw open the gates of design and construction to anyone who has bright ideas or a helping hand to make the fleet bigger, faster, and deadlier.</LocalizationPair>
   <!-- XenoIndustrial Infrastructure Replacement, +5 to all industry bonuses, also specialized to hot and sterile planets -->
   <LocalizationPair Name="%StarSystemImprovementIndustry1MavrosTitle">Hadeo-Industrial Manufacturing</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementIndustry1MavrosDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIndustry1MavrosDescription">One of many tweaks the Endless made to Mavros physiology was adapting them to the hottest planets in the galaxy, and the Mavros in turn have adapted their industry to best suit these scorching worlds. Hadeo-Industrial plants burrow deep into the planetary crust, drawing on geothermal energy, and freeing up the surface for miles upon miles of solar panels.</LocalizationPair>
   <!-- Infinite Supermarkets Replacement, Additional +5 happiness per sterile planet -->
   <LocalizationPair Name="%StarSystemImprovementApproval1MavrosTitle">Colony Rationing Logistics</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementApproval1MavrosDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementApproval1MavrosDescription">Stuck on poor-quality planets by their Endless masters, the Mavros are no strangers to hardship and shortages. It may seem grim to others, but to them, rationing has gone beyond a necessity and become an inextricable part of their cultural heritage, such that even wealthy Mavros families on plentiful worlds will 'ration' their resources out of a sort of ritual.</LocalizationPair>
   <!-- Impervious Bunkers Replacement, additional manpower and maximum defenders + additional vision range (quite a bit) -->
   <LocalizationPair Name="%StarSystemImprovementDefense1MavrosTitle">Reinforced Surveillance Stations</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementDefense1MavrosDescription">TO BE WRITTEN</LocalizationPair>
   <!-- Tractable Armaments Replacement, greatly increased damage, with additional defender limit and max manpower -->
   <LocalizationPair Name="%StarSystemImprovementDefense2MavrosTitle">Planetary Defense Cannons</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementDefense2MavrosDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementDefense2MavrosDescription">Once upon a time, Mavros engineers designed a system of impervious subterranean bunkers, city-wide energy shields, resource caches, concealed supply lines, multiply-redundant infrastructure, and AI-controlled satellite networks to make their planets impervious to attack. Then someone said "why don't we just build some really big guns and aim them upwards?", and the rest is history.</LocalizationPair>
   <!-- AI Labor Replacement, double industry per pop -->
   <LocalizationPair Name="%StarSystemImprovementIndustry4MavrosTitle">Mass-Printing Stations</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementIndustry4MavrosDescription">TO BE WRITTEN</LocalizationPair>
@@ -214,10 +216,10 @@ If any of these do not appear, it is because they are 0.</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementOverExpansion1MavrosDescription">The garrison of this system gains a high degree of autonomy thanks to the ability of newly installed cyborg tacticians. The empire can create larger fleets without fear of disorder.</LocalizationPair>
   <!-- Deep Atmosphere Habitats Replacement, Additional +2 Population on Gas -->
   <LocalizationPair Name="%StarSystemImprovementPopulationSlotMavrosTitle">Jovian Habitats</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementPopulationSlotMavrosDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementPopulationSlotMavrosDescription">These gas-giant upper atmosphere settlements are nicknamed "jovial habitats", since the compact efficiency, abundance of cool tech, and breathtaking views seems to be exactly what the Mavros need to thrive.</LocalizationPair>
   <!-- Luxury Lottery replacement, +5 happiness on strategic instead of luxury -->
   <LocalizationPair Name="%StarSystemImprovementApproval5MavrosTitle">Strategics Lottery</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementApproval5MavrosDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementApproval5MavrosDescription">The luxuries lottery employed by many of the galaxy's factions is of little interest to the Mavros. They much prefer to receive a windfall of strategic resources, which can then be used kitting out their personal power armour, combat vehicle, or spaceship.</LocalizationPair>
   
   <!-- Drudge Factory -->
   <LocalizationPair Name="%StarSystemImprovementDrudgeFactoryTitle">Drudge Control Station</LocalizationPair>
@@ -277,7 +279,7 @@ No Unhappiness Generated from Planet
 #FF0000#One turn delay on profit#Revert#</LocalizationPair>
 
   <!-- Robotic Population -->
-  <LocalizationPair Name="%PopulationSubtypeDrudgeEffects">This population is counted as an Drudge and is artificially controlled, the effects of this are listed below.
+  <LocalizationPair Name="%PopulationSubtypeDrudgeEffects">This population is counted as an Drudge and is artificially controlled. The effects of this are listed below.
 - This population must be constructed and cannot migrate on its own
 - This population cannot be boosted and doesn't have a collection bonus
 - This population does not have politics and does not count towards population count / population type count</LocalizationPair>
@@ -289,7 +291,7 @@ They may be upgraded in the future.</LocalizationPair>
   <!-- Sub: Drudge Titan -->
   <LocalizationPair Name="%AffinityDrudgeTitansTitle">Drudge Titans</LocalizationPair>
   <LocalizationPair Name="%AffinityDrudgeTitansAltTitle">[DiploStatePartner]</LocalizationPair>
-  <LocalizationPair Name="%AffinityDrudgeTitansDescription">Drudge Titans are sky-scraper tall sentient robots that, when idle, are utilized as commerce and research processing centers, however, when a solar system is being invaded they awaken and deal devastating damage.</LocalizationPair>
+  <LocalizationPair Name="%AffinityDrudgeTitansDescription">Drudge Titans are sky-scraper tall sentient robots that, when idle, are utilized as commerce and research processing centers. However, when a solar system is being invaded they awaken and deal devastating damage.</LocalizationPair>
 
   <!-- > Minor Faction Mavros -->
   <LocalizationPair Name="%MinorFactionMavrosTitle">Savrons</LocalizationPair>
