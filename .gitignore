@@ -353,3 +353,4 @@ MigrationBackup/
 # XML
 Local/
 /.vs
+/Schemas
