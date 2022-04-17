@@ -24,6 +24,8 @@
     <Modifier TargetProperty="InfantryMaxHealth" Operation="Percent" Value="-0.1" Path="ClassEmpire" />
   </SimulationDescriptor>
 
+  <SimulationDescriptor Name="FactionTraitMinorMajorMavros" Type="FactionTrait"/>
+
   <!-- Research -->
   <SimulationDescriptor Name="FactionTraitTechnologyDefinitionMilitary2Mavros"                  Type="FactionTrait" />
   <SimulationDescriptor Name="FactionTraitTechnologyDefinitionEconomyAndTrade1Mavros"           Type="FactionTrait" />

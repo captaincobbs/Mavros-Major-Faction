@@ -93,4 +93,16 @@
       <EffectOverride>%FactionTraitStartingTechnologyEffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
+  
+  <!-- Mavros Population -->
+  <ExtendedGuiElement Name="FactionTraitMinorMajorMavros">
+    <Title>%FactionTraitMinorMajorMavrosTitle</Title>
+    <Description>%FactionTraitMinorMajorMavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/Traits/Population.png"/>
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorMajorMavrosTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
 </Datatable>
