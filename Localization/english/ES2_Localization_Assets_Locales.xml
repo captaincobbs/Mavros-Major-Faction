@@ -99,13 +99,11 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%EmpireImprovementSlotsMedium02MavrosEra3TooltipEffect">Unlocks additional [Strat04anti-matterColored] module slots for Mile-class hulls
 +50% [shipCrewColored] Crew Capacity</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementSlotsLarge01MavrosEra4Title">Enhanced Gallon-Class Hull</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsLarge01SophonsEra4TooltipEffect">Unlocks additional [Strat05orichalcixColored] / [Strat06quadrinixColored] module slots for Gallon-class hulls
+  <LocalizationPair Name="%EmpireImprovementSlotsLarge01MavrosEra4TooltipEffect">Unlocks additional [Strat05orichalcixColored] / [Strat06quadrinixColored] module slots for Gallon-class hulls
 +50% [shipCrewColored] Crew Capacity</LocalizationPair>
-  <LocalizationPair Name="%TechnologyDefinitionScienceAndExploration29MavrosTitle">TO BE WRITTEN</LocalizationPair>
-  <LocalizationPair Name="%TechnologyDefinitionScienceAndExploration29MavrosDescription">TO BE WRITTEN</LocalizationPair>
 
   <!-- Empire Improvements -->
-  <LocalizationPair Name="%EmpireImprovementMavrosUniqueMissilesTitle">Glorious Missiles</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementMavrosUniqueMissilesTitle">Marvelous Missiles</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementMavrosUniqueMissilesDescription">Although they love all weapons technologies, the Mavros have a particular fondness for missiles. The size and sleek, shark-like form of the projectile, the rumble of firing that resonates through the ship, the graceful arc of death tracked across the blackness of space... and, of course, the extremely large boom.</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementMavrosUniqueMissilesEffect">+200 Salvo Health on Missile Weapon Modules
 -3 Seconds of cooldown on Missile Weapon Modules
@@ -138,18 +136,20 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%FleetNameAdjectiveApparatus09">Shambolic</LocalizationPair>
   
   <!-- Faction Trait -->
-  <!-- -50% Luxury Boost Cost -->
+  <!-- Hard to manage approval -->
   <LocalizationPair Name="%FactionTraitLuxuryPopulation_MavrosTitle">Volatile Populace</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLuxuryPopulation_MavrosDescription">Best known for their enthusiasm to fight everyone, the Mavros are nowhere near as united in their pugnaciousness as the Cravers or the Hissho. They're far more prone than others to falling into disagreement, strife, and open rebellion. On the other hand, when things go well their celebrations are spectacular.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLuxuryPopulation_MavrosEffect">Rebellion progresses 50% faster
 +10 [happinessColored] required to reach Unhappy Status
 -15 [happinessColored] required to reach Happy Status</LocalizationPair>
+  
   <!-- Slow but Powerful Ships -->
   <!-- WARNING as implemented, they're currently not "slow", just more powerful. -->
   <LocalizationPair Name="%FactionTraitHulkingShips_MavrosTitle">Hulking Monstrosities</LocalizationPair>
   <LocalizationPair Name="%FactionTraitHulkingShips_MavrosDescription">It requires physical force to stop Mavros engineers attaching more, bigger guns to their latest ship design. These extra weapons tend to be the first thing to get shot off in a fight, but until then, they contribute extra firepower while also acting as a sort of ablative armour.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitHulkingShips_MavrosEffect">+0.3% Damage per 1000 Health on Ships
 +5% Maximum Health on Ships</LocalizationPair> <!-- WARNING the trait in SimulationDescriptors[FactionTrait].xml also adds a production cost reduction, not mentioned here -->
+
   <!-- Fragile but Powerful Militia -->
   <LocalizationPair Name="%FactionTraitEffectiveCombatants_MavrosTitle">Fragile Commandos</LocalizationPair>
   <LocalizationPair Name="%FactionTraitEffectiveCombatants_MavrosDescription">Those who underestimate the Mavros soldiers for their diminutive stature and apparent fraility will soon discover that size isn't everything - especially not when you're a master of weapons miniaturization. True, they are more fragile than most, but the Mavros pack more firepower and more ferocity into a pint-sized package than one would have thought possible.</LocalizationPair>
@@ -166,7 +166,7 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
 +3 [dustcolored] per System Level
 +100 Damage done to attacker during ground battle per System Level</LocalizationPair>
   
-  <!-- Drudge No-Happiness -->
+  <!-- Drudge No-Happiness (Name doesn't appear ingame, don't translate) -->
   <LocalizationPair Name="%PopulationModifiersTraitSecondaryDrudgeBonusTitle">Unnamed</LocalizationPair>
   <!-- Drudge Effect Override -->
   <LocalizationPair Name="%PopulationModifiersTraitSecondaryDrudgeBonusOverride">No Unhappiness Generated from Planet</LocalizationPair>
