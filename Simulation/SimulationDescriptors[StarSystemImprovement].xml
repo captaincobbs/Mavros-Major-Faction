@@ -15,7 +15,7 @@
 
   <!-- Xeno-Industrial Infrastructure -->
   <SimulationDescriptor Name="StarSystemImprovementIndustry1Mavros" Type="StarSystemImprovement">
-    <BinaryModifier TargetProperty="SystemProduction"	Operation="Addition"	Left="10"   BinaryOperation="Multiplication"    Right="$(OwnedPlanets)"		       Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    <BinaryModifier TargetProperty="SystemProduction"	Operation="Addition"	Left="15"   BinaryOperation="Multiplication"    Right="$(OwnedPlanets)"		       Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
     <BinaryModifier TargetProperty="SystemProduction"	Operation="Addition"	Left="10"   BinaryOperation="Multiplication"    Right="$(OwnedMeagerPlanets)"    Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
     <BinaryModifier TargetProperty="SystemProduction"	Operation="Addition"	Left="10"   BinaryOperation="Multiplication"    Right="$(OwnedHotPlanets)"       Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
   </SimulationDescriptor>
@@ -28,23 +28,16 @@
 
   <!-- Impervious Bunkers -->
   <SimulationDescriptor Name="StarSystemImprovementDefense1Mavros" Type="StarSystemImprovement">
-    <Modifier TargetProperty="MaximumSystemManpower"                Operation="Addition"    Value="200"   Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
-    <Modifier TargetProperty="GroundBattleDefenderManpowerLimit"    Operation="Addition"    Value="125"   Path="./ClassColonizedStarSystem"/>
+    <Modifier TargetProperty="MaximumSystemManpower"                Operation="Addition"    Value="300"   Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
+    <Modifier TargetProperty="GroundBattleDefenderTroopsMaxHealthMultiplier" Operation="Addition" Value="0.1" Path="./ClassColonizedStarSystem"/>
     <Modifier TargetProperty="VisionRange"                          Operation="Addition"    Value="3"     Path="./ClassColonizedStarSystem"/>
   </SimulationDescriptor>
   
   <!-- Era 2 -->
   <!-- Tractable Armaments -->
   <SimulationDescriptor Name="StarSystemImprovementDefense2Mavros" Type="StarSystemImprovement">
-    <Modifier TargetProperty="MaximumSystemManpower"                            Operation="Addition"    Value="400"     Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
-    <Modifier TargetProperty="GroundBattleBombardmentAttackerDamages"           Operation="Addition"    Value="500"     Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
-    <Modifier TargetProperty="GroundBattleDefenderManpowerLimit"                Operation="Addition"    Value="250"     Path="./ClassColonizedStarSystem"/>
-  </SimulationDescriptor>
-  <!-- Era 3 -->
-  <!-- Eco Habitats --> <!-- Unused -->
-  <SimulationDescriptor Name="StarSystemImprovementPopulation1Mavros" Type="StarSystemImprovement">
-    <Modifier TargetProperty="RawMaximumPopulation"         Operation="Addition" Value="1" Path="./ClassColonizedStarSystem/PlanetGameplayTypeMeager"/>
-    <Modifier TargetProperty="RawMaximumPopulation"         Operation="Addition" Value="1" Path="./ClassColonizedStarSystem/ClassPlanet"/>
+    <BinaryModifier TargetProperty="MaximumSystemManpower" Operation="Addition" Left="40" BinaryOperation="Multiplication" Right="$(Population)" Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    <Modifier TargetProperty="GroundBattleBombardmentAttackerDamages"           Operation="Addition"    Value="2000"     Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem"/>
   </SimulationDescriptor>
 
   <!-- Luxury Lottery -->
@@ -54,20 +47,14 @@
 
   <!-- AI Labor -->
   <SimulationDescriptor Name="StarSystemImprovementIndustry4Mavros" Type="StarSystemImprovement">
-    <Modifier TargetProperty="PlanetRawIndustry" Operation="Addition" Value="7" Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeHot"/>
-    <Modifier TargetProperty="PlanetRawIndustry" Operation="Addition" Value="7" Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeMeager"/>
+    <Modifier TargetProperty="PlanetRawIndustry" Operation="Addition" Value="5" Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeHot"/>
+    <Modifier TargetProperty="PlanetRawIndustry" Operation="Addition" Value="5" Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeMeager"/>
   </SimulationDescriptor>
   <!-- Era 4 -->
   <!-- Autonomous Administration -->
   <SimulationDescriptor Name="StarSystemImprovementOverExpansion1Mavros" Type="StarSystemImprovement">
-    <Modifier TargetProperty="MaximumCommandPoints"    Operation="Addition"    Value="1"   Path="../ClassEmpire"  TooltipHidden="false" />
-  </SimulationDescriptor>
-  
-  <!-- Era 5 -->
-  <!-- Deep Atmosphere Habitats -->
-  <SimulationDescriptor Name="StarSystemImprovementPopulationSlotMavros" Type="StarSystemImprovement">
-    <Modifier TargetProperty="RawMaximumPopulation" Operation="Addition"  Value="4"     Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeGas"/>
-    <Modifier TargetProperty="PlanetRawFood"        Operation="Addition"  Value="2"     Path="./ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeGas" />
+    <Modifier TargetProperty="MaximumCommandPoints"          Operation="Addition" Value="1" Path="../ClassEmpire"/>
+    <Modifier TargetProperty="AutonomousAdministrationCount" Operation="Addition" Value="1" Path="../ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
   
   <!-- Scrap -->
