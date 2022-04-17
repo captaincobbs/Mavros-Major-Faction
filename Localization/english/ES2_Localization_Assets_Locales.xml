@@ -76,7 +76,7 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%PopulationMajorMavrosTitle">Mavros</LocalizationPair>
   <LocalizationPair Name="%PopulationMajorMavrosDescription">TO BE WRITTEN</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitCustomFactionMavrosTitle">Covetous Collection</LocalizationPair>
-  <LocalizationPair Name="%PopulationCollectionBonusTraitCustomFactionMavrosDescription">This collection </LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitCustomFactionMavrosDescription">This collection focuses on Industry and Military production.</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMajorMavros1">[mavros] Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMajorMavros2">[mavros] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMajorMavros3">[mavros] Collection Bonus III</LocalizationPair>
@@ -161,9 +161,7 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
 
   <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusTitle">Unnamed</LocalizationPair>
   <!-- Drudge Effect Override -->
-  <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusOverride">+2 [foodcolored] per System Level
-+1 [dustcolored] per System Level
-+1 [prestigecolored] per System Level</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusOverride">+2 [industryColored] per Non-Drudge on Planet</LocalizationPair>
   
   <!-- Drudge Titan Effect -->
   <LocalizationPair Name="%PopulationModifiersTraitDrudgeTitansBonusTitle">Unnamed</LocalizationPair>
