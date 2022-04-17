@@ -106,15 +106,6 @@
     </Icons>
   </TechnologyGuiElement2>
 
-  <!-- Cultural Invertics -->
-  <TechnologyGuiElement2 Name="TechnologyDefinitionEmpireDevelopment11Mavros" X="-4.3" Y="0">
-    <Title>%TechnologyDefinitionEmpireDevelopment11Title</Title>
-    <Description>%TechnologyDefinitionEmpireDevelopment11Description</Description>
-    <Icons>
-      <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEmpireDevelopment11Small" />
-    </Icons>
-  </TechnologyGuiElement2>
-
   <!-- Ubiquitous Surveillance -->
   <TechnologyGuiElement2 Name="TechnologyDefinitionMilitary2Mavros" X="1.5" Y="0">
     <Title>%TechnologyDefinitionMilitary2Title</Title>
@@ -175,15 +166,6 @@
     <Description>%TechnologyDefinitionEconomyAndTrade25Description</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionEconomyAndTrade25Small" />
-    </Icons>
-  </TechnologyGuiElement2>
-
-  <!-- Interstellar Wind Shields -->
-  <TechnologyGuiElement2 Name="TechnologyDefinitionScienceAndExploration29Mavros" X="4" Y="0">
-    <Title>%TechnologyDefinitionScienceAndExploration29MavrosTitle</Title>
-    <Description>%TechnologyDefinitionScienceAndExploration29MavrosDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionScienceAndExploration29Small" />
     </Icons>
   </TechnologyGuiElement2>
 </Datatable>

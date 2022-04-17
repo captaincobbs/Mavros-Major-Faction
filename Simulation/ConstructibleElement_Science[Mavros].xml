@@ -413,7 +413,6 @@
   <TechnologyDefinition Name="TechnologyDefinitionEmpireDevelopment11" TechnologyStage="TechnologyStageDefinitionEmpireDevelopment4" Category="CategoryTechnologyEmpireDevelopment" ScoreProvider="TechnologyUnlocked">
     <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage4Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantEmpireDevelopmentMultiplier)</CustomCost>
     <PathPrerequisite Flags="DiplomaticTradable" Inverted="true">ClassEmpire,AffinityGameplayMajorHisshos</PathPrerequisite>
-    <PathPrerequisite Flags="Prerequisite,DiplomaticTradable,Discard,Faction" Inverted="true">AffinityGameplayMajorMavros</PathPrerequisite>
     <SimulationDescriptorReference Name="TechnologyApproval3" />
     <SimulationDescriptorReference Name="TechnologyCountEmpireDevelopmentIncreaseStage4" />
     <SimulationDescriptorReference Name="TechnologyCounter" />
@@ -423,43 +422,18 @@
     <HelperFormula>30 * $(HappinessVariable)</HelperFormula>
   </TechnologyDefinition>
 
-  <!-- Cultural Invertics - Mavros -->
-  <TechnologyDefinition Name="TechnologyDefinitionEmpireDevelopment11Mavros" TechnologyStage="TechnologyStageDefinitionEmpireDevelopment4" Category="CategoryTechnologyEmpireDevelopment" ScoreProvider="TechnologyUnlocked">
-    <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage4Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantEmpireDevelopmentMultiplier)</CustomCost>
-    <PathPrerequisite Flags="Prerequisite,DiplomaticTradable,Discard,Faction,AffinityGameplayTechnologyMajorMavros" Inverted="false">ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
-    <SimulationDescriptorReference Name="TechnologyApproval3Mavros" />
-    <SimulationDescriptorReference Name="TechnologyCountEmpireDevelopmentIncreaseStage4" />
-    <SimulationDescriptorReference Name="TechnologyCounter" />
-    <PopulationEvent Name="PopulationPoliticalEventReligiousTechnology" />
-
-    <HelperVariable Name="HappinessVariable" />
-    <HelperFormula>30 * $(HappinessVariable)</HelperFormula>
-  </TechnologyDefinition>
-
-  <!-- Era 5 -->
-  <!-- Interstellar Wind Shields -->
-  <TechnologyDefinition Name="TechnologyDefinitionScienceAndExploration29" TechnologyStage="TechnologyStageDefinitionScienceAndExploration5" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
-    <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage5Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier)</CustomCost>
-    <PathPrerequisite Flags="Prerequisite,DiplomaticTradable,Discard,Faction" Inverted="true">AffinityGameplayMajorMavros</PathPrerequisite>
-    <SimulationDescriptorReference Name="TechnologyPopulationSlots" />
-    <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage5" />
-    <SimulationDescriptorReference Name="TechnologyCounter" />
-    <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology" />
-
-    <HelperVariable Name="TurnVariable" />
-    <HelperFormula>40 * $(TurnVariable)</HelperFormula>
-  </TechnologyDefinition>
-
-  <!-- Interstellar Wind Shields - Mavros -->
-  <TechnologyDefinition Name="TechnologyDefinitionScienceAndExploration29Mavros" TechnologyStage="TechnologyStageDefinitionScienceAndExploration5" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
-    <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage5Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier)</CustomCost>
-    <PathPrerequisite Flags="Prerequisite,DiplomaticTradable,Discard,Faction,AffinityGameplayTechnologyMajorMavros" Inverted="false">ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
-    <SimulationDescriptorReference Name="TechnologyPopulationSlotsMavros" />
-    <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage5" />
-    <SimulationDescriptorReference Name="TechnologyCounter" />
-    <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology" />
-
-    <HelperVariable Name="TurnVariable" />
-    <HelperFormula>40 * $(TurnVariable)</HelperFormula>
-  </TechnologyDefinition>
+  <!-- Arcological Administration -->
+  <StarSystemImprovementDefinition Name="StarSystemImprovementInfluenceSink_Alt" SubCategory="SubCategoryInfluence" ScoreProvider="StarSystemImprovementBuilt">
+    <SupervisorGain Name="Food" Weight="0.25"/>
+    <SupervisorGain Name="Industry" Weight="0.25"/>
+    <SupervisorGain Name="Science" Weight="0.25"/>
+    <SupervisorGain Name="Dust" Weight="0.25"/>
+    <CustomCost ResourceName="EmpireEmpirePoint" Instant="true">2000 * (1 + Property(StockLocation,@'../ClassEmpire', ArcologicalAdministrationCount)) * (1 + Property(StockLocation,@ClassColonizedStarSystem, ArcologicalAdministrationCount))  * Property(StockLocation,@'../ClassEmpire', GameSpeedMultiplier)</CustomCost>
+    <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyInfluenceConversion</TechnologyPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Disable,RequiresSystemLevel4">ColonizedStarSystemStateColony,StarSystemImprovementLevel4</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard,UnlockAvailability,Faction" Inverted="false">../ClassEmpire,!AffinityGameplayCravers,!AffinityGameplayVenetians,!AffinityGameplayVampirilis,!AffinityGameplayTimeLords,!AffinityGameplayUnfallen,!AffinityGameplaySophons,!AffinityGameplayHoratio,!AffinityGameplayVaulters,!AffinityGameplayMajorMavros</PathPrerequisite>
+    <SimulationDescriptorReference Name="StarSystemImprovementOnlyOnLevelMax"/>
+    <SimulationDescriptorReference Name="StarSystemImprovementInfluenceSink_Alt"/>
+    <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionApproval1"/>
+  </StarSystemImprovementDefinition>
 </Datatable>
