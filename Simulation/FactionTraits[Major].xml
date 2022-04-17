@@ -61,4 +61,11 @@
     <SimulationDescriptorReference Name="FactionTraitTechnologyDefinitionMilitary1Mavros"/>
     <Prerequisites>AffinityMappingMajorMavros,!FactionTraitTechnologicalHeadStart</Prerequisites>
   </FactionTrait>
+  
+  <!-- Starting Mavros -->
+  <FactionTrait Name="FactionTraitMinorMajorMavros" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartMajorMavros" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+    <Command Name="AddMinorPopulation" Arguments="AffinityMajorMavros,1" Priority="100"/>
+    <SimulationDescriptorReference Name="FactionTraitMinorMajorMavros"/>
+    <Prerequisites>!AffinityGameplayVampirilis,!AffinityGameplayUmbralChoir</Prerequisites>
+  </FactionTrait>
 </Datatable>

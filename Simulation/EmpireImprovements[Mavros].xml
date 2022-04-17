@@ -37,4 +37,12 @@
     <TechnologyPrerequisite>TechnologyApproval3Mavros</TechnologyPrerequisite>
     <SimulationDescriptorReference Name="EmpireImprovementExpansionDisapproval2" />
   </EmpireImprovementDefinition>
+  
+  <!-- ESG Compatibility -->
+  <!-- Opulent Frontiers -->
+  <EmpireImprovementDefinition Name="EmpireImprovementOutpostLuxDepositValue_NoOutposts" Category="CategoryRecipeImprovement" SubCategory="SubCategoryEmpire">
+    <PathPrerequisite Flags="Prerequisite,Discard,UnlockAvailability,Faction" Inverted="false">../ClassEmpire,!AffinityGameplayCravers,!AffinityGameplayVenetians,!AffinityGameplayTerrans,!AffinityGameplayTimeLords,!AffinityGameplayMajorHisshos,!AffinityGameplayTemplars,!AffinityGameplaySophons,!AffinityGameplayHoratio,!AffinityGameplayMajorMavros</PathPrerequisite>
+    <TechnologyPrerequisite>TechnologyDiplomacy2Common</TechnologyPrerequisite>
+    <SimulationDescriptorReference Name="EmpireImprovementOutpostLuxDepositValue_NoOutposts" />
+  </EmpireImprovementDefinition>
 </Datatable>

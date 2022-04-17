@@ -101,7 +101,7 @@
     <SupervisorGain Name="Population" />
     <Tags>NoBuyout</Tags>
     <QueuedSimulationDescriptorReference Name="QueuedDescriptorIncreaseVirtualPopulation"/>
-    <CustomCost ResourceName="EmpireScrap" Instant="true">3 + (Property(Context, @'ClassColonizedStarSystem', DrudgeCount) * 2)</CustomCost>
+    <CustomCost ResourceName="EmpireScrap" Instant="true">3 + (Property(StockLocation, @'ClassColonizedStarSystem', DrudgeWorkerCount) * 2)</CustomCost>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem</PathPrerequisite>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementDrudgeFactory,!FastForwardedImprovement</PathPrerequisite>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayMajorMavros">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
@@ -120,7 +120,7 @@
     <SupervisorGain Name="Population" />
     <Tags>NoBuyout</Tags>
     <QueuedSimulationDescriptorReference Name="QueuedDescriptorIncreaseVirtualPopulation"/>
-    <CustomCost ResourceName="EmpireScrap" Instant="true">((10 * Property(Context, @../ClassEmpire, GameSpeedMultiplier, true)) * (Property(Context, @'ClassColonizedStarSystem', DrudgeTitanCount) + 1)) * 1.5</CustomCost>
+    <CustomCost ResourceName="EmpireScrap" Instant="true">((10 * Property(Context, @../ClassEmpire, GameSpeedMultiplier, true)) * (Property(StockLocation, @'ClassColonizedStarSystem', DrudgeTitanCount) + 1)) * 1.5</CustomCost>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem</PathPrerequisite>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementDrudgeFactory,!FastForwardedImprovement</PathPrerequisite>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem/ClassPopulationStarSystemAffinityDrudges</PathPrerequisite>

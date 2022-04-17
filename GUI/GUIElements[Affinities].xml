@@ -21,7 +21,7 @@
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
     <Movies>
       <Movie Path="Movies/Factions/Mavros_Intro.mp4" Type="Intro" />
-      <Movie Path="Movies/Factions/Sophons_Outro.mp4" Type="Outro" />
+      <Movie Path="Movies/Factions/Mavros_Outro.mp4" Type="Outro" />
     </Movies>
     <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitMavros</ModelPath>
   </AffinityGuiElement>

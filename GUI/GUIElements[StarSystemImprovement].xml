@@ -5,8 +5,8 @@
     <Title>%StarSystemImprovementShip1MavrosTitle</Title>
     <Description>%StarSystemImprovementShip1MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/HangarSmall.png" />
-      <Icon Size="Large" Path="Textures/GUI/HangarLarge.png" />
+      <Icon Size="Small" Path="Textures/Constructibles/StarSystemImprovementShip1MavrosSmall.png" />
+      <Icon Size="Large" Path="Textures/Constructibles/StarSystemImprovementShip1MavrosLarge.png" />
     </Icons>
   </GuiElement>
 
@@ -25,8 +25,8 @@
     <Title>%StarSystemImprovementApproval1MavrosTitle</Title>
     <Description>%StarSystemImprovementApproval1MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/MarketSmall.png" />
-      <Icon Size="Large" Path="Textures/GUI/MarketLarge.png" />
+      <Icon Size="Small" Path="Textures/Constructibles/StarSystemImprovementApproval1MavrosSmall.png" />
+      <Icon Size="Large" Path="Textures/Constructibles/StarSystemImprovementApproval1MavrosLarge.png" />
     </Icons>
   </GuiElement>
 
@@ -35,8 +35,8 @@
     <Title>%StarSystemImprovementDefense1MavrosTitle</Title>
     <Description>%StarSystemImprovementDefense1MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/RadarSmall.png" />
-      <Icon Size="Large" Path="Textures/GUI/RadarLarge.png" />
+      <Icon Size="Small" Path="Textures/Constructibles/StarSystemImprovementDefense1MavrosSmall.png" />
+      <Icon Size="Large" Path="Textures/Constructibles/StarSystemImprovementDefense1MavrosLarge.png" />
     </Icons>
   </GuiElement>
 
@@ -45,8 +45,8 @@
     <Title>%StarSystemImprovementDefense2MavrosTitle</Title>
     <Description>%StarSystemImprovementDefense2MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/PlanetaryCannonSmall.png" />
-      <Icon Size="Large" Path="Textures/GUI/PlanetaryCannonLarge.png" />
+      <Icon Size="Small" Path="Textures/Constructibles/StarSystemImprovementDefense2MavrosSmall.png" />
+      <Icon Size="Large" Path="Textures/Constructibles/StarSystemImprovementDefense2MavrosLarge.png" />
     </Icons>
   </GuiElement>
 
@@ -55,18 +55,8 @@
     <Title>%StarSystemImprovementIndustry4MavrosTitle</Title>
     <Description>%StarSystemImprovementIndustry4MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/PrinterSmall.png" />
-      <Icon Size="Large" Path="Textures/GUI/PrinterLarge.png" />
-    </Icons>
-  </GuiElement>
-
-  <!-- Deep Atmosphere Habitats -->
-  <GuiElement Name="StarSystemImprovementPopulationSlotMavros">
-    <Title>%StarSystemImprovementPopulationSlotMavrosTitle</Title>
-    <Description>%StarSystemImprovementPopulationSlotMavrosDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Textures/GUI/HabitationRingSmall.png" />
-      <Icon Size="Large" Path="Textures/GUI/HabitationRingLarge.png" />
+      <Icon Size="Small" Path="Textures/Constructibles/StarSystemImprovementIndustry4MavrosSmall.png" />
+      <Icon Size="Large" Path="Textures/Constructibles/StarSystemImprovementIndustry4MavrosLarge.png" />
     </Icons>
   </GuiElement>
 
@@ -85,8 +75,8 @@
     <Title>%StarSystemImprovementOverExpansion1MavrosTitle</Title>
     <Description>%StarSystemImprovementOverExpansion1MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/OvermindSmall.png" />
-      <Icon Size="Large" Path="Textures/GUI/OvermindLarge.png" />
+      <Icon Size="Small" Path="Textures/Constructibles/StarSystemImprovementOverExpansion1MavrosSmall.png" />
+      <Icon Size="Large" Path="Textures/Constructibles/StarSystemImprovementOverExpansion1MavrosLarge.png" />
     </Icons>
   </GuiElement>
 
@@ -95,18 +85,8 @@
     <Title>%StarSystemImprovementApproval5MavrosTitle</Title>
     <Description>%StarSystemImprovementApproval5MavrosDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementApproval5Small" />
-      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementApproval5Large" />
-    </Icons>
-  </GuiElement>
-
-  <!-- Lunar Suburbs -->
-  <GuiElement Name="StarSystemImprovementPopulationSlot2Mavros">
-    <Title>%StarSystemImprovementPopulationSlot2Title</Title>
-    <Description>%StarSystemImprovementPopulationSlot2Description</Description>
-    <Icons>
-      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPopulationSlot2Small" />
-      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementPopulationSlot2Large" />
+      <Icon Size="Small" Path="Textures/Constructibles/StarSystemImprovementApproval5MavrosSmall.png" />
+      <Icon Size="Large" Path="Textures/Constructibles/StarSystemImprovementApproval5MavrosLarge.png" />
     </Icons>
   </GuiElement>
 </Datatable>

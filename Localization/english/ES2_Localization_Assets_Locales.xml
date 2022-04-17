@@ -76,11 +76,11 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%PopulationMajorMavrosTitle">Mavros</LocalizationPair>
   <LocalizationPair Name="%PopulationMajorMavrosDescription">TO BE WRITTEN</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitCustomFactionMavrosTitle">Covetous Collection</LocalizationPair>
-  <LocalizationPair Name="%PopulationCollectionBonusTraitCustomFactionMavrosDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitCustomFactionMavrosDescription">This collection focuses on Industry and Military production.</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMajorMavros1">[mavros] Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMajorMavros2">[mavros] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMajorMavros3">[mavros] Collection Bonus III</LocalizationPair>
-  <LocalizationPair Name="%ShipCostReductionPerStrategicEffect">-5% Military ship [industrycolored] cost per Strategic Deposit on Systems</LocalizationPair>
+  <LocalizationPair Name="%ShipCostReductionPerStrategicEffect">-5% Ship [industrycolored] cost per Strategic Deposit on Systems</LocalizationPair>
   <LocalizationPair Name="%PopulationPoliticalFlatAffinityMajorMavrosTitle">Mavros Population</LocalizationPair>
 
   <!-- Research -->
@@ -99,13 +99,11 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%EmpireImprovementSlotsMedium02MavrosEra3TooltipEffect">Unlocks additional [Strat04anti-matterColored] module slots for Mile-class hulls
 +50% [shipCrewColored] Crew Capacity</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementSlotsLarge01MavrosEra4Title">Enhanced Gallon-Class Hull</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsLarge01SophonsEra4TooltipEffect">Unlocks additional [Strat05orichalcixColored] / [Strat06quadrinixColored] module slots for Gallon-class hulls
+  <LocalizationPair Name="%EmpireImprovementSlotsLarge01MavrosEra4TooltipEffect">Unlocks additional [Strat05orichalcixColored] / [Strat06quadrinixColored] module slots for Gallon-class hulls
 +50% [shipCrewColored] Crew Capacity</LocalizationPair>
-  <LocalizationPair Name="%TechnologyDefinitionScienceAndExploration29MavrosTitle">TO BE WRITTEN</LocalizationPair>
-  <LocalizationPair Name="%TechnologyDefinitionScienceAndExploration29MavrosDescription">TO BE WRITTEN</LocalizationPair>
 
   <!-- Empire Improvements -->
-  <LocalizationPair Name="%EmpireImprovementMavrosUniqueMissilesTitle">Glorious Missiles</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementMavrosUniqueMissilesTitle">Marvelous Missiles</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementMavrosUniqueMissilesDescription">Although they love all weapons technologies, the Mavros have a particular fondness for missiles. The size and sleek, shark-like form of the projectile, the rumble of firing that resonates through the ship, the graceful arc of death tracked across the blackness of space... and, of course, the extremely large boom.</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementMavrosUniqueMissilesEffect">+200 Salvo Health on Missile Weapon Modules
 -3 Seconds of cooldown on Missile Weapon Modules
@@ -138,26 +136,33 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%FleetNameAdjectiveApparatus09">Shambolic</LocalizationPair>
   
   <!-- Faction Trait -->
-  <!-- -50% Luxury Boost Cost -->
+  <!-- Hard to manage approval -->
   <LocalizationPair Name="%FactionTraitLuxuryPopulation_MavrosTitle">Volatile Populace</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLuxuryPopulation_MavrosDescription">Wearing their emotions on their sleeves, your population are far more prone than others to falling into disagreement, strife, and open rebellion. On the other hand, when things go well their celebrations are spectacular.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLuxuryPopulation_MavrosEffect">Rebellion progresses 50% faster
 +10 [happinessColored] required to reach Unhappy Status
 -15 [happinessColored] required to reach Happy Status</LocalizationPair>
+  
   <!-- Slow but Powerful Ships -->
   <!-- WARNING as implemented, they're currently not "slow", just more powerful. -->
   <LocalizationPair Name="%FactionTraitHulkingShips_MavrosTitle">Hulking Monstrosities</LocalizationPair>
   <LocalizationPair Name="%FactionTraitHulkingShips_MavrosDescription">It requires physical force to stop some engineers attaching more, bigger guns to their latest ship design. These extra weapons tend to be the first thing to get shot off in a fight, but until then, they contribute extra firepower while also acting as a sort of ablative armour.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitHulkingShips_MavrosEffect">+0.3% Damage per 1000 Health on Ships
 +5% Maximum Health on Ships</LocalizationPair> <!-- WARNING the trait in SimulationDescriptors[FactionTrait].xml also adds a production cost reduction, not mentioned here -->
+
   <!-- Fragile but Powerful Militia -->
   <LocalizationPair Name="%FactionTraitEffectiveCombatants_MavrosTitle">Fragile Commandos</LocalizationPair>
+
   <LocalizationPair Name="%FactionTraitEffectiveCombatants_MavrosDescription">Prioritizing hitting power over staying power, your infantry troops go light on armour, logistics gear, and even rations, all in the interest of carrying more ammo and bigger guns.</LocalizationPair>
+  
+  <!-- Starting Mavros Population -->
+  <LocalizationPair Name="%FactionTraitMinorMajorMavrosTitle">Mavros Citizens</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMajorMavrosDescription">The faction starts with Mavros population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMajorMavrosTooltipEffect">+1 [mavros] on your home system</LocalizationPair>
+
   <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusTitle">Unnamed</LocalizationPair>
   <!-- Drudge Effect Override -->
-  <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusOverride">+2 [foodcolored] per System Level
-+1 [dustcolored] per System Level
-+1 [prestigecolored] per System Level</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusOverride">+2 [industryColored] per Non-Drudge on Planet</LocalizationPair>
   
   <!-- Drudge Titan Effect -->
   <LocalizationPair Name="%PopulationModifiersTraitDrudgeTitansBonusTitle">Unnamed</LocalizationPair>
@@ -166,7 +171,7 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
 +3 [dustcolored] per System Level
 +100 Damage done to attacker during ground battle per System Level</LocalizationPair>
   
-  <!-- Drudge No-Happiness -->
+  <!-- Drudge No-Happiness (Name doesn't appear ingame, don't translate) -->
   <LocalizationPair Name="%PopulationModifiersTraitSecondaryDrudgeBonusTitle">Unnamed</LocalizationPair>
   <!-- Drudge Effect Override -->
   <LocalizationPair Name="%PopulationModifiersTraitSecondaryDrudgeBonusOverride">No Unhappiness Generated from Planet</LocalizationPair>
