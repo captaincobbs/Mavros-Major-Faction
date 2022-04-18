@@ -160,20 +160,18 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%FactionTraitMinorMajorMavrosDescription">The faction starts with Mavros population on their home planet</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMinorMajorMavrosTooltipEffect">+1 [mavros] on your home system</LocalizationPair>
 
-  <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusTitle">Unnamed</LocalizationPair>
-  <!-- Drudge Effect Override -->
-  <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusOverride">+2 [industryColored] per Non-Drudge on Planet</LocalizationPair>
+  <!-- Drudge Worker Effect -->
+  <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusTitle">Unnamed</LocalizationPair> <!-- Do not translate, does not appear ingame -->
+  <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusOverride">+2 [industryColored] per Non-Drudge on Current Planet
+-1% System Improvement [industryColored] cost per Non-Drudge on Current Planet (Does not stack)</LocalizationPair>
   
   <!-- Drudge Titan Effect -->
-  <LocalizationPair Name="%PopulationModifiersTraitDrudgeTitansBonusTitle">Unnamed</LocalizationPair>
-  <!-- Drudge Titan Effect Override -->
-  <LocalizationPair Name="%PopulationModifiersTraitDrudgeTitansBonusOverride">+2 [sciencecolored] per System Level
-+3 [dustcolored] per System Level
-+100 Damage done to attacker during ground battle per System Level</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitDrudgeTitansBonusTitle">Unnamed</LocalizationPair> <!-- Do not translate, does not appear ingame -->
+  <LocalizationPair Name="%PopulationModifiersTraitDrudgeTitansBonusOverride">+50 Ground Battle Damage per Non-Drudge on Current Planet
+-1% Ship [industryColored] cost per Non-Drudge on Current Planet (Does not stack)</LocalizationPair>
   
-  <!-- Drudge No-Happiness (Name doesn't appear ingame, don't translate) -->
-  <LocalizationPair Name="%PopulationModifiersTraitSecondaryDrudgeBonusTitle">Unnamed</LocalizationPair>
-  <!-- Drudge Effect Override -->
+  <!-- Drudge No-Happiness -->
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryDrudgeBonusTitle">Unnamed</LocalizationPair> <!-- Do not translate, does not appear ingame -->
   <LocalizationPair Name="%PopulationModifiersTraitSecondaryDrudgeBonusOverride">No Unhappiness Generated from Planet</LocalizationPair>
   
   <!-- Drudge Apolitical Trait -->
@@ -219,9 +217,6 @@ If any of these do not appear, it is because they are 0.</LocalizationPair>
   <!-- Autonomous Administration Replacement - +1 CP per Autonomous Command Built, Only Buildable on Lvl4 systems -->
   <LocalizationPair Name="%StarSystemImprovementOverExpansion1MavrosTitle">Autonomous Command</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementOverExpansion1MavrosDescription">The garrison of this system gains a high degree of autonomy thanks to the ability of newly installed cyborg tacticians. The empire can create larger fleets without fear of disorder.</LocalizationPair>
-  <!-- Deep Atmosphere Habitats Replacement, Additional +2 Population on Gas -->
-  <LocalizationPair Name="%StarSystemImprovementPopulationSlotMavrosTitle">Jovian Habitats</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementPopulationSlotMavrosDescription">These gas-giant upper atmosphere settlements are nicknamed "jovial habitats", since the compact efficiency, abundance of cool tech, and breathtaking views seems to be exactly what the Mavros need to thrive.</LocalizationPair>
   <!-- Luxury Lottery replacement, +5 happiness on strategic instead of luxury -->
   <LocalizationPair Name="%StarSystemImprovementApproval5MavrosTitle">Strategics Lottery</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementApproval5MavrosDescription">The luxuries lottery employed by many of the galaxy's factions is of little interest to the Mavros. They much prefer to receive a windfall of strategic resources, which can then be used kitting out their personal power armour, combat vehicle, or spaceship.</LocalizationPair>
@@ -233,24 +228,22 @@ If any of these do not appear, it is because they are 0.</LocalizationPair>
 Allows Drudges to be upgraded into Drudge Titans</LocalizationPair>
   
   <!-- Construct Drudge -->
-  <LocalizationPair Name="%StarSystemImprovementCreateDrudgeTitle">Construct Drudges</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementCreateDrudgeDescription">TO BE WRITTEN</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementDrudgeBuildEffect">Add a [DiploStateAssimilated] population to your System
-Drudge Population:
+  <LocalizationPair Name="%StarSystemImprovementCreateDrudgeWorkerTitle">Construct Drudges</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCreateDrudgeWorkerDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCreateDrudgeWorkerEffect">Add a Drudge Worker population to your System
+Drudge Worker Population:
 No Unhappiness Generated from Planet
-+2 [foodcolored] per System Level
-+1 [dustcolored] per System Level
-+1 [prestigecolored] per System Level</LocalizationPair>
++2 [industryColored] per Non-Drudge on Current Planet
+-1% System Improvement [industryColored] cost per Non-Drudge on Current Planet (Does not stack)</LocalizationPair>
   
   <!-- Upgrade Drudge -->
-  <LocalizationPair Name="%StarSystemImprovementUpgradeDrudgeTitle">Upgrade Drudges</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementUpgradeDrudgeDescription">TO BE WRITTEN</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementDrudgeUpgradeEffect">Transform a [DiploStateAssimilated] population into a [DiploStatePartner] population
+  <LocalizationPair Name="%StarSystemImprovementDrudgeUpgradeToTitanTitle">Upgrade Drudges</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementDrudgeUpgradeToTitanDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementDrudgeUpgradeToTitanEffect">Upgrade a Drudge Worker into a Drudge Titan population
 Drudge Titan Population:
 No Unhappiness Generated from Planet
-+2 [sciencecolored] per System Level
-+3 [dustcolored] per System Level
-+100 Damage done to attacker during ground battle per System Level</LocalizationPair>
++50 Defensive Bombardment Damage per Non-Drudge on Current Planet
+-1% Ship [industryColored] cost per Non-Drudge on Current Planet (Does not stack)</LocalizationPair>
   
   <!-- Module Types -->
   <LocalizationPair Name="%ClassModuleWeaponKineticTitle">Kinetic Weapon Modules</LocalizationPair>
@@ -260,7 +253,7 @@ No Unhappiness Generated from Planet
   <LocalizationPair Name="%ModuleSupportCrew1MavrosTitle">N3C Invasion Extension</LocalizationPair>
   <LocalizationPair Name="%ModuleSupportCrew1MavrosDescription">TO BE WRITTEN</LocalizationPair>
 
-  <!-- Scrap Boosts -->
+  <!-- Scrap Boosts (TO BE REPLACED WITH EMPIRE BOOSTS) -->
   <LocalizationPair Name="%StarSystemImprovementScrapBoostIndustryTitle">Wreckage Reprocessing</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementScrapBoostIndustryDescription">TO BE WRITTEN</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementScrapBoostIndustryTooltipEffect">+50% [industrycolored] on this System for {0} [turnColored]
@@ -273,6 +266,8 @@ No Unhappiness Generated from Planet
   <LocalizationPair Name="%StarSystemImprovementScrapBoostDustDescription">TO BE WRITTEN</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementScrapBoostDustTooltipEffect">+50% [dustcolored] on this System for {0} [turnColored]
 +4 [dustcolored] per [mavros] for {0} [turnColored]</LocalizationPair>
+  
+  <!-- Scrap Collection -->
   <LocalizationPair Name="%StarSystemImprovementIndustryToScrap1Title">Junkyard Scavenging</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementIndustryToScrap1Description">Deploy a team in one [turncolored] to collect scrap from Junkyards.
 #FF0000#One turn delay on profit#Revert#</LocalizationPair>
@@ -289,9 +284,9 @@ No Unhappiness Generated from Planet
 - This population cannot be boosted and doesn't have a collection bonus
 - This population does not have politics and does not count towards population count / population type count</LocalizationPair>
   <!-- Drudge-->
-  <LocalizationPair Name="%AffinityDrudgesTitle">Drudges</LocalizationPair>
-  <LocalizationPair Name="%AffinityDrudgesAltTitle">[DiploStateAssimilated]</LocalizationPair>
-  <LocalizationPair Name="%AffinityDrudgesDescription">Drudges are sentient but unfeeling robots that do all the things the Mavros find "boring". They are in charge of all agricultural operations, and act as political organizers, trade company managers, and fulfil most roles that don't directly relate to tinkering, building, or fighting.
+  <LocalizationPair Name="%AffinityDrudgeWorkerTitle">Drudge Worker</LocalizationPair>
+  <LocalizationPair Name="%AffinityDrudgeWorkerAltTitle">[DiploStateAssimilated]</LocalizationPair>
+  <LocalizationPair Name="%AffinityDrudgeWorkerDescription">Drudges are sentient but unfeeling robots that do all the things the Mavros find "boring". They are in charge of all agricultural operations, and act as political organizers, trade company managers, and fulfil most roles that don't directly relate to tinkering, building, or fighting.
 They may be upgraded in the future.</LocalizationPair>
   <!-- Sub: Drudge Titan -->
   <LocalizationPair Name="%AffinityDrudgeTitansTitle">Drudge Titans</LocalizationPair>
