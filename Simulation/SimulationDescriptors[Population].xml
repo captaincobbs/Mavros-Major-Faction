@@ -8,10 +8,10 @@
   </SimulationDescriptor>
   
   <!-- Drudge -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityDrudges" Type="ClassPopulationEmpire">
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityDrudgeWorker" Type="ClassPopulationEmpire">
     <Modifier TargetProperty="CanBeBoosted" Operation="Force" Value="0" TooltipHidden="true"/>
   </SimulationDescriptor>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityDrudges" Type="ClassPopulationStarSystem">
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityDrudgeWorker" Type="ClassPopulationStarSystem">
     <Modifier TargetProperty="ShouldPopulationGrow" Operation="Force"       Value="-1"  TooltipHidden="true"/>
     <Modifier TargetProperty="PopulationWithGrowth" Operation="Subtraction" Value="$(PopulationCount)" Path="./ClassStarSystem" TooltipHidden="true"/>
     <Modifier TargetProperty="DrudgeWorkerCount" Operation="Addition" Value="1" Path="./ClassStarSystem" TooltipHidden="true"/>

@@ -20,15 +20,15 @@
   </PopulationModifiersTrait>
   
   <!-- Drudges -->
-  <PopulationModifiersTrait Name="PopulationModifiersTraitDrudges" SubCategory="Affinity" ShowInCustom="false">
+  <PopulationModifiersTrait Name="PopulationModifiersTraitDrudgeWorker" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDrudges"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDrudgeWorker"/>
         <SimulationDescriptorReference Name="PopulationIsDrudge"/>
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
         <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeIndustry"/>
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDrudges"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDrudgeWorker"/>
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
