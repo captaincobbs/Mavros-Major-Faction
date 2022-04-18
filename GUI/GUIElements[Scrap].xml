@@ -89,8 +89,8 @@
     <Title>%StarSystemImprovementIndustryToScrap1Title</Title>
     <Description>%StarSystemImprovementIndustryToScrap1Description</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/MavrosGameplayAffinity_Scrap1Small.png" />
-      <Icon Size="Large" Path="Textures/GUI/MavrosGameplayAffinity_Scrap1Large.png" />
+      <Icon Size="Small" Path="Textures/Constructibles/StarSystemImprovementIndustryToScrap1Small.png" />
+      <Icon Size="Large" Path="Textures/Constructibles/StarSystemImprovementIndustryToScrap1Large.png" />
     </Icons>
   </GuiElement>
 
@@ -99,8 +99,8 @@
     <Title>%StarSystemImprovementIndustryToScrap2Title</Title>
     <Description>%StarSystemImprovementIndustryToScrap2Description</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/MavrosGameplayAffinity_Scrap2Small.png" />
-      <Icon Size="Large" Path="Textures/GUI/MavrosGameplayAffinity_Scrap2Large.png" />
+      <Icon Size="Small" Path="Textures/Constructibles/StarSystemImprovementIndustryToScrap2Small.png" />
+      <Icon Size="Large" Path="Textures/Constructibles/StarSystemImprovementIndustryToScrap2Large.png" />
     </Icons>
   </GuiElement>
 
@@ -109,8 +109,8 @@
     <Title>%StarSystemImprovementIndustryToScrap3Title</Title>
     <Description>%StarSystemImprovementIndustryToScrap3Description</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/MavrosGameplayAffinity_Scrap3Small.png" />
-      <Icon Size="Large" Path="Textures/GUI/MavrosGameplayAffinity_Scrap3Large.png" />
+      <Icon Size="Small" Path="Textures/Constructibles/StarSystemImprovementIndustryToScrap3Small.png" />
+      <Icon Size="Large" Path="Textures/Constructibles/StarSystemImprovementIndustryToScrap3Large.png" />
     </Icons>
   </GuiElement>
 
@@ -119,8 +119,8 @@
     <Title>%StarSystemImprovementDrudgeFactoryTitle</Title>
     <Description>%StarSystemImprovementDrudgeFactoryDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/DrudgesCenterSmall.png" />
-      <Icon Size="Large" Path="Textures/GUI/DrudgesCenterLarge.png" />
+      <Icon Size="Small" Path="Textures/Constructibles/StarSystemImprovementDrudgeFactorySmall.png" />
+      <Icon Size="Large" Path="Textures/Constructibles/StarSystemImprovementDrudgeFactoryLarge.png" />
     </Icons>
     <TooltipElement>
       <EffectOverride>%StarSystemImprovementDrudgeFactoryEffect</EffectOverride>
@@ -128,28 +128,28 @@
   </ExtendedGuiElement>
 
   <!-- Drudges Build Action -->
-  <ExtendedGuiElement Name="StarSystemImprovementCreateDrudge">
-    <Title>%StarSystemImprovementCreateDrudgeTitle</Title>
-    <Description>%StarSystemImprovementCreateDrudgeDescription</Description>
+  <ExtendedGuiElement Name="StarSystemImprovementCreateDrudgeWorker">
+    <Title>%StarSystemImprovementCreateDrudgeWorkerTitle</Title>
+    <Description>%StarSystemImprovementCreateDrudgeWorkerDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/DrudgesConstructSmall.png" />
-      <Icon Size="Large" Path="Textures/GUI/DrudgesConstructLarge.png" />
+      <Icon Size="Small" Path="Textures/Population/StarSystemImprovementCreateDrudgeWorkerSmall.png" />
+      <Icon Size="Large" Path="Textures/Population/StarSystemImprovementCreateDrudgeWorkerLarge.png" />
     </Icons>
     <TooltipElement>
-      <EffectOverride>%StarSystemImprovementDrudgeBuildEffect</EffectOverride>
+      <EffectOverride>%StarSystemImprovementCreateDrudgeWorkerEffect</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
 
   <!-- Drudges Upgrade Action -->
-  <ExtendedGuiElement Name="StarSystemImprovementUpgradeDrudge">
-    <Title>%StarSystemImprovementUpgradeDrudgeTitle</Title>
-    <Description>%StarSystemImprovementUpgradeDrudgeDescription</Description>
+  <ExtendedGuiElement Name="StarSystemImprovementDrudgeUpgradeToTitan">
+    <Title>%StarSystemImprovementDrudgeUpgradeToTitanTitle</Title>
+    <Description>%StarSystemImprovementDrudgeUpgradeToTitanDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/DrudgesUpgradeSmall.png" />
-      <Icon Size="Large" Path="Textures/GUI/DrudgesUpgradeLarge.png" />
+      <Icon Size="Small" Path="Textures/Population/StarSystemImprovementDrudgeUpgradeToTitanSmall.png" />
+      <Icon Size="Large" Path="Textures/Population/StarSystemImprovementDrudgeUpgradeToTitanLarge.png" />
     </Icons>
     <TooltipElement>
-      <EffectOverride>%StarSystemImprovementDrudgeUpgradeEffect</EffectOverride>
+      <EffectOverride>%StarSystemImprovementDrudgeUpgradeToTitanEffect</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
 </Datatable>

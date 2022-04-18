@@ -10,8 +10,8 @@
       <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityMavrosLarge" />
       <Icon Size="Leader" Path="Bitmaps/Dynamic/Affinities/AffinitySophonsLeader" />
       <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinityMavrosMood" />
-      <Icon Size="SmallExtended" Path="Bitmaps/Atlased/Notifications/NotificationEmpireMet/NotificationMajorEmpireMetSophonsSmall" />
-      <Icon Size="MediumExtended" Path="Bitmaps/Dynamic/Notifications/NotificationEmpireMet/NotificationMajorEmpireMetSophonsMedium" />
+      <Icon Size="SmallExtended" Path="Textures/GUI/NotificationMajorEmpireMetSophonsSmall.png" />
+      <Icon Size="MediumExtended" Path="Textures/GUI/NotificationMajorEmpireMetMavrosMedium.png" />
       <Icon Size="Loading" Path="Textures/GUI/LoadingMavros.png" />
     </Icons>
     <SymbolString>[mavros]</SymbolString>
