@@ -34,6 +34,15 @@ Sedghammer & Amplitude Artists -->
       <DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
         <FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
       </DatabasePlugin>
+	  
+	  <!-- Entity Actions -->
+	  <DatabasePlugin DataType="EntityActionDefinition, Assembly-CSharp">
+				<ExtraTypes>
+					<ExtraType DataType="OutpostActionDefinition, Assembly-CSharp" />
+					<ExtraType DataType="OutpostActionWithTargetsDefinition, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Simulation/EntityActions.xml</FilePath>
+			</DatabasePlugin>
 
       <!-- Simulation -->
       <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
@@ -143,6 +152,7 @@ Sedghammer & Amplitude Artists -->
           <ExtraType DataType="TechnologyGuiElement2, Assembly-CSharp" />
           <!--<ExtraType DataType="QuestGuiElement, Assembly-CSharp" />-->
           <ExtraType DataType="SkinnedGuiElement, Assembly-CSharp" />
+          <ExtraType DataType="EntityActionGuiElement, Assembly-CSharp" />
         </ExtraTypes>
         <FilePath>GUI/GUIElements[*].xml</FilePath>
       </DatabasePlugin>

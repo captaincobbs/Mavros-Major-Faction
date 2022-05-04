@@ -197,6 +197,16 @@ If any of these do not appear, it is because they are 0.</LocalizationPair>
   
   <LocalizationPair Name="%PopulationModifiersTraitPrimaryDrudgesTitle">TO BE WRITTEN</LocalizationPair>
   
+  <!-- Outpost actions -->
+    <LocalizationPair Name="%OutpostActionStealGrowth2MavrosTitle">Greener Grass (Mavros)</LocalizationPair>
+  <LocalizationPair Name="%OutpostActionStealGrowth2MavrosDescription">It's better over here! Gain a growth bonus from the Outposts of your opponents in this System.</LocalizationPair>
+  
+  <LocalizationPair Name="%OutpostActionBoostGrowthWithDustMavrosTitle">Merchants and Money (Mavros)</LocalizationPair>
+  <LocalizationPair Name="%OutpostActionBoostGrowthWithDustMavrosDescription">Who can ignore the lure of Dust? Boost the Outpost growth based on its Dust value.</LocalizationPair>
+  
+  <LocalizationPair Name="%OutpostActionIncreaseMigrationRateMavrosTitle">Freehold Fanfare (Mavros)</LocalizationPair>
+  <LocalizationPair Name="%OutpostActionIncreaseMigrationRateMavrosDescription">By marketing the possibility to start over with space, resources, and healthy subsidies, you can double the migration rate from the planet that provides colonists.</LocalizationPair>
+  
   <!-- System Improvements -->
   <!-- Big Data Shipyards Replacement, -20% Ship Cost, +40 additional starting XP -->
   <LocalizationPair Name="%StarSystemImprovementShip1MavrosTitle">OQ-3 Shipyards</LocalizationPair>

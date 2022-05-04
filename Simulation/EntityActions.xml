@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/EntityActionDefinition.xsd">
+
+
+  <!--  =========================== -->
+  <!--  All-faction Outpost actions -->
+  <!--  =========================== -->
+  
+  <!--  Remove Mavros from regular outpost boosting action -->
+    <OutpostActionWithTargetsDefinition Name="OutpostActionStealGrowth2" Duration="10" Target="AllOutposts" ApplySelfDescriptorsOncePerTarget="true">
+        <EntityPrerequisites Location="Self">
+            <PathPrerequisite Flags="Prerequisite,SystemIsBeingGuarded" Inverted="true">BlockadedColonizedStarSystem</PathPrerequisite>
+            <PathPrerequisite Flags="Prerequisite,SystemIsBeingDecolonized" Inverted="true">DecolonizedColonizedStarSystem</PathPrerequisite>
+            <PathPrerequisite Flags="Prerequisite" Inverted="true">OutpostActionDescriptorStealGrowth2</PathPrerequisite>
+        </EntityPrerequisites>
+        <EntityModifiers Location="Self">
+            <SimulationAlteration DescriptorReference="OutpostActionDescriptorStealGrowth2"/>
+        </EntityModifiers>
+        <CustomCost Instant="true" ResourceName="EmpireManpower">50 + 25 * $(NumberOfOpponentOutposts)</CustomCost>
+        <PathPrerequisite Flags="Prerequisite,Discard" Inverted="true">../ClassEmpire/PopulationMajor,ClassPopulationEmpireAffinityTimeLords</PathPrerequisite>
+
+        <TargetDescriptors>
+            <SimulationDescriptorReference Name="OutpostActionStealGrowth2TargetEffect"/>
+        </TargetDescriptors>
+        <SelfDescriptors>
+            <SimulationDescriptorReference Name="OutpostActionStealGrowth2SelfEffect"/>
+        </SelfDescriptors>
+    <PathPrerequisite Flags="Prerequisite,Discard" Inverted="true">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
+    </OutpostActionWithTargetsDefinition>
+
+  <!--  Remove Mavros from regular outpost boosting action -->
+    <OutpostActionDefinition Name="OutpostActionBoostGrowthWithDust" Duration="10">
+
+        <EntityPrerequisites Location="Self">
+            <PathPrerequisite Flags="Prerequisite,SystemIsBeingGuarded" Inverted="true">BlockadedColonizedStarSystem</PathPrerequisite>
+            <PathPrerequisite Flags="Prerequisite,SystemIsBeingDecolonized" Inverted="true">DecolonizedColonizedStarSystem</PathPrerequisite>
+            <PathPrerequisite Flags="Prerequisite" Inverted="true">OutpostActionIncreaseLocalGrowthEffect</PathPrerequisite>
+        </EntityPrerequisites>
+        
+        <EntityModifiers Location="Self">
+            <SimulationAlteration DescriptorReference="OutpostActionIncreaseLocalGrowthEffect"/>
+        </EntityModifiers>
+        
+        <CustomCost Instant="true" ResourceName="EmpireMoney">50 + 100 * Property(StockLocation, @../ClassEmpire, SystemCount)</CustomCost>
+        <PathPrerequisite Flags="Prerequisite,Discard" Inverted="true">../ClassEmpire/PopulationMajor,ClassPopulationEmpireAffinityTimeLords</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard" Inverted="true">../ClassEmpire,AffinityGameplayMajorHisshos</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard" Inverted="true">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
+
+    </OutpostActionDefinition>
+
+  <!--  Remove Lumeris (as in ESG) AND MAVROS from regular outpost boosting action -->
+  <OutpostActionDefinition Name="OutpostActionIncreaseMigrationRate" Duration="10" RequiresMigrationFlux="true">
+    <EntityPrerequisites Location="Self">
+      <PathPrerequisite Flags="Prerequisite,SystemIsBeingGuarded" Inverted="true">BlockadedColonizedStarSystem</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,SystemIsBeingDecolonized" Inverted="true">DecolonizedColonizedStarSystem</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite" Inverted="true">OutpostActionIncreaseMigrationRate</PathPrerequisite>
+    </EntityPrerequisites>
+    <EntityModifiers Location="Self">
+      <SimulationAlteration DescriptorReference="OutpostActionIncreaseMigrationRate"/>
+    </EntityModifiers>
+    <CustomCost Instant="true" ResourceName="EmpireEmpirePoint">25 + 50 * Property(StockLocation, @../ClassEmpire, SystemCount)</CustomCost>
+    <PathPrerequisite Flags="Prerequisite,Discard" Inverted="true">../ClassEmpire/PopulationMajor,ClassPopulationEmpireAffinityTimeLords</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard" Inverted="true">../ClassEmpire,AffinityGameplayMajorHisshos</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard" Inverted="true">../ClassEmpire,AffinityGameplayVenetians</PathPrerequisite>
+    <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard,Faction,AffinityGameplayVenetians">../ClassEmpire,AffinityGameplayVenetians</PathPrerequisite> <!-- Copied from EntityActions.xml in ESG... but what the hell is this? It looks like an error to me. -->
+    <PathPrerequisite Flags="Prerequisite,Discard" Inverted="true">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
+    <MigrationFluxSimulationDescriptorReference Name="OutpostActionIncreaseMigrationRateEffect"/>
+  </OutpostActionDefinition>
+
+  <!--  =========================== -->
+  <!--  Mavros-only Outpost actions -->
+  <!--  =========================== -->
+  
+  <!--  Absorb growth from opponent's outposts -->
+    <OutpostActionWithTargetsDefinition Name="OutpostActionStealGrowth2Mavros" Duration="10" Target="AllOutposts" ApplySelfDescriptorsOncePerTarget="true">
+        <EntityPrerequisites Location="Self">
+            <PathPrerequisite Flags="Prerequisite,SystemIsBeingGuarded" Inverted="true">BlockadedColonizedStarSystem</PathPrerequisite>
+            <PathPrerequisite Flags="Prerequisite,SystemIsBeingDecolonized" Inverted="true">DecolonizedColonizedStarSystem</PathPrerequisite>
+            <PathPrerequisite Flags="Prerequisite" Inverted="true">OutpostActionDescriptorStealGrowth2</PathPrerequisite>
+        </EntityPrerequisites>
+        <EntityModifiers Location="Self">
+            <SimulationAlteration DescriptorReference="OutpostActionDescriptorStealGrowth2"/>
+        </EntityModifiers>
+        <CustomCost Instant="true" ResourceName="EmpireManpower">50 + 25 * $(NumberOfOpponentOutposts)</CustomCost>
+        <PathPrerequisite Flags="Prerequisite,Discard" Inverted="true">../ClassEmpire/PopulationMajor,ClassPopulationEmpireAffinityTimeLords</PathPrerequisite>
+
+        <TargetDescriptors>
+            <SimulationDescriptorReference Name="OutpostActionStealGrowth2TargetEffect"/>
+        </TargetDescriptors>
+        <SelfDescriptors>
+            <SimulationDescriptorReference Name="OutpostActionStealGrowth2SelfEffect"/>
+        </SelfDescriptors>
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
+    </OutpostActionWithTargetsDefinition>
+
+  <!--  Add flat growth on outpost -->
+    <OutpostActionDefinition Name="OutpostActionBoostGrowthWithDustMavros" Duration="10">
+
+        <EntityPrerequisites Location="Self">
+            <PathPrerequisite Flags="Prerequisite,SystemIsBeingGuarded" Inverted="true">BlockadedColonizedStarSystem</PathPrerequisite>
+            <PathPrerequisite Flags="Prerequisite,SystemIsBeingDecolonized" Inverted="true">DecolonizedColonizedStarSystem</PathPrerequisite>
+            <PathPrerequisite Flags="Prerequisite" Inverted="true">OutpostActionIncreaseLocalGrowthEffect</PathPrerequisite>
+        </EntityPrerequisites>
+        
+        <EntityModifiers Location="Self">
+            <SimulationAlteration DescriptorReference="OutpostActionIncreaseLocalGrowthEffect"/>
+        </EntityModifiers>
+        
+        <CustomCost Instant="true" ResourceName="EmpireMoney">50 + 100 * Property(StockLocation, @../ClassEmpire, SystemCount)</CustomCost>
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
+
+    </OutpostActionDefinition>
+
+  <!--  Double growth taken from colony -->
+  <OutpostActionDefinition Name="OutpostActionIncreaseMigrationRateMavros" Duration="10" RequiresMigrationFlux="true">
+    <EntityPrerequisites Location="Self">
+      <PathPrerequisite Flags="Prerequisite,SystemIsBeingGuarded" Inverted="true">BlockadedColonizedStarSystem</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,SystemIsBeingDecolonized" Inverted="true">DecolonizedColonizedStarSystem</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite" Inverted="true">OutpostActionIncreaseMigrationRate</PathPrerequisite>
+    </EntityPrerequisites>
+    <EntityModifiers Location="Self">
+      <SimulationAlteration DescriptorReference="OutpostActionIncreaseMigrationRate"/>
+    </EntityModifiers>
+    <CustomCost Instant="true" ResourceName="EmpireEmpirePoint">25 + 50 * Property(StockLocation, @../ClassEmpire, SystemCount)</CustomCost>
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
+    <MigrationFluxSimulationDescriptorReference Name="OutpostActionIncreaseMigrationRateEffect"/>
+  </OutpostActionDefinition>
+
+</Datatable>
