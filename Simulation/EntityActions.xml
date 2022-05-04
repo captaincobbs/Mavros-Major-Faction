@@ -94,17 +94,17 @@
     <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
     </OutpostActionWithTargetsDefinition>
 
-  <!--  Add flat growth on outpost -->
-    <OutpostActionDefinition Name="OutpostActionBoostGrowthWithDustMavros" Duration="10">
+  <!--  Strategic resource mining -->
+    <OutpostActionDefinition Name="OutpostActionMiningMavros" Duration="10">
 
         <EntityPrerequisites Location="Self">
             <PathPrerequisite Flags="Prerequisite,SystemIsBeingGuarded" Inverted="true">BlockadedColonizedStarSystem</PathPrerequisite>
             <PathPrerequisite Flags="Prerequisite,SystemIsBeingDecolonized" Inverted="true">DecolonizedColonizedStarSystem</PathPrerequisite>
-            <PathPrerequisite Flags="Prerequisite" Inverted="true">OutpostActionIncreaseLocalGrowthEffect</PathPrerequisite>
+            <PathPrerequisite Flags="Prerequisite" Inverted="true">OutpostActionMiningMavrosEffect</PathPrerequisite>
         </EntityPrerequisites>
         
         <EntityModifiers Location="Self">
-            <SimulationAlteration DescriptorReference="OutpostActionIncreaseLocalGrowthEffect"/>
+            <SimulationAlteration DescriptorReference="OutpostActionMiningMavrosEffect"/>
         </EntityModifiers>
         
         <CustomCost Instant="true" ResourceName="EmpireMoney">50 + 100 * Property(StockLocation, @../ClassEmpire, SystemCount)</CustomCost>

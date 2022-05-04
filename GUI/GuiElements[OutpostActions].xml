@@ -22,9 +22,9 @@
         </TooltipElement>
     </EntityActionGuiElement>
 
-    <EntityActionGuiElement Name="OutpostActionBoostGrowthWithDustMavros">
-        <Title>%OutpostActionBoostGrowthWithDustMavrosTitle</Title>
-        <Description>%OutpostActionBoostGrowthWithDustMavrosDescription</Description>
+    <EntityActionGuiElement Name="OutpostActionMiningMavros">
+        <Title>%OutpostActionMiningMavrosTitle</Title>
+        <Description>%OutpostActionMiningMavrosDescription</Description>
         <Icons>
             <Icon Size="Small" Path="Bitmaps\Dynamic\OutpostActions\OutpostAction02Small" />
             <Icon Size="Large" Path="Bitmaps\Dynamic\OutpostActions\OutpostAction02Medium" />
