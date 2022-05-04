@@ -5,6 +5,20 @@
     <Modifier TargetProperty="CanUseScrap"      Operation="Force"        Value="1"   Path="ClassEmpire,EmpireTypeMajor"                       TooltipHidden="true" />
     <Modifier TargetProperty="ScrapPerCP"       Operation="Addition"     Value="1"   Path="../ClassEmpire"                                    TooltipHidden="true" />
     <Modifier TargetProperty="ScrapPerCP"       Operation="Addition"     Value="1"   Path="../ClassEmpire/ClassGarrisonFleet/ClassShip"       TooltipHidden="true" />
+	
+    <!-- Stops food shipments by capping ships-in-transit at 0 -->
+	<Modifier TargetProperty="MaximumIncomingAutomatedShips" Operation="Addition"     Value="-3"    Path="ClassEmpire/ColonizedStarSystemStateOutpost"     TooltipOverride="%FactionTraitNoOutPostFoodShippingMavrosTooltipOverride" TooltipHidden="true"/>
+	
+    <!-- When food shipments do happen, they happen every turn.
+	Note that this means they send less food each shipment. -->
+	<Modifier TargetProperty="BaseTurnsBeforeAutomatedShipRequest" Operation="Force"     Value="1"    Path="ClassEmpire/ClassColonizedStarSystem"     TooltipOverride="%FactionTraitFasterOutPostFoodShippingMavrosTooltipOverride" TooltipHidden="true"/>
+	
+    <!-- Compensates for the "less food each shipment" by doubling the base value. -->
+	<Modifier TargetProperty="SystemOutpostMigrationGrowth" Operation="Multiplication" Value="2"    Path="ClassEmpire/ClassColonizedStarSystem/ClassOutpostMigrationFlux"     TooltipOverride="%FactionTraitFasterOutPostFoodShippingMavrosTooltipOverride" TooltipHidden="true"/>
+	
+    <!-- Attempt to slow natural outpost growth. Reducing it to actually 0 causes outposts to be destroyed after one turn -->
+	<Modifier TargetProperty="SystemGrowth" Operation="Force"     Value="1"    Path="ClassEmpire/ColonizedStarSystemStateOutpost"     TooltipOverride="%FactionTraitNoOutPostGrowthTooltipOverride" TooltipHidden="true"/>
+  
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitLuxuryPopulation_Mavros" Type="FactionTrait">
@@ -31,4 +45,5 @@
   <SimulationDescriptor Name="FactionTraitTechnologyDefinitionEconomyAndTrade1Mavros"           Type="FactionTrait" />
   <SimulationDescriptor Name="FactionTraitTechnologyDefinitionEmpireDevelopment1Mavros"         Type="FactionTrait" />
   <SimulationDescriptor Name="FactionTraitTechnologyDefinitionMilitary1Mavros"                  Type="FactionTrait" />
+  
 </Datatable>

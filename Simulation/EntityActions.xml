@@ -112,19 +112,24 @@
 
     </OutpostActionDefinition>
 
-  <!--  Double growth taken from colony -->
-  <OutpostActionDefinition Name="OutpostActionIncreaseMigrationRateMavros" Duration="10" RequiresMigrationFlux="true">
+  <!--  Forced food shipments -->
+  <OutpostActionDefinition Name="OutpostActionSendShipsMavros" Duration="10" RequiresMigrationFlux="true">
+  
     <EntityPrerequisites Location="Self">
       <PathPrerequisite Flags="Prerequisite,SystemIsBeingGuarded" Inverted="true">BlockadedColonizedStarSystem</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,SystemIsBeingDecolonized" Inverted="true">DecolonizedColonizedStarSystem</PathPrerequisite>
-      <PathPrerequisite Flags="Prerequisite" Inverted="true">OutpostActionIncreaseMigrationRate</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite" Inverted="true">OutpostActionSendShipsMavros</PathPrerequisite>
     </EntityPrerequisites>
+	
     <EntityModifiers Location="Self">
-      <SimulationAlteration DescriptorReference="OutpostActionIncreaseMigrationRate"/>
+      <SimulationAlteration DescriptorReference="OutpostActionSendShipsMavros"/>
     </EntityModifiers>
-    <CustomCost Instant="true" ResourceName="EmpireEmpirePoint">25 + 50 * Property(StockLocation, @../ClassEmpire, SystemCount)</CustomCost>
+	
+    <CustomCost Instant="true" ResourceName="EmpireEmpirePoint">1</CustomCost> <!-- low cost for testing -->
+    <!-- <CustomCost Instant="true" ResourceName="EmpireEmpirePoint">25 + 50 * Property(StockLocation, @../ClassEmpire, SystemCount)</CustomCost> -->
+	
     <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
-    <MigrationFluxSimulationDescriptorReference Name="OutpostActionIncreaseMigrationRateEffect"/>
+	
   </OutpostActionDefinition>
 
 </Datatable>

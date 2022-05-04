@@ -204,8 +204,9 @@ If any of these do not appear, it is because they are 0.</LocalizationPair>
   <LocalizationPair Name="%OutpostActionBoostGrowthWithDustMavrosTitle">Merchants and Money (Mavros)</LocalizationPair>
   <LocalizationPair Name="%OutpostActionBoostGrowthWithDustMavrosDescription">Who can ignore the lure of Dust? Boost the Outpost growth based on its Dust value.</LocalizationPair>
   
-  <LocalizationPair Name="%OutpostActionIncreaseMigrationRateMavrosTitle">Freehold Fanfare (Mavros)</LocalizationPair>
-  <LocalizationPair Name="%OutpostActionIncreaseMigrationRateMavrosDescription">By marketing the possibility to start over with space, resources, and healthy subsidies, you can double the migration rate from the planet that provides colonists.</LocalizationPair>
+  <LocalizationPair Name="%OutpostActionSendShipsMavrosTitle">Freehold Fanfare (Mavros)</LocalizationPair>
+  <LocalizationPair Name="%OutpostActionSendShipsMavrosDescription">By marketing the possibility to start over with space, resources, and healthy subsidies, you can double the migration rate from the planet that provides colonists.</LocalizationPair>
+    <LocalizationPair Name="%OutpostActionSendShipsMavrosOverride">Begin food shipments</LocalizationPair>
   
   <!-- System Improvements -->
   <!-- Big Data Shipyards Replacement, -20% Ship Cost, +40 additional starting XP -->
@@ -318,6 +319,13 @@ They may be upgraded in the future.</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMavros2">#DF8269#[mavros]#REVERT# Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMavros3">#DF8269#[mavros]#REVERT# Collection Bonus III</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMinorMavrosTooltipEffect">+1 #DF8269#[mavros]#REVERT# on your home system</LocalizationPair>
+  <!-- Outpost stuff -->
+  <LocalizationPair Name="%FactionTraitNoOutPostFoodShippingMavrosTooltipOverride">No automatic shipments of [foodcolored] to outposts.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitNoOutPostGrowthTooltipOverride">No natural [foodcolored] on outposts.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFasterOutPostFoodShippingMavrosTooltipOverride">When activated, [foodcolored] shipments take place every turn.</LocalizationPair>
+  <LocalizationPair Name="%OutpostActionSendShipsMavrosTooltipOverride">Begin food shipments</LocalizationPair>
+
+
   <LocalizationPair Name="%ClassPopulationEmpireAffinityMavrosTitle">#DF8269#[mavros]#REVERT#</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityMavrosTitle">Systems with #DF8269#[mavros]#REVERT#</LocalizationPair>
   <LocalizationPair Name="%PopulationMavrosTitle">#DF8269#[mavros]#REVERT#</LocalizationPair>
