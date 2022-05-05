@@ -2,36 +2,36 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <!-- This file contains names, tooltips, and descriptions -->
   <!-- Hull -->
-  <LocalizationPair Name="%HullSmall01MavrosTitle">[attacker] Scruple-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall01MavrosTitle">Scruple-class</LocalizationPair>
   <LocalizationPair Name="%HullSmall01MavrosDescription">Role: Attack
 When accused of being unscrupulous, the Mavros will reply that no, they have a great many scruples.</LocalizationPair>
-  <LocalizationPair Name="%HullSmall02MavrosTitle">[support] League-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall02MavrosTitle">League-class</LocalizationPair>
   <LocalizationPair Name="%HullSmall02MavrosDescription">Role: Support
-TO BE WRITTEN</LocalizationPair>
-  <LocalizationPair Name="%HullSmall03MavrosTitle">[colonizer] Foot-class</LocalizationPair>
+Named for the temporary organization formed between aggressively-independant Mavros ships.</LocalizationPair>
+  <LocalizationPair Name="%HullSmall03MavrosTitle">Foot-class</LocalizationPair>
   <LocalizationPair Name="%HullSmall03MavrosDescription">Role: Colonization
-TO BE WRITTEN</LocalizationPair>
-  <LocalizationPair Name="%HullSmall04MavrosTitle">[explorer] Fathom-class</LocalizationPair>
+Vital for setting foot on new planets.</LocalizationPair>
+  <LocalizationPair Name="%HullSmall04MavrosTitle">Fathom-class</LocalizationPair>
   <LocalizationPair Name="%HullSmall04MavrosDescription">Role: Exploration
-TO BE WRITTEN</LocalizationPair>
-  <LocalizationPair Name="%HullSmall05MavrosTitle">[lifeforce] Pint-class</LocalizationPair>
+Used for fathoming out the mysteries of the universe.</LocalizationPair>
+  <LocalizationPair Name="%HullSmall05MavrosTitle">Pint-class</LocalizationPair>
   <LocalizationPair Name="%HullSmall05MavrosDescription">Role: Leecher
 Allows raiding of systems for Essence.</LocalizationPair>
-  <LocalizationPair Name="%HullSmall06MavrosTitle">[unfallen] Chain-class</LocalizationPair>
+  <LocalizationPair Name="%HullSmall06MavrosTitle">Chain-class</LocalizationPair>
   <LocalizationPair Name="%HullSmall06MavrosDescription">Role: Entwiner
-TO BE WRITTEN</LocalizationPair>
-  <LocalizationPair Name="%HullMedium01MavrosTitle">[duel] Pound-class</LocalizationPair>
+Enables colonization of other systems via the Vine network.</LocalizationPair>
+  <LocalizationPair Name="%HullMedium01MavrosTitle">Pound-class</LocalizationPair>
   <LocalizationPair Name="%HullMedium01MavrosDescription">Role: Attack
-TO BE WRITTEN</LocalizationPair>
-  <LocalizationPair Name="%HullMedium02MavrosTitle">[plating] Knot-class</LocalizationPair>
+Named, bluntly, for what it does to opposing ships.</LocalizationPair>
+  <LocalizationPair Name="%HullMedium02MavrosTitle">Knot-class</LocalizationPair>
   <LocalizationPair Name="%HullMedium02MavrosDescription">Role: Defense
-TO BE WRITTEN</LocalizationPair>
-  <LocalizationPair Name="%HullLarge00MavrosTitle">[vampirilis] Mothership</LocalizationPair>
+A tough one to undo.</LocalizationPair>
+  <LocalizationPair Name="%HullLarge00MavrosTitle">Mothership</LocalizationPair>
   <LocalizationPair Name="%HullLarge00MavrosDescription">Role: Ark
 Mothership on which ship-bound populations live.</LocalizationPair>
-  <LocalizationPair Name="%HullLarge01MavrosTitle">[carrier] Ton-class</LocalizationPair>
+  <LocalizationPair Name="%HullLarge01MavrosTitle">Ton-class</LocalizationPair>
   <LocalizationPair Name="%HullLarge01MavrosDescription">Role: Carrier
-TO BE WRITTEN</LocalizationPair>
+Named for the number of guns it can mount.</LocalizationPair>
 
   <!-- Ship Design -->
   <!-- Names are all double- or triple-meanings, and I'm going for short, one syllable words where possible. -->
@@ -84,22 +84,22 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%PopulationPoliticalFlatAffinityMajorMavrosTitle">Mavros Population</LocalizationPair>
 
   <!-- Research -->
-  <LocalizationPair Name="%EmpireImprovementSlotsSmall01MavrosEra2Title">Enhanced Ounce-Class Hull</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsSmall01MavrosEra2TooltipEffect">Unlocks additional [Strat01titaniumColored] module slots for Ounce-class hulls
+  <LocalizationPair Name="%EmpireImprovementSlotsSmall01MavrosEra2Title">Enhanced Scruple-Class Hull</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsSmall01MavrosEra2TooltipEffect">Unlocks additional [Strat01titaniumColored] module slots for Scruple-class hulls
 +50% [shipCrewColored] Crew Capacity</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsSmall02MavrosEra2Title">Enhanced Inch-Class Hull</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsSmall02MavrosEra2TooltipEffect">Unlocks additional [Strat02hyperiumColored] module slots for Inch-class hulls
+  <LocalizationPair Name="%EmpireImprovementSlotsSmall02MavrosEra2Title">Enhanced League-Class Hull</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsSmall02MavrosEra2TooltipEffect">Unlocks additional [Strat02hyperiumColored] module slots for League-class hulls
 +50% [shipCrewColored] Crew Capacity</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsSmall04MavrosTitle">Enhanced Perch-Class Hull</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsSmall04MavrosTooltipEffect">Unlocks an additional support module slot for Perch-class hulls</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsSmall04MavrosTitle">Enhanced Fathom-Class Hull</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsSmall04MavrosTooltipEffect">Unlocks an additional support module slot for Fathom-class hulls</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementSlotsMedium01MavrosEra3Title">Enhanced Pound-Class Hull</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementSlotsMedium01MavrosEra3TooltipEffect">Unlocks additional [Strat03adamantianColored] module slots for Pound-class hulls
 +50% [shipCrewColored] Crew Capacity</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsMedium02MavrosEra3Title">Enhanced Mile-Class Hull</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsMedium02MavrosEra3TooltipEffect">Unlocks additional [Strat04anti-matterColored] module slots for Mile-class hulls
+  <LocalizationPair Name="%EmpireImprovementSlotsMedium02MavrosEra3Title">Enhanced Knot-Class Hull</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsMedium02MavrosEra3TooltipEffect">Unlocks additional [Strat04anti-matterColored] module slots for Knot-class hulls
 +50% [shipCrewColored] Crew Capacity</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsLarge01MavrosEra4Title">Enhanced Gallon-Class Hull</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementSlotsLarge01MavrosEra4TooltipEffect">Unlocks additional [Strat05orichalcixColored] / [Strat06quadrinixColored] module slots for Gallon-class hulls
+  <LocalizationPair Name="%EmpireImprovementSlotsLarge01MavrosEra4Title">Enhanced Ton-Class Hull</LocalizationPair>
+  <LocalizationPair Name="%EmpireImprovementSlotsLarge01MavrosEra4TooltipEffect">Unlocks additional [Strat05orichalcixColored] / [Strat06quadrinixColored] module slots for Ton-class hulls
 +50% [shipCrewColored] Crew Capacity</LocalizationPair>
 
   <!-- Empire Improvements -->
@@ -118,8 +118,8 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
 
   <!-- Unique Planet -->
   <!-- Name of the planet  -->
-  <LocalizationPair Name="%UniquePlanetMavrosTitle">Mavros Prime</LocalizationPair>
-  <LocalizationPair Name="%UniquePlanetMavrosDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%UniquePlanetMavrosTitle">Mav</LocalizationPair>
+  <LocalizationPair Name="%UniquePlanetMavrosDescription">Once a factory world for the Endless, one of hundreds of planets devoted entirely to manufacturing, Mav is now best known as the origin of the Mavros revolution, and - despite its hellish heat and tectonic instability - is the world the Mavros liberated and settled as their home.</LocalizationPair>
   
   <!-- Fleet Names -->
   <!-- Fleet name will be Numeration + Adjective + Title, so 1st Automated Apparatus is one possibility -->
@@ -209,7 +209,7 @@ If any of these do not appear, it is because they are 0.</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementApproval1MavrosDescription">Stuck on poor-quality planets by their Endless masters, the Mavros are no strangers to hardship and shortages. It may seem grim to others, but to them, rationing has gone beyond a necessity and become an inextricable part of their cultural heritage, such that even wealthy Mavros families on plentiful worlds will 'ration' their resources out of a sort of ritual.</LocalizationPair>
   <!-- Impervious Bunkers Replacement, additional manpower and maximum defenders + additional vision range (quite a bit) -->
   <LocalizationPair Name="%StarSystemImprovementDefense1MavrosTitle">Reinforced Surveillance Stations</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementDefense1MavrosDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementDefense1MavrosDescription">With massive forcefields and layer upon layer of multi-composite armour, these structures are well-protected from orbital assault, and with miles of transit tunnels linking gigantic underground modular warehouses, they offer vital military logistics and infantry bases. However, its true purpose is surveillance - via ground telescope arrays and satellite links - of the surrounding space. The Mavros are determined never to be caught unawares.</LocalizationPair>
   <!-- Tractable Armaments Replacement, greatly increased damage, with additional defender limit and max manpower -->
   <LocalizationPair Name="%StarSystemImprovementDefense2MavrosTitle">Planetary Defense Cannons</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementDefense2MavrosDescription">Once upon a time, Mavros engineers designed a system of impervious subterranean bunkers, city-wide energy shields, resource caches, concealed supply lines, multiply-redundant infrastructure, and AI-controlled satellite networks to make their planets impervious to attack. Then someone said "why don't we just build some really big guns and aim them upwards?", and the rest is history.</LocalizationPair>
