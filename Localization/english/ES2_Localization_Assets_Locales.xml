@@ -162,8 +162,8 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%FactionTraitMinorMajorMavrosTooltipEffect">+1 [mavros] on your home system</LocalizationPair>
 
   <!-- Drudge Worker Effect -->
-  <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusTitle">Unnamed</LocalizationPair> <!-- Do not translate, does not appear ingame -->
-  <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusOverride">+2 [industryColored] per Non-Drudge on Current Planet
+  <LocalizationPair Name="%PopulationModifiersTraitDrudgeWorkerBonusTitle">Unnamed</LocalizationPair> <!-- Do not translate, does not appear ingame -->
+  <LocalizationPair Name="%PopulationModifiersTraitDrudgeWorkerBonusOverride">+2 [industryColored] per Non-Drudge on Current Planet
 -1% System Improvement [industryColored] cost per Non-Drudge on Current Planet (Does not stack)</LocalizationPair>
   
   <!-- Drudge Titan Effect -->

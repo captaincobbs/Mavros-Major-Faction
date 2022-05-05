@@ -107,10 +107,10 @@
   </ExtendedGuiElement>
 
   <!-- Drudges Population Bonus -->
-  <ExtendedGuiElement Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgesBonus">
+  <ExtendedGuiElement Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgeWorkerBonus">
     <Title>%PopulationModifiersTraitPrimaryDrudgesTitle</Title>
     <TooltipElement>
-      <EffectOverride>%PopulationModifiersTraitDrudgesBonusOverride</EffectOverride>
+      <EffectOverride>%PopulationModifiersTraitDrudgeWorkerBonusOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
 
