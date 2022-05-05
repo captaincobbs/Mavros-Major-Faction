@@ -72,7 +72,7 @@ TO BE WRITTEN</LocalizationPair>
 Gain 1 #FF8C00#[custom07]#Revert# per [commandpoint] destroyed in combat
 Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic population with powerful bonuses
 Outposts are unaffected by Initial Planet [foodColored] and do not produce their own Food
-Outposts are not automatically shipped Food</LocalizationPair>
+No automatic shipment of food to Outposts</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityMajorMavrosTitle">Mavros</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityMajorMavrosTitle">Mavros</LocalizationPair>
   <LocalizationPair Name="%PopulationMajorMavrosTitle">Mavros</LocalizationPair>
