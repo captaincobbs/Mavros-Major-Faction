@@ -14,6 +14,11 @@
   <LocalizationPair Name="%AILeaderAffinityMappingMajorMavros9">Sicopus "Iron" Alov</LocalizationPair>
   <LocalizationPair Name="%AILeaderAffinityMappingMajorMavros10">Trekker "Clear Eye" Junior</LocalizationPair>
   <LocalizationPair Name="%AILeaderAffinityMappingMajorMavros11">Grendelox the Greatest, Ever</LocalizationPair>
+  
+  <!-- Faction Pact -->
+  <LocalizationPair Name="%FactionPactEffectMajorMavrosTitle">Faction Pact</LocalizationPair>
+  <LocalizationPair Name="%FactionPactEffectMajorMavrosDescription">This is an agreement to share faction advantages with the Mavros.
+Your faction will gain -0.5% System Improvement [industryColored] Cost on Systems per Turn [turn] (Max: -15%), increase scales with game speed.</LocalizationPair>
 
   <!-- Diplomatic -->
   <LocalizationPair Name="%DiplomaticInteractionForcedPeaceRelationSenderSignedMajorMavros">Listen up bud, we're friends now. Ok? This is happening, deal with it.</LocalizationPair>

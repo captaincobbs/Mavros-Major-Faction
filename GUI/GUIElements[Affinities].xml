@@ -46,4 +46,12 @@
       <EffectOverride>%ShipCostReductionPerStrategicEffect</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
+
+  <GuiElement Name="FactionPactEffectMajorMavros">
+    <Title>%FactionPactEffectMajorMavrosTitle</Title>
+    <Description>%FactionPactEffectMajorMavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="DiplomaticAbilitiesFactionPactSmall" />
+    </Icons>
+  </GuiElement>
 </Datatable>

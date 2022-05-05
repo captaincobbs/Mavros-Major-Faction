@@ -35,10 +35,16 @@ Sedghammer & Amplitude Artists -->
         <FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
       </DatabasePlugin>
 
+      <!-- Diplomacy -->
+      <DatabasePlugin DataType="DiplomaticFactionPactEffectDefinition, Assembly-CSharp">
+        <FilePath>Diplomacy/DiplomaticFactionPactEffectDefinitions.xml</FilePath>
+      </DatabasePlugin>
+
       <!-- Simulation -->
       <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
         <FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
         <FilePath>Simulation/Battles/SimulationDescriptors[*].xml</FilePath>
+        <FilePath>Diplomacy/SimulationDescriptors[*].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="ResourceDefinition, Assembly-CSharp">
