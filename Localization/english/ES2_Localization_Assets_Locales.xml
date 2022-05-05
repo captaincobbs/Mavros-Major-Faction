@@ -68,9 +68,11 @@ TO BE WRITTEN</LocalizationPair>
   <LocalizationPair Name="%AffinityMajorMavrosTitle">Mavros</LocalizationPair>
   <LocalizationPair Name="%AffinityMajorMavrosDescription">TO BE WRITTEN</LocalizationPair>
   <LocalizationPair Name="%CategoryTechnologyFactionMavrosTitle">Mavros Technology</LocalizationPair>
-  <LocalizationPair Name="%AffinityGameplayMavrosTooltipEffect">Use Scrap #FF8C00#[custom07]#Revert#, a unique resource, to temporarily buff systems.
-Gain 1 #FF8C00#[custom07]#Revert# per [commandpoint] destroyed in combat.
-Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic population with powerful bonuses.</LocalizationPair>
+  <LocalizationPair Name="%AffinityGameplayMavrosTooltipEffect">Use Scrap #FF8C00#[custom07]#Revert#, a unique resource, to temporarily buff systems
+Gain 1 #FF8C00#[custom07]#Revert# per [commandpoint] destroyed in combat
+Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic population with powerful bonuses
+Outposts are unaffected by Initial Planet [foodColored] and do not produce their own Food
+Outposts are not automatically shipped Food</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityMajorMavrosTitle">Mavros</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityMajorMavrosTitle">Mavros</LocalizationPair>
   <LocalizationPair Name="%PopulationMajorMavrosTitle">Mavros</LocalizationPair>
@@ -323,7 +325,7 @@ They may be upgraded in the future.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitNoOutPostFoodShippingMavrosTooltipOverride">No automatic shipments of [foodcolored] to outposts.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitNoOutPostGrowthTooltipOverride">No natural [foodcolored] on outposts.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitFasterOutPostFoodShippingMavrosTooltipOverride">When activated, [foodcolored] shipments take place every turn.</LocalizationPair>
-  <LocalizationPair Name="%OutpostActionSendShipsMavrosTooltipOverride">Begin food shipments</LocalizationPair>
+  <LocalizationPair Name="%OutpostActionSendShipsMavrosTooltipOverride">Order 3 Food Shipments</LocalizationPair>
 
 
   <LocalizationPair Name="%ClassPopulationEmpireAffinityMavrosTitle">#DF8269#[mavros]#REVERT#</LocalizationPair>
