@@ -2,7 +2,7 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
 
     <SimulationDescriptor Name="OutpostActionMiningMavrosEffect" Type="OutpostAction" IsSerializable="false">
-        <Modifier TargetProperty="SystemGrowth" Operation="Percent"  Value="1"/>
+        <Modifier TargetProperty="DepositValue" Operation="Percent" Value="1" Path="ClassColonizedStarSystem/ClassColonizedPlanet/ResourceTypeStrategic"/>
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="OutpostActionSendShipsMavros" Type="OutpostAction" IsSerializable="false">
