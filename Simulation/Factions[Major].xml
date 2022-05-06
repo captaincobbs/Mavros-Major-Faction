@@ -7,6 +7,7 @@
 
     <Trait Name="FactionTraitLuxuryPopulation_Mavros"/>
     <Trait Name="FactionTraitHulkingShips_Mavros"/>
+    <Trait Name="FactionTraitMoveAfterCombat_Mavros"/>
     <Trait Name="FactionTraitEffectiveCombatants_Mavros"/>
     <Trait Name="FactionTraitColonizationCapStandard1"/>
 

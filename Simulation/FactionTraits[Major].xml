@@ -10,6 +10,10 @@
     <SimulationDescriptorReference Name="FactionTraitHulkingShips_Mavros"/>
   </FactionTrait>
 
+  <FactionTrait Name="FactionTraitMoveAfterCombat_Mavros"   SubCategory="FactionTrait" Family="FactionTraitFamilyMilitary" Hidden="false" Custom="true" Cost="15">
+    <SimulationDescriptorReference Name="FactionTraitMoveAfterCombat_Mavros"/>
+  </FactionTrait>
+
   <FactionTrait Name="FactionTraitEffectiveCombatants_Mavros"   SubCategory="FactionTrait" Family="FactionTraitFamilyMilitary" Hidden="false" Custom="true" Cost="10">
     <SimulationDescriptorReference Name="FactionTraitEffectiveCombatants_Mavros"/>
   </FactionTrait>
