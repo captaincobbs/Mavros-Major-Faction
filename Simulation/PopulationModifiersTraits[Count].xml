@@ -16,16 +16,16 @@
   </PopulationModifiersTrait>
 
   <!-- Drudges -->
-  <PopulationModifiersTrait Name="PopulationModifiersTraitDrudgesCount" SubCategory="Count">
+  <PopulationModifiersTrait Name="PopulationModifiersTraitDrudgeWorkerCount" SubCategory="Count">
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityDrudgesCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityDrudgeWorkerCount"/>
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDrudgesCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDrudgeWorkerCount"/>
       </Modifier>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDrudgesCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDrudgeWorkerCount"/>
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>

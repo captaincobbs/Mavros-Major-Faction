@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd">
-  <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryDrudgesBonus" SubCategory="Primary" ShowInCustom="false" Cost="0">
+  <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryDrudgeWorkerBonus" SubCategory="Primary" ShowInCustom="false" Cost="0">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
-        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryDrudgesBonus"/>
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryDrudgeWorkerBonus"/>
       </Modifier>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgesBonus"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgeWorkerBonus"/>
       </Modifier>
       <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgesBonus"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgeWorkerBonus"/>
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>

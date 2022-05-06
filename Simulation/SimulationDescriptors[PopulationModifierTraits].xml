@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
   <!-- Drudges -->
-  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgesBonus" Type="ClassPopulationPlanet">
-    <Modifier TargetProperty="PlanetRawIndustry"/>
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgeWorkerBonus" Type="ClassPopulationPlanet">
+    
   </SimulationDescriptor>
 
-  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryDrudgesBonus" Type="WithPopulationPlanet"/>
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryDrudgeWorkerBonus" Type="WithPopulationPlanet"/>
   
   <!-- Drudge Titans -->
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgeTitansBonus" Type="ClassPopulationPlanet">
-    <BinaryModifier       TargetProperty="BonusPopulationScience"                                 Operation="Addition"    Left="2"    BinaryOperation="Multiplication" Right="$(PopulationSystemLevel)"  Path="ClassPopulation" TooltipHidden="true"/>
-    <BinaryModifier       TargetProperty="BonusPopulationDust"                                    Operation="Addition"    Left="3"    BinaryOperation="Multiplication" Right="$(PopulationSystemLevel)"  Path="ClassPopulation" TooltipHidden="true"/>
-    <BinaryModifier       TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages"  Operation="Addition"    Left="100"  BinaryOperation="Multiplication" Right="$(PopulationSystemLevel)"  Path="ClassPopulation" TooltipHidden="true"/>
+    
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryDrudgeTitansBonus" Type="WithPopulationPlanet"/>

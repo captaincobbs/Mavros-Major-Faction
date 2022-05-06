@@ -44,6 +44,10 @@
     </Icons>
   </ExtendedGuiElement>
 
+  <GuiElement Name="SuperAffinityMajorMavros">
+    <Title>%SuperAffinityMajorMavrosTitle</Title>
+  </GuiElement>
+
   <ExtendedGuiElement Name="AffinityMajorMavros">
     <Title>%AffinityMajorMavrosTitle</Title>
     <Description>%AffinityMajorMavrosDescription</Description>
@@ -58,26 +62,26 @@
     <Color Red="255" Green="141" Blue="102" Alpha="255" />
   </ExtendedGuiElement>
 
-  <!-- Drudges -->
-  <ExtendedGuiElement Name="AffinityDrudges">
-    <Title>%AffinityDrudgesTitle</Title>
-    <Description>%AffinityDrudgesDescription</Description>
+  <!-- Drudge Worker -->
+  <ExtendedGuiElement Name="AffinityDrudgeWorker">
+    <Title>%AffinityDrudgeWorkerTitle</Title>
+    <Description>%AffinityDrudgeWorkerDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/DrudgesSmall.png" />
-      <Icon Size="Medium" Path="Textures/GUI/DrudgesMedium.png" />
-      <Icon Size="MediumInverted" Path="Textures/GUI/DrudgesMediumInverted.png" />
-      <Icon Size="Large" Path="Textures/GUI/DrudgesLarge.png" />
+      <Icon Size="Small" Path="Textures/Population/AffinityDrudgeWorkersSmall.png" />
+      <Icon Size="Medium" Path="Textures/Population/AffinityDrudgeWorkersMedium.png" />
+      <Icon Size="MediumInverted" Path="Textures/Population/AffinityDrudgeWorkersMediumInverted.png" />
+      <Icon Size="Large" Path="Textures/Population/AffinityDrudgeWorkersLarge.png" />
     </Icons>
     <SymbolString></SymbolString>
     <Color Red="255" Green="141" Blue="141" Alpha="255" />
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityDrudgesCount">
-    <Title>%AffinityDrudgesTitle</Title>
-    <Description>%AffinityDrudgesDescription</Description>
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityDrudgeWorkerCount">
+    <Title>%AffinityDrudgeWorkerTitle</Title>
+    <Description>%AffinityDrudgeWorkerDescription</Description>
     <SymbolString></SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%AffinityDrudgesAltTitle</AltTitle>
+    <AltTitle>%AffinityDrudgeWorkerAltTitle</AltTitle>
   </ExtendedGuiElement>
 
   <!-- Drudge Titans -->
@@ -85,10 +89,10 @@
     <Title>%AffinityDrudgeTitansTitle</Title>
     <Description>%AffinityDrudgeTitansDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Textures/GUI/DrudgeTitansSmall.png" />
-      <Icon Size="Medium" Path="Textures/GUI/DrudgeTitansMedium.png" />
-      <Icon Size="MediumInverted" Path="Textures/GUI/DrudgeTitansMediumInverted.png" />
-      <Icon Size="Large" Path="Textures/GUI/DrudgeTitansLarge.png" />
+      <Icon Size="Small" Path="Textures/Population/AffinityDrudgeTitansSmall.png" />
+      <Icon Size="Medium" Path="Textures/Population/AffinityDrudgeTitansMedium.png" />
+      <Icon Size="MediumInverted" Path="Textures/Population/AffinityDrudgeTitansMediumInverted.png" />
+      <Icon Size="Large" Path="Textures/Population/AffinityDrudgeTitansLarge.png" />
     </Icons>
     <SymbolString></SymbolString>
     <Color Red="255" Green="141" Blue="141" Alpha="255" />
@@ -103,10 +107,10 @@
   </ExtendedGuiElement>
 
   <!-- Drudges Population Bonus -->
-  <ExtendedGuiElement Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgesBonus">
+  <ExtendedGuiElement Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgeWorkerBonus">
     <Title>%PopulationModifiersTraitPrimaryDrudgesTitle</Title>
     <TooltipElement>
-      <EffectOverride>%PopulationModifiersTraitDrudgesBonusOverride</EffectOverride>
+      <EffectOverride>%PopulationModifiersTraitDrudgeWorkerBonusOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
 

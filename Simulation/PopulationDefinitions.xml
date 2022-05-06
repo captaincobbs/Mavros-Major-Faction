@@ -34,21 +34,21 @@
     </GrowthBoostLuxuryOptions>
   </PopulationDefinition>
 
-  <!-- Drudges -->
-  <PopulationDefinition AffinityName="AffinityDrudges" Standard="true">
+  <!-- Drudge Worker -->
+  <PopulationDefinition AffinityName="AffinityDrudgeWorker" Standard="true">
     <DefaultPolitics>
       <Politics PoliticsReference="Politics01" BaseScore="0" BaseTrend="0"/>
     </DefaultPolitics>
 
     <Trait Name="PopulationPoliticalTraitAntiPolitical"/>
     
-    <Trait Name="PopulationModifiersTraitDrudgesCount"/>
-    <Trait Name="PopulationModifiersTraitDrudges"/>
+    <Trait Name="PopulationModifiersTraitDrudgeWorkerCount"/>
+    <Trait Name="PopulationModifiersTraitDrudgeWorker"/>
 
-    <Trait Name="PopulationModifiersTraitPrimaryDrudgesBonus" />
+    <Trait Name="PopulationModifiersTraitPrimaryDrudgeWorkerBonus" />
     <Trait Name="PopulationModifiersTraitSecondaryDrudgeBonus" />
 
-    <AffinityMapping Name="AffinityMappingDrudges"/>
+    <AffinityMapping Name="AffinityMappingDrudgeWorker"/>
 
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury9</Luxury>
