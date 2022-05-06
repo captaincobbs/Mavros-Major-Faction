@@ -257,8 +257,8 @@ No Unhappiness Generated from Planet
   <LocalizationPair Name="%ClassModuleWeaponMissileTitle">Missile Weapon Modules</LocalizationPair>
   
   <!-- Modules -->
-  <LocalizationPair Name="%ModuleSupportCrew1MavrosTitle">N3C Invasion Extension</LocalizationPair>
-  <LocalizationPair Name="%ModuleSupportCrew1MavrosDescription">The Mavros are enthusiastic and capable soldiers, </LocalizationPair>
+  <LocalizationPair Name="%ModuleSupportCrew1MavrosTitle">Wargame Control Nexus</LocalizationPair>
+  <LocalizationPair Name="%ModuleSupportCrew1MavrosDescription">Augmented-reality overlays award "points" to Mavros soldiers who achieve their objectives fastest, guiding their competitive nature towards a more effective military force.</LocalizationPair>
 
   <!-- Scrap Boosts -->
   <LocalizationPair Name="%StarSystemImprovementScrapBoostIndustryTitle">Wreckage Reprocessing</LocalizationPair>
