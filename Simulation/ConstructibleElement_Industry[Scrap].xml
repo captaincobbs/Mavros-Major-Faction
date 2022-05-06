@@ -107,7 +107,7 @@
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayMajorMavros">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
     <InterpreterPrerequisite Flags="MaximumPopulationSystem,Enqueue">(Property(Context,@'../ClassEmpire',Population) lt Property(Context,@ClassColonizedStarSystem,MaximumPopulation))</InterpreterPrerequisite>
     <InterpreterPrerequisite Flags="Prerequisite">(Property(Context,@ClassColonizedStarSystem, MaximumPopulation) ge (Property(Context,@ClassColonizedStarSystem, Population)))</InterpreterPrerequisite>
-    <SimulationDescriptorReference Name="StarSystemImprovementCreateDrudge"/>
+    <SimulationDescriptorReference Name="StarSystemImprovementCreateDrudgeWorker"/>
   </StarSystemPopulationTransformImprovementDefinition>
 
 
@@ -126,6 +126,6 @@
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard">ClassColonizedStarSystem/ClassPopulationStarSystemAffinityDrudgeWorker</PathPrerequisite>
     <PathPrerequisite Inverted="false"  Flags="Prerequisite,Discard,UnlockAvailability,Faction,AffinityGameplayMajorMavros">../ClassEmpire,AffinityGameplayMajorMavros</PathPrerequisite>
     <InterpreterPrerequisite Flags="Prerequisite,Discard">Property(Context,@'ClassColonizedStarSystem/ClassPopulationStarSystemAffinityDrudgeWorker', PopulationCount) ge 1</InterpreterPrerequisite>
-    <SimulationDescriptorReference Name="StarSystemImprovementUpgradeDrudge"/>
+    <SimulationDescriptorReference Name="StarSystemImprovementDrudgeUpgradeToTitan"/>
   </StarSystemPopulationTransformImprovementDefinition>
 </Datatable>
