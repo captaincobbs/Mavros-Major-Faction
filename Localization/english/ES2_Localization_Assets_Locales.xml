@@ -151,6 +151,12 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%FactionTraitHulkingShips_MavrosEffect">+0.3% Damage per 1000 Health on Ships
 +5% Maximum Health on Ships</LocalizationPair> <!-- WARNING the trait in SimulationDescriptors[FactionTrait].xml also adds a production cost reduction, not mentioned here -->
 
+  <!-- Hit and Run - move after combat -->
+
+  <LocalizationPair Name="%FactionTraitMoveAfterCombat_MavrosTitle">Hit and Run</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMoveAfterCombat_MavrosDescription">TBD</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMoveAfterCombat_MavrosEffect">+2 Movement to ships after combat</LocalizationPair>
+
   <!-- Fragile but Powerful Militia -->
   <LocalizationPair Name="%FactionTraitEffectiveCombatants_MavrosTitle">Fragile Commandos</LocalizationPair>
 
