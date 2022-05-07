@@ -75,6 +75,7 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityMajorMavrosTitle">Mavros</LocalizationPair>
   <LocalizationPair Name="%PopulationMajorMavrosTitle">Mavros</LocalizationPair>
   <LocalizationPair Name="%PopulationMajorMavrosDescription">TO BE WRITTEN</LocalizationPair>
+  <LocalizationPair Name="%SuperAffinityMajorMavrosTitle">Mavros Shadows</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitCustomFactionMavrosTitle">Covetous Collection</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitCustomFactionMavrosDescription">This collection focuses on Industry and Military production.</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMajorMavros1">[mavros] Collection Bonus I</LocalizationPair>
@@ -150,6 +151,12 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%FactionTraitHulkingShips_MavrosEffect">+0.3% Damage per 1000 Health on Ships
 +5% Maximum Health on Ships</LocalizationPair> <!-- WARNING the trait in SimulationDescriptors[FactionTrait].xml also adds a production cost reduction, not mentioned here -->
 
+  <!-- Hit and Run - move after combat -->
+
+  <LocalizationPair Name="%FactionTraitMoveAfterCombat_MavrosTitle">Hit and Run</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMoveAfterCombat_MavrosDescription">TBD</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMoveAfterCombat_MavrosEffect">+2 Movement to ships after combat</LocalizationPair>
+
   <!-- Fragile but Powerful Militia -->
   <LocalizationPair Name="%FactionTraitEffectiveCombatants_MavrosTitle">Fragile Commandos</LocalizationPair>
 
@@ -161,8 +168,8 @@ Can build and upgrade Drudges using #FF8C00#[custom07]#Revert#, a robotic popula
   <LocalizationPair Name="%FactionTraitMinorMajorMavrosTooltipEffect">+1 [mavros] on your home system</LocalizationPair>
 
   <!-- Drudge Worker Effect -->
-  <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusTitle">Unnamed</LocalizationPair> <!-- Do not translate, does not appear ingame -->
-  <LocalizationPair Name="%PopulationModifiersTraitDrudgesBonusOverride">+2 [industryColored] per Non-Drudge on Current Planet
+  <LocalizationPair Name="%PopulationModifiersTraitDrudgeWorkerBonusTitle">Unnamed</LocalizationPair> <!-- Do not translate, does not appear ingame -->
+  <LocalizationPair Name="%PopulationModifiersTraitDrudgeWorkerBonusOverride">+2 [industryColored] per Non-Drudge on Current Planet
 -1% System Improvement [industryColored] cost per Non-Drudge on Current Planet (Does not stack)</LocalizationPair>
   
   <!-- Drudge Titan Effect -->
@@ -228,7 +235,7 @@ If any of these do not appear, it is because they are 0.</LocalizationPair>
 Allows Drudges to be upgraded into Drudge Titans</LocalizationPair>
   
   <!-- Construct Drudge -->
-  <LocalizationPair Name="%StarSystemImprovementCreateDrudgeWorkerTitle">Construct Drudges</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCreateDrudgeWorkerTitle">Build Drudge Worker</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementCreateDrudgeWorkerDescription">TO BE WRITTEN</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementCreateDrudgeWorkerEffect">Add a Drudge Worker population to your System
 Drudge Worker Population:
@@ -237,7 +244,7 @@ No Unhappiness Generated from Planet
 -1% System Improvement [industryColored] cost per Non-Drudge on Current Planet (Does not stack)</LocalizationPair>
   
   <!-- Upgrade Drudge -->
-  <LocalizationPair Name="%StarSystemImprovementDrudgeUpgradeToTitanTitle">Upgrade Drudges</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementDrudgeUpgradeToTitanTitle">Build Drudge Titan</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementDrudgeUpgradeToTitanDescription">TO BE WRITTEN</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementDrudgeUpgradeToTitanEffect">Upgrade a Drudge Worker into a Drudge Titan population
 Drudge Titan Population:

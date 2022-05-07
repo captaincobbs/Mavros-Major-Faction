@@ -44,6 +44,10 @@
     </Icons>
   </ExtendedGuiElement>
 
+  <GuiElement Name="SuperAffinityMajorMavros">
+    <Title>%SuperAffinityMajorMavrosTitle</Title>
+  </GuiElement>
+
   <ExtendedGuiElement Name="AffinityMajorMavros">
     <Title>%AffinityMajorMavrosTitle</Title>
     <Description>%AffinityMajorMavrosDescription</Description>
@@ -59,7 +63,7 @@
   </ExtendedGuiElement>
 
   <!-- Drudge Worker -->
-  <ExtendedGuiElement Name="AffinityDrudgeWorkers">
+  <ExtendedGuiElement Name="AffinityDrudgeWorker">
     <Title>%AffinityDrudgeWorkerTitle</Title>
     <Description>%AffinityDrudgeWorkerDescription</Description>
     <Icons>
@@ -103,10 +107,10 @@
   </ExtendedGuiElement>
 
   <!-- Drudges Population Bonus -->
-  <ExtendedGuiElement Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgesBonus">
+  <ExtendedGuiElement Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgeWorkerBonus">
     <Title>%PopulationModifiersTraitPrimaryDrudgesTitle</Title>
     <TooltipElement>
-      <EffectOverride>%PopulationModifiersTraitDrudgesBonusOverride</EffectOverride>
+      <EffectOverride>%PopulationModifiersTraitDrudgeWorkerBonusOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
 

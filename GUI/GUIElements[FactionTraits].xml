@@ -36,6 +36,18 @@
     </TooltipElement>
   </ExtendedGuiElement>
 
+  <!-- Hit and Run -->
+  <ExtendedGuiElement Name="FactionTraitMoveAfterCombat_Mavros">
+    <Title>%FactionTraitMoveAfterCombat_MavrosTitle</Title>
+    <Description>%FactionTraitMoveAfterCombat_MavrosDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Textures/Traits/Military.png" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMoveAfterCombat_MavrosEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
   <!-- Fragile Commandos -->
   <ExtendedGuiElement Name="FactionTraitEffectiveCombatants_Mavros">
     <Title>%FactionTraitEffectiveCombatants_MavrosTitle</Title>

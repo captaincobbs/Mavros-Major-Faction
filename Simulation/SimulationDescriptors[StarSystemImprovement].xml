@@ -77,6 +77,6 @@
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="StarSystemImprovementDrudgeFactory"     Type="StarSystemImprovement"/>
-  <SimulationDescriptor Name="StarSystemImprovementCreateDrudge"      Type="StarSystemImprovement"/>
-  <SimulationDescriptor Name="StarSystemImprovementUpgradeDrudge"     Type="StarSystemImprovement"/>
+  <SimulationDescriptor Name="StarSystemImprovementCreateDrudgeWorker"      Type="StarSystemImprovement"/>
+  <SimulationDescriptor Name="StarSystemImprovementDrudgeUpgradeToTitan"     Type="StarSystemImprovement"/>
 </Datatable>
