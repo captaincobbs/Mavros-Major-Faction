@@ -93,8 +93,8 @@
     <SimulationDescriptorReference Name="WeaponAvailabilityBeam" />
     <SimulationDescriptorReference Name="WeaponAvailabilityLaser" />
     <SimulationDescriptorReference Name="ShipSizeSmall" />
-    <SimulationDescriptorReference Name="ShipFactionSophons" />
-    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipFactionSophonsMavros" />
+    <SimulationDescriptorReference Name="CameraAnchorSophons" />
     <SimulationDescriptorReference Name="ShipHull01" />
 
     <ShipDesignLayout>
@@ -266,8 +266,8 @@
     <SimulationDescriptorReference Name="ClassHullSmallSupport" />
     <SimulationDescriptorReference Name="WeaponAvailabilityKinetic" />
     <SimulationDescriptorReference Name="ShipSizeSmall" />
-    <SimulationDescriptorReference Name="ShipFactionSophons" />
-    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipFactionSophonsMavros" />
+    <SimulationDescriptorReference Name="CameraAnchorSophons" />
     <SimulationDescriptorReference Name="ShipHull02" />
 
     <ShipDesignLayout>
@@ -429,8 +429,8 @@
 
     <SimulationDescriptorReference Name="ClassHullSmallCivilian" />
     <SimulationDescriptorReference Name="ShipSizeSmall" />
-    <SimulationDescriptorReference Name="ShipFactionSophons" />
-    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipFactionSophonsMavros" />
+    <SimulationDescriptorReference Name="CameraAnchorSophons" />
     <SimulationDescriptorReference Name="ShipHull03" />
     <SimulationDescriptorReference Name="CannotHaveWeapon" />
 
@@ -607,8 +607,8 @@
     <SimulationDescriptorReference Name="ClassHullSmallCivilian" />
     <SimulationDescriptorReference Name="WeaponAvailabilityKinetic" />
     <SimulationDescriptorReference Name="ShipSizeSmall" />
-    <SimulationDescriptorReference Name="ShipFactionSophons" />
-    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipFactionSophonsMavros" />
+    <SimulationDescriptorReference Name="CameraAnchorSophons" />
     <SimulationDescriptorReference Name="ShipHull01" />
 
     <ShipDesignLayout>
@@ -729,8 +729,8 @@
     <SimulationDescriptorReference Name="ClassHullSmallCivilian" />
     <SimulationDescriptorReference Name="WeaponAvailabilityKinetic" />
     <SimulationDescriptorReference Name="ShipSizeSmall" />
-    <SimulationDescriptorReference Name="ShipFactionSophons" />
-    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipFactionSophonsMavros" />
+    <SimulationDescriptorReference Name="CameraAnchorSophons" />
     <SimulationDescriptorReference Name="ShipHull01" />
 
     <ShipDesignLayout>
@@ -848,8 +848,8 @@
 
     <SimulationDescriptorReference Name="ClassHullSmallCivilian" />
     <SimulationDescriptorReference Name="ShipSizeSmall" />
-    <SimulationDescriptorReference Name="ShipFactionSophons" />
-    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipFactionSophonsMavros" />
+    <SimulationDescriptorReference Name="CameraAnchorSophons" />
     <SimulationDescriptorReference Name="ShipHull03" />
     <SimulationDescriptorReference Name="WeaponAvailabilityKinetic" />
 
@@ -956,8 +956,8 @@
 
     <SimulationDescriptorReference Name="ClassHullSmallCivilian" />
     <SimulationDescriptorReference Name="ShipSizeSmall" />
-    <SimulationDescriptorReference Name="ShipFactionSophons" />
-    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipFactionSophonsMavros" />
+    <SimulationDescriptorReference Name="CameraAnchorSophons" />
     <SimulationDescriptorReference Name="ShipHull03" />
     <SimulationDescriptorReference Name="CannotHaveWeapon" />
 
@@ -1053,8 +1053,8 @@
     <SimulationDescriptorReference Name="WeaponAvailabilityMissile" />
     <SimulationDescriptorReference Name="WeaponAvailabilityLaser" />
     <SimulationDescriptorReference Name="ShipSizeMedium" />
-    <SimulationDescriptorReference Name="ShipFactionSophons" />
-    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipFactionSophonsMavros" />
+    <SimulationDescriptorReference Name="CameraAnchorSophons" />
     <SimulationDescriptorReference Name="ShipHull01" />
 
     <ShipDesignLayout>
@@ -1301,8 +1301,8 @@
     <SimulationDescriptorReference Name="ClassHullMediumDefense" />
     <SimulationDescriptorReference Name="WeaponAvailabilityLaser" />
     <SimulationDescriptorReference Name="ShipSizeMedium" />
-    <SimulationDescriptorReference Name="ShipFactionSophons" />
-    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipFactionSophonsMavros" />
+    <SimulationDescriptorReference Name="CameraAnchorSophons" />
     <SimulationDescriptorReference Name="ShipHull02" />
 
     <ShipDesignLayout>
@@ -1623,8 +1623,8 @@
     <SimulationDescriptorReference Name="WeaponAvailabilityMissile" />
     <SimulationDescriptorReference Name="ShipSizeLarge" />
 
-    <SimulationDescriptorReference Name="ShipFactionSophons" />
-    <SimulationDescriptorReference Name="ShipFactionForModelSophonsMavros" />
+    <SimulationDescriptorReference Name="ShipFactionSophonsMavros" />
+    <SimulationDescriptorReference Name="CameraAnchorSophons" />
     <SimulationDescriptorReference Name="ShipHull01" />
 
     <ShipDesignLayout>
