@@ -11,7 +11,7 @@
     <Modifier TargetProperty="PopDifferentNumber" Operation="Addition" Value="$(NonMajorPopulationCount)" />
     <Modifier TargetProperty="PopDifferentNumber" Operation="Subtraction" Value="$(PopulationDrudgePrimaryBonus)"/>
     <BinaryModifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(PopDifferentNumber)" Path="ClassPopulation" TooltipHidden="true"/>
-    <BinaryModifier TargetProperty="BuildingProductionCostReduction" Operation="Addition" Left="0.01" BinaryOperation="Multiplication" Right="$(PopDifferentNumber)" Path="../ClassColonizedPlanet" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="BuildingProductionCostReduction" Operation="Subtraction" Left="0.01" BinaryOperation="Multiplication" Right="$(PopDifferentNumber)" Path="../ClassColonizedStarSystem" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryDrudgeWorkerBonus" Type="WithPopulationPlanet"/>
@@ -27,7 +27,7 @@
     <Modifier TargetProperty="PopDifferentNumber" Operation="Addition" Value="$(NonMajorPopulationCount)" />
     <Modifier TargetProperty="PopDifferentNumber" Operation="Subtraction" Value="$(PopulationDrudgePrimaryBonus)"/>
     <BinaryModifier TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages" Operation="Addition" Left="50" BinaryOperation="Multiplication" Right="$(PopDifferentNumber)" Path="ClassPopulation" TooltipHidden="true"/>
-    <BinaryModifier TargetProperty="ShipProductionCostReduction" Operation="Addition" Left="0.01" BinaryOperation="Multiplication" Right="$(PopDifferentNumber)" Path="../ClassColonizedStarSystem" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="ShipProductionCostReduction" Operation="Subtraction" Left="0.01" BinaryOperation="Multiplication" Right="$(PopDifferentNumber)" Path="../ClassColonizedStarSystem" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryDrudgeTitansBonus" Type="WithPopulationPlanet"/>
