@@ -76,7 +76,9 @@
     <Modifier TargetProperty="EmpireScrap"        Operation="Addition"        Value="10"   Path="../ClassEmpire"/>
   </SimulationDescriptor>
 
+  <!--Drudge Factory-->
   <SimulationDescriptor Name="StarSystemImprovementDrudgeFactory"     Type="StarSystemImprovement"/>
+
   <SimulationDescriptor Name="StarSystemImprovementCreateDrudgeWorker"      Type="StarSystemImprovement"/>
   <SimulationDescriptor Name="StarSystemImprovementDrudgeUpgradeToTitan"     Type="StarSystemImprovement"/>
 </Datatable>

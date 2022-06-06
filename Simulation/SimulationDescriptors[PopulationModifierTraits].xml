@@ -2,14 +2,32 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
   <!-- Drudges -->
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgeWorkerBonus" Type="ClassPopulationPlanet">
-    
+    <Property Name="PopDifferentNumber" BaseValue="0" MinValue="0"/>
+    <Property Name="PopulationDrudgePrimaryBonus" BaseValue="0"/>
+    <Property Name="MajorPopulationCount" BaseValue="0" MinValue="0"/>
+    <Property Name="NonMajorPopulationCount" BaseValue="0" MinValue="0"/>
+    <Modifier TargetProperty="PopulationDrudgePrimaryBonus" Operation="Addition" Value="$(PopulationCount)" Path="ClassPopulation, ClassPopulationPlanetModifiersTraitPrimaryDrudgeWorkerBonus" TooltipHidden="true"/>
+    <Modifier TargetProperty="PopDifferentNumber" Operation="Addition" Value="$(MajorPopulationCount)" />
+    <Modifier TargetProperty="PopDifferentNumber" Operation="Addition" Value="$(NonMajorPopulationCount)" />
+    <Modifier TargetProperty="PopDifferentNumber" Operation="Subtraction" Value="$(PopulationDrudgePrimaryBonus)"/>
+    <BinaryModifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(PopDifferentNumber)" Path="ClassPopulation" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="BuildingProductionCostReduction" Operation="Addition" Left="0.01" BinaryOperation="Multiplication" Right="$(PopDifferentNumber)" Path="../ClassColonizedPlanet" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryDrudgeWorkerBonus" Type="WithPopulationPlanet"/>
   
   <!-- Drudge Titans -->
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryDrudgeTitansBonus" Type="ClassPopulationPlanet">
-    
+    <Property Name="PopDifferentNumber" BaseValue="0" MinValue="0"/>
+    <Property Name="PopulationDrudgePrimaryBonus" BaseValue="0"/>
+    <Property Name="MajorPopulationCount" BaseValue="0" MinValue="0"/>
+    <Property Name="NonMajorPopulationCount" BaseValue="0" MinValue="0"/>
+    <Modifier TargetProperty="PopulationDrudgePrimaryBonus" Operation="Addition" Value="$(PopulationCount)" Path="ClassPopulation, ClassPopulationPlanetModifiersTraitPrimaryDrudgeWorkerBonus" TooltipHidden="true"/>
+    <Modifier TargetProperty="PopDifferentNumber" Operation="Addition" Value="$(MajorPopulationCount)" />
+    <Modifier TargetProperty="PopDifferentNumber" Operation="Addition" Value="$(NonMajorPopulationCount)" />
+    <Modifier TargetProperty="PopDifferentNumber" Operation="Subtraction" Value="$(PopulationDrudgePrimaryBonus)"/>
+    <BinaryModifier TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages" Operation="Addition" Left="50" BinaryOperation="Multiplication" Right="$(PopDifferentNumber)" Path="ClassPopulation" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="ShipProductionCostReduction" Operation="Addition" Left="0.01" BinaryOperation="Multiplication" Right="$(PopDifferentNumber)" Path="../ClassColonizedStarSystem" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryDrudgeTitansBonus" Type="WithPopulationPlanet"/>
